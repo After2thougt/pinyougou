@@ -1,0 +1,440 @@
+2023-04-26 17:35:08,679 INFO  org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:307) localhost-startStop-1 |- Root WebApplicationContext: initialization started
+2023-04-26 17:35:08,792 INFO  org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:578) localhost-startStop-1 |- Refreshing Root WebApplicationContext: startup date [Wed Apr 26 17:35:08 CST 2023]; root of context hierarchy
+2023-04-26 17:35:08,846 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317) localhost-startStop-1 |- Loading XML bean definitions from file [C:\Users\Administrator\eclipse-workspace\pinyougou-parent\pinyougou-user-service\target\classes\spring\ applicationContext-jms-producer.xml]
+2023-04-26 17:35:09,785 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317) localhost-startStop-1 |- Loading XML bean definitions from file [C:\Users\Administrator\eclipse-workspace\pinyougou-parent\pinyougou-user-service\target\classes\spring\applicationContext-service.xml]
+2023-04-26 17:35:09,965 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317) localhost-startStop-1 |- Loading XML bean definitions from file [C:\Users\Administrator\eclipse-workspace\pinyougou-parent\pinyougou-user-service\target\classes\spring\applicationContext-tx.xml]
+2023-04-26 17:35:10,064 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317) localhost-startStop-1 |- Loading XML bean definitions from URL [jar:file:/C:/Users/Administrator/.m2/repository/com/pinyougou/pinyougou-common/0.0.1-SNAPSHOT/pinyougou-common-0.0.1-SNAPSHOT.jar!/spring/applicationContext-redis.xml]
+2023-04-26 17:35:10,107 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317) localhost-startStop-1 |- Loading XML bean definitions from URL [jar:file:/C:/Users/Administrator/.m2/repository/com/pinyougou/pinyougou-dao/0.0.1-SNAPSHOT/pinyougou-dao-0.0.1-SNAPSHOT.jar!/spring/applicationContext-dao.xml]
+2023-04-26 17:35:10,480 INFO  org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(PropertiesLoaderSupport.java:172) localhost-startStop-1 |- Loading properties file from URL [jar:file:/C:/Users/Administrator/.m2/repository/com/pinyougou/pinyougou-common/0.0.1-SNAPSHOT/pinyougou-common-0.0.1-SNAPSHOT.jar!/properties/redis-config.properties]
+2023-04-26 17:35:10,481 INFO  org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(PropertiesLoaderSupport.java:172) localhost-startStop-1 |- Loading properties file from URL [jar:file:/C:/Users/Administrator/.m2/repository/com/pinyougou/pinyougou-common/0.0.1-SNAPSHOT/pinyougou-common-0.0.1-SNAPSHOT.jar!/properties/sms.properties]
+2023-04-26 17:35:10,481 INFO  org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(PropertiesLoaderSupport.java:172) localhost-startStop-1 |- Loading properties file from URL [jar:file:/C:/Users/Administrator/.m2/repository/com/pinyougou/pinyougou-dao/0.0.1-SNAPSHOT/pinyougou-dao-0.0.1-SNAPSHOT.jar!/properties/db.properties]
+2023-04-26 17:35:10,495 INFO  org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(PropertiesLoaderSupport.java:172) localhost-startStop-1 |- Loading properties file from class path resource [properties/db.properties]
+2023-04-26 17:35:10,526 INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init>(AutowiredAnnotationBeanPostProcessor.java:153) localhost-startStop-1 |- JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2023-04-26 17:35:12,816 INFO  org.I0Itec.zkclient.ZkEventThread.run(ZkEventThread.java:64) ZkClient-EventThread-27-192.168.25.128:2181 |- Starting ZkClient event thread.
+2023-04-26 17:35:21,864 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) localhost-startStop-1 |- Client environment:zookeeper.version=3.4.7-1713338, built on 11/09/2015 04:32 GMT
+2023-04-26 17:35:21,865 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) localhost-startStop-1 |- Client environment:host.name=CS
+2023-04-26 17:35:21,865 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) localhost-startStop-1 |- Client environment:java.version=1.8.0_152
+2023-04-26 17:35:21,867 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) localhost-startStop-1 |- Client environment:java.vendor=Oracle Corporation
+2023-04-26 17:35:21,867 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) localhost-startStop-1 |- Client environment:java.home=C:\Java\jdk1.8\jre
+2023-04-26 17:35:21,868 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) localhost-startStop-1 |- Client environment:java.class.path=D:\apache-maven-3.8.6\boot\plexus-classworlds-2.6.0.jar
+2023-04-26 17:35:21,868 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) localhost-startStop-1 |- Client environment:java.library.path=C:\Java\jdk1.8\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_152/bin/server;C:/Program Files/Java/jre1.8.0_152/bin;C:/Program Files/Java/jre1.8.0_152/lib/amd64;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Java\jdk1.8\bin;C:\Java\jdk1.8\jre\bin;D:\apache-maven-3.8.6\bin;C:\Program Files (x86)\Java\jdk1.8.0_191\bin;D:\VMware 15.5\bin\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\MySQL\mysql-5.6.51-winx64\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;D:\nodejs\;C:\ProgramData\chocolatey\bin;C:\Java\bin;D:\apache-artemis-2.27.0\bin;C:\Program Files (x86)\MySQL\mysql-5.6.51-winx64\bin;C:\Users\Administrator\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\Administrator\AppData\Local\Programs\Python\Python39\;D:\Python39\;D:\Scripts\;D:\;"C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;D:\php;D:\php\ext";C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;D:\IntelliJ IDEA Community Edition 2021.3.2\bin;;C:\Users\Administrator\AppData\Roaming\npm;C:\WINDOWS\system32;;.
+2023-04-26 17:35:21,868 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) localhost-startStop-1 |- Client environment:java.io.tmpdir=C:\Users\ADMINI~1\AppData\Local\Temp\
+2023-04-26 17:35:21,871 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) localhost-startStop-1 |- Client environment:java.compiler=<NA>
+2023-04-26 17:35:21,871 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) localhost-startStop-1 |- Client environment:os.name=Windows 10
+2023-04-26 17:35:21,872 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) localhost-startStop-1 |- Client environment:os.arch=amd64
+2023-04-26 17:35:21,872 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) localhost-startStop-1 |- Client environment:os.version=10.0
+2023-04-26 17:35:21,873 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) localhost-startStop-1 |- Client environment:user.name=Administrator
+2023-04-26 17:35:21,876 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) localhost-startStop-1 |- Client environment:user.home=C:\Users\Administrator
+2023-04-26 17:35:21,876 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) localhost-startStop-1 |- Client environment:user.dir=C:\Users\Administrator\eclipse-workspace\pinyougou-parent\pinyougou-user-service
+2023-04-26 17:35:21,883 INFO  org.apache.zookeeper.ZooKeeper.<init>(ZooKeeper.java:438) localhost-startStop-1 |- Initiating client connection, connectString=192.168.25.128:2181 sessionTimeout=60000 watcher=org.I0Itec.zkclient.ZkClient@7fd6a252
+2023-04-26 17:35:21,955 INFO  org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1032) localhost-startStop-1-SendThread(192.168.25.128:2181) |- Opening socket connection to server 192.168.25.128/192.168.25.128:2181. Will not attempt to authenticate using SASL (unknown error)
+2023-04-26 17:35:21,960 INFO  org.apache.zookeeper.ClientCnxn$SendThread.primeConnection(ClientCnxn.java:876) localhost-startStop-1-SendThread(192.168.25.128:2181) |- Socket connection established to 192.168.25.128/192.168.25.128:2181, initiating session
+2023-04-26 17:35:22,050 INFO  org.apache.zookeeper.ClientCnxn$SendThread.onConnected(ClientCnxn.java:1299) localhost-startStop-1-SendThread(192.168.25.128:2181) |- Session establishment complete on server 192.168.25.128/192.168.25.128:2181, sessionid = 0x187ad4b7d6b0020, negotiated timeout = 40000
+2023-04-26 17:35:22,055 INFO  org.I0Itec.zkclient.ZkClient.processStateChanged(ZkClient.java:449) localhost-startStop-1-EventThread |- zookeeper state changed (SyncConnected)
+2023-04-26 17:35:22,799 INFO  org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:347) localhost-startStop-1 |- Root WebApplicationContext: initialization completed in 14117 ms
+2023-04-26 17:37:31,551 INFO  org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:307) localhost-startStop-1 |- Root WebApplicationContext: initialization started
+2023-04-26 17:37:31,697 INFO  org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:578) localhost-startStop-1 |- Refreshing Root WebApplicationContext: startup date [Wed Apr 26 17:37:31 CST 2023]; root of context hierarchy
+2023-04-26 17:37:31,768 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317) localhost-startStop-1 |- Loading XML bean definitions from file [C:\Users\Administrator\eclipse-workspace\pinyougou-parent\pinyougou-order-service\target\classes\spring\applicationContext-service.xml]
+2023-04-26 17:37:32,024 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317) localhost-startStop-1 |- Loading XML bean definitions from file [C:\Users\Administrator\eclipse-workspace\pinyougou-parent\pinyougou-order-service\target\classes\spring\applicationContext-tx.xml]
+2023-04-26 17:37:32,079 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317) localhost-startStop-1 |- Loading XML bean definitions from URL [jar:file:/C:/Users/Administrator/.m2/repository/com/pinyougou/pinyougou-common/0.0.1-SNAPSHOT/pinyougou-common-0.0.1-SNAPSHOT.jar!/spring/applicationContext-redis.xml]
+2023-04-26 17:37:32,159 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317) localhost-startStop-1 |- Loading XML bean definitions from URL [jar:file:/C:/Users/Administrator/.m2/repository/com/pinyougou/pinyougou-dao/0.0.1-SNAPSHOT/pinyougou-dao-0.0.1-SNAPSHOT.jar!/spring/applicationContext-dao.xml]
+2023-04-26 17:37:32,426 INFO  org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(PropertiesLoaderSupport.java:172) localhost-startStop-1 |- Loading properties file from URL [jar:file:/C:/Users/Administrator/.m2/repository/com/pinyougou/pinyougou-common/0.0.1-SNAPSHOT/pinyougou-common-0.0.1-SNAPSHOT.jar!/properties/redis-config.properties]
+2023-04-26 17:37:32,427 INFO  org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(PropertiesLoaderSupport.java:172) localhost-startStop-1 |- Loading properties file from URL [jar:file:/C:/Users/Administrator/.m2/repository/com/pinyougou/pinyougou-common/0.0.1-SNAPSHOT/pinyougou-common-0.0.1-SNAPSHOT.jar!/properties/sms.properties]
+2023-04-26 17:37:32,427 INFO  org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(PropertiesLoaderSupport.java:172) localhost-startStop-1 |- Loading properties file from URL [jar:file:/C:/Users/Administrator/.m2/repository/com/pinyougou/pinyougou-dao/0.0.1-SNAPSHOT/pinyougou-dao-0.0.1-SNAPSHOT.jar!/properties/db.properties]
+2023-04-26 17:37:32,436 INFO  org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(PropertiesLoaderSupport.java:172) localhost-startStop-1 |- Loading properties file from class path resource [properties/db.properties]
+2023-04-26 17:37:32,462 INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init>(AutowiredAnnotationBeanPostProcessor.java:153) localhost-startStop-1 |- JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2023-04-26 17:37:37,808 INFO  org.I0Itec.zkclient.ZkEventThread.run(ZkEventThread.java:64) ZkClient-EventThread-27-192.168.25.128:2181 |- Starting ZkClient event thread.
+2023-04-26 17:37:46,844 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) localhost-startStop-1 |- Client environment:zookeeper.version=3.4.7-1713338, built on 11/09/2015 04:32 GMT
+2023-04-26 17:37:46,844 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) localhost-startStop-1 |- Client environment:host.name=CS
+2023-04-26 17:37:46,844 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) localhost-startStop-1 |- Client environment:java.version=1.8.0_152
+2023-04-26 17:37:46,845 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) localhost-startStop-1 |- Client environment:java.vendor=Oracle Corporation
+2023-04-26 17:37:46,846 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) localhost-startStop-1 |- Client environment:java.home=C:\Java\jdk1.8\jre
+2023-04-26 17:37:46,847 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) localhost-startStop-1 |- Client environment:java.class.path=D:\apache-maven-3.8.6\boot\plexus-classworlds-2.6.0.jar
+2023-04-26 17:37:46,847 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) localhost-startStop-1 |- Client environment:java.library.path=C:\Java\jdk1.8\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_152/bin/server;C:/Program Files/Java/jre1.8.0_152/bin;C:/Program Files/Java/jre1.8.0_152/lib/amd64;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Java\jdk1.8\bin;C:\Java\jdk1.8\jre\bin;D:\apache-maven-3.8.6\bin;C:\Program Files (x86)\Java\jdk1.8.0_191\bin;D:\VMware 15.5\bin\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\MySQL\mysql-5.6.51-winx64\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;D:\nodejs\;C:\ProgramData\chocolatey\bin;C:\Java\bin;D:\apache-artemis-2.27.0\bin;C:\Program Files (x86)\MySQL\mysql-5.6.51-winx64\bin;C:\Users\Administrator\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\Administrator\AppData\Local\Programs\Python\Python39\;D:\Python39\;D:\Scripts\;D:\;"C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;D:\php;D:\php\ext";C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;D:\IntelliJ IDEA Community Edition 2021.3.2\bin;;C:\Users\Administrator\AppData\Roaming\npm;C:\WINDOWS\system32;;.
+2023-04-26 17:37:46,847 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) localhost-startStop-1 |- Client environment:java.io.tmpdir=C:\Users\ADMINI~1\AppData\Local\Temp\
+2023-04-26 17:37:46,847 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) localhost-startStop-1 |- Client environment:java.compiler=<NA>
+2023-04-26 17:37:46,848 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) localhost-startStop-1 |- Client environment:os.name=Windows 10
+2023-04-26 17:37:46,848 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) localhost-startStop-1 |- Client environment:os.arch=amd64
+2023-04-26 17:37:46,848 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) localhost-startStop-1 |- Client environment:os.version=10.0
+2023-04-26 17:37:46,849 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) localhost-startStop-1 |- Client environment:user.name=Administrator
+2023-04-26 17:37:46,849 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) localhost-startStop-1 |- Client environment:user.home=C:\Users\Administrator
+2023-04-26 17:37:46,849 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) localhost-startStop-1 |- Client environment:user.dir=C:\Users\Administrator\eclipse-workspace\pinyougou-parent\pinyougou-order-service
+2023-04-26 17:37:46,851 INFO  org.apache.zookeeper.ZooKeeper.<init>(ZooKeeper.java:438) localhost-startStop-1 |- Initiating client connection, connectString=192.168.25.128:2181 sessionTimeout=60000 watcher=org.I0Itec.zkclient.ZkClient@339c5396
+2023-04-26 17:37:46,885 INFO  org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1032) localhost-startStop-1-SendThread(192.168.25.128:2181) |- Opening socket connection to server 192.168.25.128/192.168.25.128:2181. Will not attempt to authenticate using SASL (unknown error)
+2023-04-26 17:37:46,889 INFO  org.apache.zookeeper.ClientCnxn$SendThread.primeConnection(ClientCnxn.java:876) localhost-startStop-1-SendThread(192.168.25.128:2181) |- Socket connection established to 192.168.25.128/192.168.25.128:2181, initiating session
+2023-04-26 17:37:46,908 INFO  org.apache.zookeeper.ClientCnxn$SendThread.onConnected(ClientCnxn.java:1299) localhost-startStop-1-SendThread(192.168.25.128:2181) |- Session establishment complete on server 192.168.25.128/192.168.25.128:2181, sessionid = 0x187ad4b7d6b0022, negotiated timeout = 40000
+2023-04-26 17:37:46,910 INFO  org.I0Itec.zkclient.ZkClient.processStateChanged(ZkClient.java:449) localhost-startStop-1-EventThread |- zookeeper state changed (SyncConnected)
+2023-04-26 17:37:47,076 INFO  org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:347) localhost-startStop-1 |- Root WebApplicationContext: initialization completed in 15522 ms
+2023-04-26 17:42:19,277 ERROR com.alibaba.dubbo.rpc.filter.ExceptionFilter.invoke(ExceptionFilter.java:87) DubboServerHandler-172.16.10.1:20886-thread-3 |-  [DUBBO] Got unchecked and undeclared exception which called by 172.16.10.1. service: com.pinyougou.user.service.AddressService, method: findListByUserId, exception: java.lang.NoClassDefFoundError: com/pinyougou/pojo/TbAddressExample$Criteria, dubbo version: 2.8.4, current host: 127.0.0.1
+java.lang.NoClassDefFoundError: com/pinyougou/pojo/TbAddressExample$Criteria
+	at com.pinyougou.pojo.TbAddressExample.createCriteriaInternal(TbAddressExample.java:57)
+	at com.pinyougou.pojo.TbAddressExample.createCriteria(TbAddressExample.java:49)
+	at com.pinyougou.user.service.impl.AddressServiceImpl.findListByUserId(AddressServiceImpl.java:130)
+	at com.alibaba.dubbo.common.bytecode.Wrapper1.invokeMethod(Wrapper1.java)
+	at com.alibaba.dubbo.rpc.proxy.javassist.JavassistProxyFactory$1.doInvoke(JavassistProxyFactory.java:46)
+	at com.alibaba.dubbo.rpc.proxy.AbstractProxyInvoker.invoke(AbstractProxyInvoker.java:72)
+	at com.alibaba.dubbo.rpc.protocol.InvokerWrapper.invoke(InvokerWrapper.java:53)
+	at com.alibaba.dubbo.rpc.filter.ExceptionFilter.invoke(ExceptionFilter.java:64)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:91)
+	at com.alibaba.dubbo.monitor.support.MonitorFilter.invoke(MonitorFilter.java:75)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:91)
+	at com.alibaba.dubbo.rpc.filter.TimeoutFilter.invoke(TimeoutFilter.java:42)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:91)
+	at com.alibaba.dubbo.rpc.protocol.dubbo.filter.TraceFilter.invoke(TraceFilter.java:78)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:91)
+	at com.alibaba.dubbo.rpc.filter.ContextFilter.invoke(ContextFilter.java:70)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:91)
+	at com.alibaba.dubbo.rpc.filter.GenericFilter.invoke(GenericFilter.java:132)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:91)
+	at com.alibaba.dubbo.rpc.filter.ClassLoaderFilter.invoke(ClassLoaderFilter.java:38)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:91)
+	at com.alibaba.dubbo.rpc.filter.EchoFilter.invoke(EchoFilter.java:38)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:91)
+	at com.alibaba.dubbo.rpc.protocol.dubbo.DubboProtocol$1.reply(DubboProtocol.java:113)
+	at com.alibaba.dubbo.remoting.exchange.support.header.HeaderExchangeHandler.handleRequest(HeaderExchangeHandler.java:84)
+	at com.alibaba.dubbo.remoting.exchange.support.header.HeaderExchangeHandler.received(HeaderExchangeHandler.java:170)
+	at com.alibaba.dubbo.remoting.transport.DecodeHandler.received(DecodeHandler.java:52)
+	at com.alibaba.dubbo.remoting.transport.dispatcher.ChannelEventRunnable.run(ChannelEventRunnable.java:82)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2023-04-26 17:42:19,277 ERROR com.alibaba.dubbo.rpc.filter.ExceptionFilter.invoke(ExceptionFilter.java:87) DubboServerHandler-172.16.10.1:20886-thread-2 |-  [DUBBO] Got unchecked and undeclared exception which called by 172.16.10.1. service: com.pinyougou.user.service.AddressService, method: findListByUserId, exception: java.lang.NoClassDefFoundError: com/pinyougou/pojo/TbAddressExample$Criteria, dubbo version: 2.8.4, current host: 127.0.0.1
+java.lang.NoClassDefFoundError: com/pinyougou/pojo/TbAddressExample$Criteria
+	at com.pinyougou.pojo.TbAddressExample.createCriteriaInternal(TbAddressExample.java:57)
+	at com.pinyougou.pojo.TbAddressExample.createCriteria(TbAddressExample.java:49)
+	at com.pinyougou.user.service.impl.AddressServiceImpl.findListByUserId(AddressServiceImpl.java:130)
+	at com.alibaba.dubbo.common.bytecode.Wrapper1.invokeMethod(Wrapper1.java)
+	at com.alibaba.dubbo.rpc.proxy.javassist.JavassistProxyFactory$1.doInvoke(JavassistProxyFactory.java:46)
+	at com.alibaba.dubbo.rpc.proxy.AbstractProxyInvoker.invoke(AbstractProxyInvoker.java:72)
+	at com.alibaba.dubbo.rpc.protocol.InvokerWrapper.invoke(InvokerWrapper.java:53)
+	at com.alibaba.dubbo.rpc.filter.ExceptionFilter.invoke(ExceptionFilter.java:64)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:91)
+	at com.alibaba.dubbo.monitor.support.MonitorFilter.invoke(MonitorFilter.java:75)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:91)
+	at com.alibaba.dubbo.rpc.filter.TimeoutFilter.invoke(TimeoutFilter.java:42)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:91)
+	at com.alibaba.dubbo.rpc.protocol.dubbo.filter.TraceFilter.invoke(TraceFilter.java:78)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:91)
+	at com.alibaba.dubbo.rpc.filter.ContextFilter.invoke(ContextFilter.java:70)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:91)
+	at com.alibaba.dubbo.rpc.filter.GenericFilter.invoke(GenericFilter.java:132)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:91)
+	at com.alibaba.dubbo.rpc.filter.ClassLoaderFilter.invoke(ClassLoaderFilter.java:38)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:91)
+	at com.alibaba.dubbo.rpc.filter.EchoFilter.invoke(EchoFilter.java:38)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:91)
+	at com.alibaba.dubbo.rpc.protocol.dubbo.DubboProtocol$1.reply(DubboProtocol.java:113)
+	at com.alibaba.dubbo.remoting.exchange.support.header.HeaderExchangeHandler.handleRequest(HeaderExchangeHandler.java:84)
+	at com.alibaba.dubbo.remoting.exchange.support.header.HeaderExchangeHandler.received(HeaderExchangeHandler.java:170)
+	at com.alibaba.dubbo.remoting.transport.DecodeHandler.received(DecodeHandler.java:52)
+	at com.alibaba.dubbo.remoting.transport.dispatcher.ChannelEventRunnable.run(ChannelEventRunnable.java:82)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.ClassNotFoundException: com.pinyougou.pojo.TbAddressExample$Criteria
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1702)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1547)
+	... 31 more
+2023-04-26 17:42:40,771 ERROR com.alibaba.dubbo.rpc.filter.ExceptionFilter.invoke(ExceptionFilter.java:87) DubboServerHandler-172.16.10.1:20886-thread-4 |-  [DUBBO] Got unchecked and undeclared exception which called by 172.16.10.1. service: com.pinyougou.user.service.AddressService, method: findListByUserId, exception: java.lang.NoClassDefFoundError: com/pinyougou/pojo/TbAddressExample$Criteria, dubbo version: 2.8.4, current host: 127.0.0.1
+java.lang.NoClassDefFoundError: com/pinyougou/pojo/TbAddressExample$Criteria
+	at com.pinyougou.pojo.TbAddressExample.createCriteriaInternal(TbAddressExample.java:57)
+	at com.pinyougou.pojo.TbAddressExample.createCriteria(TbAddressExample.java:49)
+	at com.pinyougou.user.service.impl.AddressServiceImpl.findListByUserId(AddressServiceImpl.java:130)
+	at com.alibaba.dubbo.common.bytecode.Wrapper1.invokeMethod(Wrapper1.java)
+	at com.alibaba.dubbo.rpc.proxy.javassist.JavassistProxyFactory$1.doInvoke(JavassistProxyFactory.java:46)
+	at com.alibaba.dubbo.rpc.proxy.AbstractProxyInvoker.invoke(AbstractProxyInvoker.java:72)
+	at com.alibaba.dubbo.rpc.protocol.InvokerWrapper.invoke(InvokerWrapper.java:53)
+	at com.alibaba.dubbo.rpc.filter.ExceptionFilter.invoke(ExceptionFilter.java:64)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:91)
+	at com.alibaba.dubbo.monitor.support.MonitorFilter.invoke(MonitorFilter.java:75)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:91)
+	at com.alibaba.dubbo.rpc.filter.TimeoutFilter.invoke(TimeoutFilter.java:42)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:91)
+	at com.alibaba.dubbo.rpc.protocol.dubbo.filter.TraceFilter.invoke(TraceFilter.java:78)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:91)
+	at com.alibaba.dubbo.rpc.filter.ContextFilter.invoke(ContextFilter.java:70)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:91)
+	at com.alibaba.dubbo.rpc.filter.GenericFilter.invoke(GenericFilter.java:132)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:91)
+	at com.alibaba.dubbo.rpc.filter.ClassLoaderFilter.invoke(ClassLoaderFilter.java:38)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:91)
+	at com.alibaba.dubbo.rpc.filter.EchoFilter.invoke(EchoFilter.java:38)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:91)
+	at com.alibaba.dubbo.rpc.protocol.dubbo.DubboProtocol$1.reply(DubboProtocol.java:113)
+	at com.alibaba.dubbo.remoting.exchange.support.header.HeaderExchangeHandler.handleRequest(HeaderExchangeHandler.java:84)
+	at com.alibaba.dubbo.remoting.exchange.support.header.HeaderExchangeHandler.received(HeaderExchangeHandler.java:170)
+	at com.alibaba.dubbo.remoting.transport.DecodeHandler.received(DecodeHandler.java:52)
+	at com.alibaba.dubbo.remoting.transport.dispatcher.ChannelEventRunnable.run(ChannelEventRunnable.java:82)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2023-04-26 17:43:26,506 ERROR com.alibaba.dubbo.rpc.filter.ExceptionFilter.invoke(ExceptionFilter.java:87) DubboServerHandler-172.16.10.1:20886-thread-5 |-  [DUBBO] Got unchecked and undeclared exception which called by 172.16.10.1. service: com.pinyougou.user.service.AddressService, method: findListByUserId, exception: java.lang.NoClassDefFoundError: com/pinyougou/pojo/TbAddressExample$Criteria, dubbo version: 2.8.4, current host: 127.0.0.1
+java.lang.NoClassDefFoundError: com/pinyougou/pojo/TbAddressExample$Criteria
+	at com.pinyougou.pojo.TbAddressExample.createCriteriaInternal(TbAddressExample.java:57)
+	at com.pinyougou.pojo.TbAddressExample.createCriteria(TbAddressExample.java:49)
+	at com.pinyougou.user.service.impl.AddressServiceImpl.findListByUserId(AddressServiceImpl.java:130)
+	at com.alibaba.dubbo.common.bytecode.Wrapper1.invokeMethod(Wrapper1.java)
+	at com.alibaba.dubbo.rpc.proxy.javassist.JavassistProxyFactory$1.doInvoke(JavassistProxyFactory.java:46)
+	at com.alibaba.dubbo.rpc.proxy.AbstractProxyInvoker.invoke(AbstractProxyInvoker.java:72)
+	at com.alibaba.dubbo.rpc.protocol.InvokerWrapper.invoke(InvokerWrapper.java:53)
+	at com.alibaba.dubbo.rpc.filter.ExceptionFilter.invoke(ExceptionFilter.java:64)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:91)
+	at com.alibaba.dubbo.monitor.support.MonitorFilter.invoke(MonitorFilter.java:75)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:91)
+	at com.alibaba.dubbo.rpc.filter.TimeoutFilter.invoke(TimeoutFilter.java:42)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:91)
+	at com.alibaba.dubbo.rpc.protocol.dubbo.filter.TraceFilter.invoke(TraceFilter.java:78)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:91)
+	at com.alibaba.dubbo.rpc.filter.ContextFilter.invoke(ContextFilter.java:70)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:91)
+	at com.alibaba.dubbo.rpc.filter.GenericFilter.invoke(GenericFilter.java:132)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:91)
+	at com.alibaba.dubbo.rpc.filter.ClassLoaderFilter.invoke(ClassLoaderFilter.java:38)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:91)
+	at com.alibaba.dubbo.rpc.filter.EchoFilter.invoke(EchoFilter.java:38)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:91)
+	at com.alibaba.dubbo.rpc.protocol.dubbo.DubboProtocol$1.reply(DubboProtocol.java:113)
+	at com.alibaba.dubbo.remoting.exchange.support.header.HeaderExchangeHandler.handleRequest(HeaderExchangeHandler.java:84)
+	at com.alibaba.dubbo.remoting.exchange.support.header.HeaderExchangeHandler.received(HeaderExchangeHandler.java:170)
+	at com.alibaba.dubbo.remoting.transport.DecodeHandler.received(DecodeHandler.java:52)
+	at com.alibaba.dubbo.remoting.transport.dispatcher.ChannelEventRunnable.run(ChannelEventRunnable.java:82)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2023-04-26 17:44:18,543 ERROR com.alibaba.dubbo.rpc.filter.ExceptionFilter.invoke(ExceptionFilter.java:87) DubboServerHandler-172.16.10.1:20886-thread-6 |-  [DUBBO] Got unchecked and undeclared exception which called by 172.16.10.1. service: com.pinyougou.user.service.AddressService, method: findListByUserId, exception: java.lang.NoClassDefFoundError: com/pinyougou/pojo/TbAddressExample$Criteria, dubbo version: 2.8.4, current host: 127.0.0.1
+java.lang.NoClassDefFoundError: com/pinyougou/pojo/TbAddressExample$Criteria
+	at com.pinyougou.pojo.TbAddressExample.createCriteriaInternal(TbAddressExample.java:57)
+	at com.pinyougou.pojo.TbAddressExample.createCriteria(TbAddressExample.java:49)
+	at com.pinyougou.user.service.impl.AddressServiceImpl.findListByUserId(AddressServiceImpl.java:130)
+	at com.alibaba.dubbo.common.bytecode.Wrapper1.invokeMethod(Wrapper1.java)
+	at com.alibaba.dubbo.rpc.proxy.javassist.JavassistProxyFactory$1.doInvoke(JavassistProxyFactory.java:46)
+	at com.alibaba.dubbo.rpc.proxy.AbstractProxyInvoker.invoke(AbstractProxyInvoker.java:72)
+	at com.alibaba.dubbo.rpc.protocol.InvokerWrapper.invoke(InvokerWrapper.java:53)
+	at com.alibaba.dubbo.rpc.filter.ExceptionFilter.invoke(ExceptionFilter.java:64)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:91)
+	at com.alibaba.dubbo.monitor.support.MonitorFilter.invoke(MonitorFilter.java:75)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:91)
+	at com.alibaba.dubbo.rpc.filter.TimeoutFilter.invoke(TimeoutFilter.java:42)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:91)
+	at com.alibaba.dubbo.rpc.protocol.dubbo.filter.TraceFilter.invoke(TraceFilter.java:78)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:91)
+	at com.alibaba.dubbo.rpc.filter.ContextFilter.invoke(ContextFilter.java:70)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:91)
+	at com.alibaba.dubbo.rpc.filter.GenericFilter.invoke(GenericFilter.java:132)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:91)
+	at com.alibaba.dubbo.rpc.filter.ClassLoaderFilter.invoke(ClassLoaderFilter.java:38)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:91)
+	at com.alibaba.dubbo.rpc.filter.EchoFilter.invoke(EchoFilter.java:38)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:91)
+	at com.alibaba.dubbo.rpc.protocol.dubbo.DubboProtocol$1.reply(DubboProtocol.java:113)
+	at com.alibaba.dubbo.remoting.exchange.support.header.HeaderExchangeHandler.handleRequest(HeaderExchangeHandler.java:84)
+	at com.alibaba.dubbo.remoting.exchange.support.header.HeaderExchangeHandler.received(HeaderExchangeHandler.java:170)
+	at com.alibaba.dubbo.remoting.transport.DecodeHandler.received(DecodeHandler.java:52)
+	at com.alibaba.dubbo.remoting.transport.dispatcher.ChannelEventRunnable.run(ChannelEventRunnable.java:82)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2023-04-26 17:44:31,148 ERROR com.alibaba.dubbo.rpc.filter.ExceptionFilter.invoke(ExceptionFilter.java:87) DubboServerHandler-172.16.10.1:20886-thread-7 |-  [DUBBO] Got unchecked and undeclared exception which called by 172.16.10.1. service: com.pinyougou.user.service.AddressService, method: findListByUserId, exception: java.lang.NoClassDefFoundError: com/pinyougou/pojo/TbAddressExample$Criteria, dubbo version: 2.8.4, current host: 127.0.0.1
+java.lang.NoClassDefFoundError: com/pinyougou/pojo/TbAddressExample$Criteria
+	at com.pinyougou.pojo.TbAddressExample.createCriteriaInternal(TbAddressExample.java:57)
+	at com.pinyougou.pojo.TbAddressExample.createCriteria(TbAddressExample.java:49)
+	at com.pinyougou.user.service.impl.AddressServiceImpl.findListByUserId(AddressServiceImpl.java:130)
+	at com.alibaba.dubbo.common.bytecode.Wrapper1.invokeMethod(Wrapper1.java)
+	at com.alibaba.dubbo.rpc.proxy.javassist.JavassistProxyFactory$1.doInvoke(JavassistProxyFactory.java:46)
+	at com.alibaba.dubbo.rpc.proxy.AbstractProxyInvoker.invoke(AbstractProxyInvoker.java:72)
+	at com.alibaba.dubbo.rpc.protocol.InvokerWrapper.invoke(InvokerWrapper.java:53)
+	at com.alibaba.dubbo.rpc.filter.ExceptionFilter.invoke(ExceptionFilter.java:64)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:91)
+	at com.alibaba.dubbo.monitor.support.MonitorFilter.invoke(MonitorFilter.java:75)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:91)
+	at com.alibaba.dubbo.rpc.filter.TimeoutFilter.invoke(TimeoutFilter.java:42)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:91)
+	at com.alibaba.dubbo.rpc.protocol.dubbo.filter.TraceFilter.invoke(TraceFilter.java:78)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:91)
+	at com.alibaba.dubbo.rpc.filter.ContextFilter.invoke(ContextFilter.java:70)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:91)
+	at com.alibaba.dubbo.rpc.filter.GenericFilter.invoke(GenericFilter.java:132)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:91)
+	at com.alibaba.dubbo.rpc.filter.ClassLoaderFilter.invoke(ClassLoaderFilter.java:38)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:91)
+	at com.alibaba.dubbo.rpc.filter.EchoFilter.invoke(EchoFilter.java:38)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:91)
+	at com.alibaba.dubbo.rpc.protocol.dubbo.DubboProtocol$1.reply(DubboProtocol.java:113)
+	at com.alibaba.dubbo.remoting.exchange.support.header.HeaderExchangeHandler.handleRequest(HeaderExchangeHandler.java:84)
+	at com.alibaba.dubbo.remoting.exchange.support.header.HeaderExchangeHandler.received(HeaderExchangeHandler.java:170)
+	at com.alibaba.dubbo.remoting.transport.DecodeHandler.received(DecodeHandler.java:52)
+	at com.alibaba.dubbo.remoting.transport.dispatcher.ChannelEventRunnable.run(ChannelEventRunnable.java:82)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2023-04-26 17:45:22,679 ERROR com.alibaba.dubbo.rpc.filter.ExceptionFilter.invoke(ExceptionFilter.java:87) DubboServerHandler-172.16.10.1:20886-thread-8 |-  [DUBBO] Got unchecked and undeclared exception which called by 172.16.10.1. service: com.pinyougou.user.service.AddressService, method: findListByUserId, exception: java.lang.NoClassDefFoundError: com/pinyougou/pojo/TbAddressExample$Criteria, dubbo version: 2.8.4, current host: 127.0.0.1
+java.lang.NoClassDefFoundError: com/pinyougou/pojo/TbAddressExample$Criteria
+	at com.pinyougou.pojo.TbAddressExample.createCriteriaInternal(TbAddressExample.java:57)
+	at com.pinyougou.pojo.TbAddressExample.createCriteria(TbAddressExample.java:49)
+	at com.pinyougou.user.service.impl.AddressServiceImpl.findListByUserId(AddressServiceImpl.java:130)
+	at com.alibaba.dubbo.common.bytecode.Wrapper1.invokeMethod(Wrapper1.java)
+	at com.alibaba.dubbo.rpc.proxy.javassist.JavassistProxyFactory$1.doInvoke(JavassistProxyFactory.java:46)
+	at com.alibaba.dubbo.rpc.proxy.AbstractProxyInvoker.invoke(AbstractProxyInvoker.java:72)
+	at com.alibaba.dubbo.rpc.protocol.InvokerWrapper.invoke(InvokerWrapper.java:53)
+	at com.alibaba.dubbo.rpc.filter.ExceptionFilter.invoke(ExceptionFilter.java:64)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:91)
+	at com.alibaba.dubbo.monitor.support.MonitorFilter.invoke(MonitorFilter.java:75)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:91)
+	at com.alibaba.dubbo.rpc.filter.TimeoutFilter.invoke(TimeoutFilter.java:42)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:91)
+	at com.alibaba.dubbo.rpc.protocol.dubbo.filter.TraceFilter.invoke(TraceFilter.java:78)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:91)
+	at com.alibaba.dubbo.rpc.filter.ContextFilter.invoke(ContextFilter.java:70)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:91)
+	at com.alibaba.dubbo.rpc.filter.GenericFilter.invoke(GenericFilter.java:132)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:91)
+	at com.alibaba.dubbo.rpc.filter.ClassLoaderFilter.invoke(ClassLoaderFilter.java:38)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:91)
+	at com.alibaba.dubbo.rpc.filter.EchoFilter.invoke(EchoFilter.java:38)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:91)
+	at com.alibaba.dubbo.rpc.protocol.dubbo.DubboProtocol$1.reply(DubboProtocol.java:113)
+	at com.alibaba.dubbo.remoting.exchange.support.header.HeaderExchangeHandler.handleRequest(HeaderExchangeHandler.java:84)
+	at com.alibaba.dubbo.remoting.exchange.support.header.HeaderExchangeHandler.received(HeaderExchangeHandler.java:170)
+	at com.alibaba.dubbo.remoting.transport.DecodeHandler.received(DecodeHandler.java:52)
+	at com.alibaba.dubbo.remoting.transport.dispatcher.ChannelEventRunnable.run(ChannelEventRunnable.java:82)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2023-04-26 17:47:12,093 INFO  org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:307) localhost-startStop-1 |- Root WebApplicationContext: initialization started
+2023-04-26 17:47:12,296 INFO  org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:578) localhost-startStop-1 |- Refreshing Root WebApplicationContext: startup date [Wed Apr 26 17:47:12 CST 2023]; root of context hierarchy
+2023-04-26 17:47:12,386 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317) localhost-startStop-1 |- Loading XML bean definitions from file [C:\Users\Administrator\eclipse-workspace\pinyougou-parent\pinyougou-user-service\target\classes\spring\ applicationContext-jms-producer.xml]
+2023-04-26 17:47:12,728 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317) localhost-startStop-1 |- Loading XML bean definitions from file [C:\Users\Administrator\eclipse-workspace\pinyougou-parent\pinyougou-user-service\target\classes\spring\applicationContext-service.xml]
+2023-04-26 17:47:12,822 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317) localhost-startStop-1 |- Loading XML bean definitions from file [C:\Users\Administrator\eclipse-workspace\pinyougou-parent\pinyougou-user-service\target\classes\spring\applicationContext-tx.xml]
+2023-04-26 17:47:12,870 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317) localhost-startStop-1 |- Loading XML bean definitions from URL [jar:file:/C:/Users/Administrator/.m2/repository/com/pinyougou/pinyougou-common/0.0.1-SNAPSHOT/pinyougou-common-0.0.1-SNAPSHOT.jar!/spring/applicationContext-redis.xml]
+2023-04-26 17:47:12,924 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317) localhost-startStop-1 |- Loading XML bean definitions from URL [jar:file:/C:/Users/Administrator/.m2/repository/com/pinyougou/pinyougou-dao/0.0.1-SNAPSHOT/pinyougou-dao-0.0.1-SNAPSHOT.jar!/spring/applicationContext-dao.xml]
+2023-04-26 17:47:13,189 INFO  org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(PropertiesLoaderSupport.java:172) localhost-startStop-1 |- Loading properties file from URL [jar:file:/C:/Users/Administrator/.m2/repository/com/pinyougou/pinyougou-common/0.0.1-SNAPSHOT/pinyougou-common-0.0.1-SNAPSHOT.jar!/properties/redis-config.properties]
+2023-04-26 17:47:13,190 INFO  org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(PropertiesLoaderSupport.java:172) localhost-startStop-1 |- Loading properties file from URL [jar:file:/C:/Users/Administrator/.m2/repository/com/pinyougou/pinyougou-common/0.0.1-SNAPSHOT/pinyougou-common-0.0.1-SNAPSHOT.jar!/properties/sms.properties]
+2023-04-26 17:47:13,190 INFO  org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(PropertiesLoaderSupport.java:172) localhost-startStop-1 |- Loading properties file from URL [jar:file:/C:/Users/Administrator/.m2/repository/com/pinyougou/pinyougou-dao/0.0.1-SNAPSHOT/pinyougou-dao-0.0.1-SNAPSHOT.jar!/properties/db.properties]
+2023-04-26 17:47:13,199 INFO  org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(PropertiesLoaderSupport.java:172) localhost-startStop-1 |- Loading properties file from class path resource [properties/db.properties]
+2023-04-26 17:47:13,228 INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init>(AutowiredAnnotationBeanPostProcessor.java:153) localhost-startStop-1 |- JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2023-04-26 17:47:15,008 INFO  org.I0Itec.zkclient.ZkEventThread.run(ZkEventThread.java:64) ZkClient-EventThread-27-192.168.25.128:2181 |- Starting ZkClient event thread.
+2023-04-26 17:47:24,088 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) localhost-startStop-1 |- Client environment:zookeeper.version=3.4.7-1713338, built on 11/09/2015 04:32 GMT
+2023-04-26 17:47:24,088 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) localhost-startStop-1 |- Client environment:host.name=CS
+2023-04-26 17:47:24,089 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) localhost-startStop-1 |- Client environment:java.version=1.8.0_152
+2023-04-26 17:47:24,090 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) localhost-startStop-1 |- Client environment:java.vendor=Oracle Corporation
+2023-04-26 17:47:24,090 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) localhost-startStop-1 |- Client environment:java.home=C:\Java\jdk1.8\jre
+2023-04-26 17:47:24,090 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) localhost-startStop-1 |- Client environment:java.class.path=D:\apache-maven-3.8.6\boot\plexus-classworlds-2.6.0.jar
+2023-04-26 17:47:24,092 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) localhost-startStop-1 |- Client environment:java.library.path=C:\Java\jdk1.8\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_152/bin/server;C:/Program Files/Java/jre1.8.0_152/bin;C:/Program Files/Java/jre1.8.0_152/lib/amd64;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Java\jdk1.8\bin;C:\Java\jdk1.8\jre\bin;D:\apache-maven-3.8.6\bin;C:\Program Files (x86)\Java\jdk1.8.0_191\bin;D:\VMware 15.5\bin\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\MySQL\mysql-5.6.51-winx64\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;D:\nodejs\;C:\ProgramData\chocolatey\bin;C:\Java\bin;D:\apache-artemis-2.27.0\bin;C:\Program Files (x86)\MySQL\mysql-5.6.51-winx64\bin;C:\Users\Administrator\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\Administrator\AppData\Local\Programs\Python\Python39\;D:\Python39\;D:\Scripts\;D:\;"C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;D:\php;D:\php\ext";C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;D:\IntelliJ IDEA Community Edition 2021.3.2\bin;;C:\Users\Administrator\AppData\Roaming\npm;C:\WINDOWS\system32;;.
+2023-04-26 17:47:24,092 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) localhost-startStop-1 |- Client environment:java.io.tmpdir=C:\Users\ADMINI~1\AppData\Local\Temp\
+2023-04-26 17:47:24,092 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) localhost-startStop-1 |- Client environment:java.compiler=<NA>
+2023-04-26 17:47:24,092 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) localhost-startStop-1 |- Client environment:os.name=Windows 10
+2023-04-26 17:47:24,092 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) localhost-startStop-1 |- Client environment:os.arch=amd64
+2023-04-26 17:47:24,092 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) localhost-startStop-1 |- Client environment:os.version=10.0
+2023-04-26 17:47:24,092 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) localhost-startStop-1 |- Client environment:user.name=Administrator
+2023-04-26 17:47:24,092 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) localhost-startStop-1 |- Client environment:user.home=C:\Users\Administrator
+2023-04-26 17:47:24,094 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) localhost-startStop-1 |- Client environment:user.dir=C:\Users\Administrator\eclipse-workspace\pinyougou-parent\pinyougou-user-service
+2023-04-26 17:47:24,094 INFO  org.apache.zookeeper.ZooKeeper.<init>(ZooKeeper.java:438) localhost-startStop-1 |- Initiating client connection, connectString=192.168.25.128:2181 sessionTimeout=60000 watcher=org.I0Itec.zkclient.ZkClient@6c6a8c62
+2023-04-26 17:47:24,116 INFO  org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1032) localhost-startStop-1-SendThread(192.168.25.128:2181) |- Opening socket connection to server 192.168.25.128/192.168.25.128:2181. Will not attempt to authenticate using SASL (unknown error)
+2023-04-26 17:47:24,116 INFO  org.apache.zookeeper.ClientCnxn$SendThread.primeConnection(ClientCnxn.java:876) localhost-startStop-1-SendThread(192.168.25.128:2181) |- Socket connection established to 192.168.25.128/192.168.25.128:2181, initiating session
+2023-04-26 17:47:24,124 INFO  org.apache.zookeeper.ClientCnxn$SendThread.onConnected(ClientCnxn.java:1299) localhost-startStop-1-SendThread(192.168.25.128:2181) |- Session establishment complete on server 192.168.25.128/192.168.25.128:2181, sessionid = 0x187ad4b7d6b0024, negotiated timeout = 40000
+2023-04-26 17:47:24,126 INFO  org.I0Itec.zkclient.ZkClient.processStateChanged(ZkClient.java:449) localhost-startStop-1-EventThread |- zookeeper state changed (SyncConnected)
+2023-04-26 17:47:24,341 INFO  org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:347) localhost-startStop-1 |- Root WebApplicationContext: initialization completed in 12246 ms
+2023-04-26 17:48:18,130 INFO  org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:307) localhost-startStop-1 |- Root WebApplicationContext: initialization started
+2023-04-26 17:48:18,410 INFO  org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:578) localhost-startStop-1 |- Refreshing Root WebApplicationContext: startup date [Wed Apr 26 17:48:18 CST 2023]; root of context hierarchy
+2023-04-26 17:48:18,511 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317) localhost-startStop-1 |- Loading XML bean definitions from file [C:\Users\Administrator\eclipse-workspace\pinyougou-parent\pinyougou-order-service\target\classes\spring\applicationContext-service.xml]
+2023-04-26 17:48:19,010 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317) localhost-startStop-1 |- Loading XML bean definitions from file [C:\Users\Administrator\eclipse-workspace\pinyougou-parent\pinyougou-order-service\target\classes\spring\applicationContext-tx.xml]
+2023-04-26 17:48:19,079 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317) localhost-startStop-1 |- Loading XML bean definitions from URL [jar:file:/C:/Users/Administrator/.m2/repository/com/pinyougou/pinyougou-common/0.0.1-SNAPSHOT/pinyougou-common-0.0.1-SNAPSHOT.jar!/spring/applicationContext-redis.xml]
+2023-04-26 17:48:19,475 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317) localhost-startStop-1 |- Loading XML bean definitions from URL [jar:file:/C:/Users/Administrator/.m2/repository/com/pinyougou/pinyougou-dao/0.0.1-SNAPSHOT/pinyougou-dao-0.0.1-SNAPSHOT.jar!/spring/applicationContext-dao.xml]
+2023-04-26 17:48:20,157 INFO  org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(PropertiesLoaderSupport.java:172) localhost-startStop-1 |- Loading properties file from URL [jar:file:/C:/Users/Administrator/.m2/repository/com/pinyougou/pinyougou-common/0.0.1-SNAPSHOT/pinyougou-common-0.0.1-SNAPSHOT.jar!/properties/redis-config.properties]
+2023-04-26 17:48:20,159 INFO  org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(PropertiesLoaderSupport.java:172) localhost-startStop-1 |- Loading properties file from URL [jar:file:/C:/Users/Administrator/.m2/repository/com/pinyougou/pinyougou-common/0.0.1-SNAPSHOT/pinyougou-common-0.0.1-SNAPSHOT.jar!/properties/sms.properties]
+2023-04-26 17:48:20,159 INFO  org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(PropertiesLoaderSupport.java:172) localhost-startStop-1 |- Loading properties file from URL [jar:file:/C:/Users/Administrator/.m2/repository/com/pinyougou/pinyougou-dao/0.0.1-SNAPSHOT/pinyougou-dao-0.0.1-SNAPSHOT.jar!/properties/db.properties]
+2023-04-26 17:48:20,176 INFO  org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(PropertiesLoaderSupport.java:172) localhost-startStop-1 |- Loading properties file from class path resource [properties/db.properties]
+2023-04-26 17:48:20,278 INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init>(AutowiredAnnotationBeanPostProcessor.java:153) localhost-startStop-1 |- JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2023-04-26 17:48:22,910 INFO  org.I0Itec.zkclient.ZkEventThread.run(ZkEventThread.java:64) ZkClient-EventThread-27-192.168.25.128:2181 |- Starting ZkClient event thread.
+2023-04-26 17:48:31,978 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) localhost-startStop-1 |- Client environment:zookeeper.version=3.4.7-1713338, built on 11/09/2015 04:32 GMT
+2023-04-26 17:48:31,978 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) localhost-startStop-1 |- Client environment:host.name=CS
+2023-04-26 17:48:31,980 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) localhost-startStop-1 |- Client environment:java.version=1.8.0_152
+2023-04-26 17:48:31,980 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) localhost-startStop-1 |- Client environment:java.vendor=Oracle Corporation
+2023-04-26 17:48:31,981 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) localhost-startStop-1 |- Client environment:java.home=C:\Java\jdk1.8\jre
+2023-04-26 17:48:31,981 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) localhost-startStop-1 |- Client environment:java.class.path=D:\apache-maven-3.8.6\boot\plexus-classworlds-2.6.0.jar
+2023-04-26 17:48:31,981 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) localhost-startStop-1 |- Client environment:java.library.path=C:\Java\jdk1.8\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_152/bin/server;C:/Program Files/Java/jre1.8.0_152/bin;C:/Program Files/Java/jre1.8.0_152/lib/amd64;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Java\jdk1.8\bin;C:\Java\jdk1.8\jre\bin;D:\apache-maven-3.8.6\bin;C:\Program Files (x86)\Java\jdk1.8.0_191\bin;D:\VMware 15.5\bin\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\MySQL\mysql-5.6.51-winx64\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;D:\nodejs\;C:\ProgramData\chocolatey\bin;C:\Java\bin;D:\apache-artemis-2.27.0\bin;C:\Program Files (x86)\MySQL\mysql-5.6.51-winx64\bin;C:\Users\Administrator\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\Administrator\AppData\Local\Programs\Python\Python39\;D:\Python39\;D:\Scripts\;D:\;"C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;D:\php;D:\php\ext";C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;D:\IntelliJ IDEA Community Edition 2021.3.2\bin;;C:\Users\Administrator\AppData\Roaming\npm;C:\WINDOWS\system32;;.
+2023-04-26 17:48:31,982 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) localhost-startStop-1 |- Client environment:java.io.tmpdir=C:\Users\ADMINI~1\AppData\Local\Temp\
+2023-04-26 17:48:31,982 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) localhost-startStop-1 |- Client environment:java.compiler=<NA>
+2023-04-26 17:48:31,982 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) localhost-startStop-1 |- Client environment:os.name=Windows 10
+2023-04-26 17:48:31,982 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) localhost-startStop-1 |- Client environment:os.arch=amd64
+2023-04-26 17:48:31,982 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) localhost-startStop-1 |- Client environment:os.version=10.0
+2023-04-26 17:48:31,984 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) localhost-startStop-1 |- Client environment:user.name=Administrator
+2023-04-26 17:48:31,984 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) localhost-startStop-1 |- Client environment:user.home=C:\Users\Administrator
+2023-04-26 17:48:31,984 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) localhost-startStop-1 |- Client environment:user.dir=C:\Users\Administrator\eclipse-workspace\pinyougou-parent\pinyougou-order-service
+2023-04-26 17:48:31,986 INFO  org.apache.zookeeper.ZooKeeper.<init>(ZooKeeper.java:438) localhost-startStop-1 |- Initiating client connection, connectString=192.168.25.128:2181 sessionTimeout=60000 watcher=org.I0Itec.zkclient.ZkClient@6980f39c
+2023-04-26 17:48:32,018 INFO  org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1032) localhost-startStop-1-SendThread(192.168.25.128:2181) |- Opening socket connection to server 192.168.25.128/192.168.25.128:2181. Will not attempt to authenticate using SASL (unknown error)
+2023-04-26 17:48:32,026 INFO  org.apache.zookeeper.ClientCnxn$SendThread.primeConnection(ClientCnxn.java:876) localhost-startStop-1-SendThread(192.168.25.128:2181) |- Socket connection established to 192.168.25.128/192.168.25.128:2181, initiating session
+2023-04-26 17:48:32,034 INFO  org.apache.zookeeper.ClientCnxn$SendThread.onConnected(ClientCnxn.java:1299) localhost-startStop-1-SendThread(192.168.25.128:2181) |- Session establishment complete on server 192.168.25.128/192.168.25.128:2181, sessionid = 0x187ad4b7d6b0026, negotiated timeout = 40000
+2023-04-26 17:48:32,036 INFO  org.I0Itec.zkclient.ZkClient.processStateChanged(ZkClient.java:449) localhost-startStop-1-EventThread |- zookeeper state changed (SyncConnected)
+2023-04-26 17:48:32,246 INFO  org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:347) localhost-startStop-1 |- Root WebApplicationContext: initialization completed in 14112 ms
+2023-04-26 17:50:08,281 INFO  com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:655) DubboServerHandler-172.16.10.1:20886-thread-2 |- {dataSource-1} inited
+2023-04-26 17:51:47,944 INFO  com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:655) DubboServerHandler-172.16.10.1:20888-thread-2 |- {dataSource-1} inited
+2023-04-26 18:47:47,223 INFO  org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:307) localhost-startStop-1 |- Root WebApplicationContext: initialization started
+2023-04-26 18:47:47,333 INFO  org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:578) localhost-startStop-1 |- Refreshing Root WebApplicationContext: startup date [Wed Apr 26 18:47:47 CST 2023]; root of context hierarchy
+2023-04-26 18:47:47,388 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317) localhost-startStop-1 |- Loading XML bean definitions from file [C:\Users\Administrator\eclipse-workspace\pinyougou-parent\pinyougou-user-service\target\classes\spring\ applicationContext-jms-producer.xml]
+2023-04-26 18:47:47,556 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317) localhost-startStop-1 |- Loading XML bean definitions from file [C:\Users\Administrator\eclipse-workspace\pinyougou-parent\pinyougou-user-service\target\classes\spring\applicationContext-service.xml]
+2023-04-26 18:47:47,620 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317) localhost-startStop-1 |- Loading XML bean definitions from file [C:\Users\Administrator\eclipse-workspace\pinyougou-parent\pinyougou-user-service\target\classes\spring\applicationContext-tx.xml]
+2023-04-26 18:47:47,655 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317) localhost-startStop-1 |- Loading XML bean definitions from URL [jar:file:/C:/Users/Administrator/.m2/repository/com/pinyougou/pinyougou-common/0.0.1-SNAPSHOT/pinyougou-common-0.0.1-SNAPSHOT.jar!/spring/applicationContext-redis.xml]
+2023-04-26 18:47:47,710 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317) localhost-startStop-1 |- Loading XML bean definitions from URL [jar:file:/C:/Users/Administrator/.m2/repository/com/pinyougou/pinyougou-dao/0.0.1-SNAPSHOT/pinyougou-dao-0.0.1-SNAPSHOT.jar!/spring/applicationContext-dao.xml]
+2023-04-26 18:47:48,052 INFO  org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(PropertiesLoaderSupport.java:172) localhost-startStop-1 |- Loading properties file from URL [jar:file:/C:/Users/Administrator/.m2/repository/com/pinyougou/pinyougou-common/0.0.1-SNAPSHOT/pinyougou-common-0.0.1-SNAPSHOT.jar!/properties/redis-config.properties]
+2023-04-26 18:47:48,053 INFO  org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(PropertiesLoaderSupport.java:172) localhost-startStop-1 |- Loading properties file from URL [jar:file:/C:/Users/Administrator/.m2/repository/com/pinyougou/pinyougou-common/0.0.1-SNAPSHOT/pinyougou-common-0.0.1-SNAPSHOT.jar!/properties/sms.properties]
+2023-04-26 18:47:48,053 INFO  org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(PropertiesLoaderSupport.java:172) localhost-startStop-1 |- Loading properties file from URL [jar:file:/C:/Users/Administrator/.m2/repository/com/pinyougou/pinyougou-dao/0.0.1-SNAPSHOT/pinyougou-dao-0.0.1-SNAPSHOT.jar!/properties/db.properties]
+2023-04-26 18:47:48,067 INFO  org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(PropertiesLoaderSupport.java:172) localhost-startStop-1 |- Loading properties file from class path resource [properties/db.properties]
+2023-04-26 18:47:48,091 INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init>(AutowiredAnnotationBeanPostProcessor.java:153) localhost-startStop-1 |- JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2023-04-26 18:47:50,143 INFO  org.I0Itec.zkclient.ZkEventThread.run(ZkEventThread.java:64) ZkClient-EventThread-27-192.168.25.128:2181 |- Starting ZkClient event thread.
+2023-04-26 18:47:59,208 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) localhost-startStop-1 |- Client environment:zookeeper.version=3.4.7-1713338, built on 11/09/2015 04:32 GMT
+2023-04-26 18:47:59,208 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) localhost-startStop-1 |- Client environment:host.name=CS
+2023-04-26 18:47:59,209 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) localhost-startStop-1 |- Client environment:java.version=1.8.0_152
+2023-04-26 18:47:59,210 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) localhost-startStop-1 |- Client environment:java.vendor=Oracle Corporation
+2023-04-26 18:47:59,210 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) localhost-startStop-1 |- Client environment:java.home=C:\Java\jdk1.8\jre
+2023-04-26 18:47:59,210 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) localhost-startStop-1 |- Client environment:java.class.path=D:\apache-maven-3.8.6\boot\plexus-classworlds-2.6.0.jar
+2023-04-26 18:47:59,210 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) localhost-startStop-1 |- Client environment:java.library.path=C:\Java\jdk1.8\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_152/bin/server;C:/Program Files/Java/jre1.8.0_152/bin;C:/Program Files/Java/jre1.8.0_152/lib/amd64;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Java\jdk1.8\bin;C:\Java\jdk1.8\jre\bin;D:\apache-maven-3.8.6\bin;C:\Program Files (x86)\Java\jdk1.8.0_191\bin;D:\VMware 15.5\bin\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\MySQL\mysql-5.6.51-winx64\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;D:\nodejs\;C:\ProgramData\chocolatey\bin;C:\Java\bin;D:\apache-artemis-2.27.0\bin;C:\Program Files (x86)\MySQL\mysql-5.6.51-winx64\bin;C:\Users\Administrator\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\Administrator\AppData\Local\Programs\Python\Python39\;D:\Python39\;D:\Scripts\;D:\;"C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;D:\php;D:\php\ext";C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;D:\IntelliJ IDEA Community Edition 2021.3.2\bin;;C:\Users\Administrator\AppData\Roaming\npm;C:\WINDOWS\system32;;.
+2023-04-26 18:47:59,211 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) localhost-startStop-1 |- Client environment:java.io.tmpdir=C:\Users\ADMINI~1\AppData\Local\Temp\
+2023-04-26 18:47:59,211 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) localhost-startStop-1 |- Client environment:java.compiler=<NA>
+2023-04-26 18:47:59,211 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) localhost-startStop-1 |- Client environment:os.name=Windows 10
+2023-04-26 18:47:59,211 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) localhost-startStop-1 |- Client environment:os.arch=amd64
+2023-04-26 18:47:59,211 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) localhost-startStop-1 |- Client environment:os.version=10.0
+2023-04-26 18:47:59,211 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) localhost-startStop-1 |- Client environment:user.name=Administrator
+2023-04-26 18:47:59,211 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) localhost-startStop-1 |- Client environment:user.home=C:\Users\Administrator
+2023-04-26 18:47:59,211 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) localhost-startStop-1 |- Client environment:user.dir=C:\Users\Administrator\eclipse-workspace\pinyougou-parent\pinyougou-user-service
+2023-04-26 18:47:59,213 INFO  org.apache.zookeeper.ZooKeeper.<init>(ZooKeeper.java:438) localhost-startStop-1 |- Initiating client connection, connectString=192.168.25.128:2181 sessionTimeout=60000 watcher=org.I0Itec.zkclient.ZkClient@5bb8341
+2023-04-26 18:47:59,233 INFO  org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1032) localhost-startStop-1-SendThread(192.168.25.128:2181) |- Opening socket connection to server 192.168.25.128/192.168.25.128:2181. Will not attempt to authenticate using SASL (unknown error)
+2023-04-26 18:47:59,234 INFO  org.apache.zookeeper.ClientCnxn$SendThread.primeConnection(ClientCnxn.java:876) localhost-startStop-1-SendThread(192.168.25.128:2181) |- Socket connection established to 192.168.25.128/192.168.25.128:2181, initiating session
+2023-04-26 18:47:59,267 INFO  org.apache.zookeeper.ClientCnxn$SendThread.onConnected(ClientCnxn.java:1299) localhost-startStop-1-SendThread(192.168.25.128:2181) |- Session establishment complete on server 192.168.25.128/192.168.25.128:2181, sessionid = 0x187ad4b7d6b0028, negotiated timeout = 40000
+2023-04-26 18:47:59,269 INFO  org.I0Itec.zkclient.ZkClient.processStateChanged(ZkClient.java:449) localhost-startStop-1-EventThread |- zookeeper state changed (SyncConnected)
+2023-04-26 18:47:59,450 INFO  org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:347) localhost-startStop-1 |- Root WebApplicationContext: initialization completed in 12224 ms
+2023-04-26 18:48:19,435 INFO  org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:307) localhost-startStop-1 |- Root WebApplicationContext: initialization started
+2023-04-26 18:48:19,603 INFO  org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:578) localhost-startStop-1 |- Refreshing Root WebApplicationContext: startup date [Wed Apr 26 18:48:19 CST 2023]; root of context hierarchy
+2023-04-26 18:48:19,666 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317) localhost-startStop-1 |- Loading XML bean definitions from file [C:\Users\Administrator\eclipse-workspace\pinyougou-parent\pinyougou-order-service\target\classes\spring\applicationContext-service.xml]
+2023-04-26 18:48:19,970 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317) localhost-startStop-1 |- Loading XML bean definitions from file [C:\Users\Administrator\eclipse-workspace\pinyougou-parent\pinyougou-order-service\target\classes\spring\applicationContext-tx.xml]
+2023-04-26 18:48:20,029 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317) localhost-startStop-1 |- Loading XML bean definitions from URL [jar:file:/C:/Users/Administrator/.m2/repository/com/pinyougou/pinyougou-common/0.0.1-SNAPSHOT/pinyougou-common-0.0.1-SNAPSHOT.jar!/spring/applicationContext-redis.xml]
+2023-04-26 18:48:20,090 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317) localhost-startStop-1 |- Loading XML bean definitions from URL [jar:file:/C:/Users/Administrator/.m2/repository/com/pinyougou/pinyougou-dao/0.0.1-SNAPSHOT/pinyougou-dao-0.0.1-SNAPSHOT.jar!/spring/applicationContext-dao.xml]
+2023-04-26 18:48:20,464 INFO  org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(PropertiesLoaderSupport.java:172) localhost-startStop-1 |- Loading properties file from URL [jar:file:/C:/Users/Administrator/.m2/repository/com/pinyougou/pinyougou-common/0.0.1-SNAPSHOT/pinyougou-common-0.0.1-SNAPSHOT.jar!/properties/redis-config.properties]
+2023-04-26 18:48:20,466 INFO  org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(PropertiesLoaderSupport.java:172) localhost-startStop-1 |- Loading properties file from URL [jar:file:/C:/Users/Administrator/.m2/repository/com/pinyougou/pinyougou-common/0.0.1-SNAPSHOT/pinyougou-common-0.0.1-SNAPSHOT.jar!/properties/sms.properties]
+2023-04-26 18:48:20,466 INFO  org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(PropertiesLoaderSupport.java:172) localhost-startStop-1 |- Loading properties file from URL [jar:file:/C:/Users/Administrator/.m2/repository/com/pinyougou/pinyougou-dao/0.0.1-SNAPSHOT/pinyougou-dao-0.0.1-SNAPSHOT.jar!/properties/db.properties]
+2023-04-26 18:48:20,480 INFO  org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(PropertiesLoaderSupport.java:172) localhost-startStop-1 |- Loading properties file from class path resource [properties/db.properties]
+2023-04-26 18:48:20,557 INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init>(AutowiredAnnotationBeanPostProcessor.java:153) localhost-startStop-1 |- JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2023-04-26 18:48:23,070 INFO  org.I0Itec.zkclient.ZkEventThread.run(ZkEventThread.java:64) ZkClient-EventThread-27-192.168.25.128:2181 |- Starting ZkClient event thread.
+2023-04-26 18:48:32,413 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) localhost-startStop-1 |- Client environment:zookeeper.version=3.4.7-1713338, built on 11/09/2015 04:32 GMT
+2023-04-26 18:48:32,414 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) localhost-startStop-1 |- Client environment:host.name=CS
+2023-04-26 18:48:32,414 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) localhost-startStop-1 |- Client environment:java.version=1.8.0_152
+2023-04-26 18:48:32,414 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) localhost-startStop-1 |- Client environment:java.vendor=Oracle Corporation
+2023-04-26 18:48:32,416 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) localhost-startStop-1 |- Client environment:java.home=C:\Java\jdk1.8\jre
+2023-04-26 18:48:32,416 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) localhost-startStop-1 |- Client environment:java.class.path=D:\apache-maven-3.8.6\boot\plexus-classworlds-2.6.0.jar
+2023-04-26 18:48:32,416 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) localhost-startStop-1 |- Client environment:java.library.path=C:\Java\jdk1.8\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_152/bin/server;C:/Program Files/Java/jre1.8.0_152/bin;C:/Program Files/Java/jre1.8.0_152/lib/amd64;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Java\jdk1.8\bin;C:\Java\jdk1.8\jre\bin;D:\apache-maven-3.8.6\bin;C:\Program Files (x86)\Java\jdk1.8.0_191\bin;D:\VMware 15.5\bin\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\MySQL\mysql-5.6.51-winx64\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;D:\nodejs\;C:\ProgramData\chocolatey\bin;C:\Java\bin;D:\apache-artemis-2.27.0\bin;C:\Program Files (x86)\MySQL\mysql-5.6.51-winx64\bin;C:\Users\Administrator\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\Administrator\AppData\Local\Programs\Python\Python39\;D:\Python39\;D:\Scripts\;D:\;"C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;D:\php;D:\php\ext";C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;D:\IntelliJ IDEA Community Edition 2021.3.2\bin;;C:\Users\Administrator\AppData\Roaming\npm;C:\WINDOWS\system32;;.
+2023-04-26 18:48:32,417 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) localhost-startStop-1 |- Client environment:java.io.tmpdir=C:\Users\ADMINI~1\AppData\Local\Temp\
+2023-04-26 18:48:32,417 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) localhost-startStop-1 |- Client environment:java.compiler=<NA>
+2023-04-26 18:48:32,417 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) localhost-startStop-1 |- Client environment:os.name=Windows 10
+2023-04-26 18:48:32,417 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) localhost-startStop-1 |- Client environment:os.arch=amd64
+2023-04-26 18:48:32,417 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) localhost-startStop-1 |- Client environment:os.version=10.0
+2023-04-26 18:48:32,418 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) localhost-startStop-1 |- Client environment:user.name=Administrator
+2023-04-26 18:48:32,418 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) localhost-startStop-1 |- Client environment:user.home=C:\Users\Administrator
+2023-04-26 18:48:32,418 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) localhost-startStop-1 |- Client environment:user.dir=C:\Users\Administrator\eclipse-workspace\pinyougou-parent\pinyougou-order-service
+2023-04-26 18:48:32,419 INFO  org.apache.zookeeper.ZooKeeper.<init>(ZooKeeper.java:438) localhost-startStop-1 |- Initiating client connection, connectString=192.168.25.128:2181 sessionTimeout=60000 watcher=org.I0Itec.zkclient.ZkClient@502f320f
+2023-04-26 18:48:32,445 INFO  org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1032) localhost-startStop-1-SendThread(192.168.25.128:2181) |- Opening socket connection to server 192.168.25.128/192.168.25.128:2181. Will not attempt to authenticate using SASL (unknown error)
+2023-04-26 18:48:32,446 INFO  org.apache.zookeeper.ClientCnxn$SendThread.primeConnection(ClientCnxn.java:876) localhost-startStop-1-SendThread(192.168.25.128:2181) |- Socket connection established to 192.168.25.128/192.168.25.128:2181, initiating session
+2023-04-26 18:48:32,453 INFO  org.apache.zookeeper.ClientCnxn$SendThread.onConnected(ClientCnxn.java:1299) localhost-startStop-1-SendThread(192.168.25.128:2181) |- Session establishment complete on server 192.168.25.128/192.168.25.128:2181, sessionid = 0x187ad4b7d6b0029, negotiated timeout = 40000
+2023-04-26 18:48:32,456 INFO  org.I0Itec.zkclient.ZkClient.processStateChanged(ZkClient.java:449) localhost-startStop-1-EventThread |- zookeeper state changed (SyncConnected)
+2023-04-26 18:48:32,627 INFO  org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:347) localhost-startStop-1 |- Root WebApplicationContext: initialization completed in 13184 ms
+2023-04-26 18:55:09,594 INFO  com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:655) DubboServerHandler-172.16.10.1:20886-thread-2 |- {dataSource-1} inited
+2023-04-26 18:58:41,298 INFO  com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:655) DubboServerHandler-172.16.10.1:20888-thread-2 |- {dataSource-1} inited

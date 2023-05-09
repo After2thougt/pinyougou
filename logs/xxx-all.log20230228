@@ -1,0 +1,327 @@
+2023-02-28 16:30:48,726 INFO  org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:307) localhost-startStop-1 |- Root WebApplicationContext: initialization started
+2023-02-28 16:30:48,822 INFO  org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:578) localhost-startStop-1 |- Refreshing Root WebApplicationContext: startup date [Tue Feb 28 16:30:48 HKT 2023]; root of context hierarchy
+2023-02-28 16:30:48,875 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317) localhost-startStop-1 |- Loading XML bean definitions from file [C:\Users\Administrator\eclipse-workspace\pinyougou-parent\pinyougou-sellergoods-service\target\classes\spring\applicationContext-redis.xml]
+2023-02-28 16:30:49,070 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317) localhost-startStop-1 |- Loading XML bean definitions from file [C:\Users\Administrator\eclipse-workspace\pinyougou-parent\pinyougou-sellergoods-service\target\classes\spring\applicationContext-service.xml]
+2023-02-28 16:30:49,146 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317) localhost-startStop-1 |- Loading XML bean definitions from file [C:\Users\Administrator\eclipse-workspace\pinyougou-parent\pinyougou-sellergoods-service\target\classes\spring\applicationContext-tx.xml]
+2023-02-28 16:30:49,237 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317) localhost-startStop-1 |- Loading XML bean definitions from URL [jar:file:/C:/Users/Administrator/.m2/repository/com/pinyougou/pinyougou-dao/0.0.1-SNAPSHOT/pinyougou-dao-0.0.1-SNAPSHOT.jar!/spring/applicationContext-dao.xml]
+2023-02-28 16:30:49,625 INFO  org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(PropertiesLoaderSupport.java:172) localhost-startStop-1 |- Loading properties file from URL [jar:file:/C:/Users/Administrator/.m2/repository/com/pinyougou/pinyougou-dao/0.0.1-SNAPSHOT/pinyougou-dao-0.0.1-SNAPSHOT.jar!/properties/db.properties]
+2023-02-28 16:30:49,631 WARN  org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:546) localhost-startStop-1 |- Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Invalid bean definition with name 'poolConfig' defined in file [C:\Users\Administrator\eclipse-workspace\pinyougou-parent\pinyougou-sellergoods-service\target\classes\spring\applicationContext-redis.xml]: Could not resolve placeholder 'redis.maxIdle' in string value "${redis.maxIdle}"; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'redis.maxIdle' in string value "${redis.maxIdle}"
+2023-02-28 16:30:49,634 ERROR org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:353) localhost-startStop-1 |- Context initialization failed
+org.springframework.beans.factory.BeanDefinitionStoreException: Invalid bean definition with name 'poolConfig' defined in file [C:\Users\Administrator\eclipse-workspace\pinyougou-parent\pinyougou-sellergoods-service\target\classes\spring\applicationContext-redis.xml]: Could not resolve placeholder 'redis.maxIdle' in string value "${redis.maxIdle}"; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'redis.maxIdle' in string value "${redis.maxIdle}"
+	at org.springframework.beans.factory.config.PlaceholderConfigurerSupport.doProcessProperties(PlaceholderConfigurerSupport.java:211)
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.processProperties(PropertySourcesPlaceholderConfigurer.java:177)
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.postProcessBeanFactory(PropertySourcesPlaceholderConfigurer.java:152)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:284)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:166)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:678)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:520)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:446)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:328)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:107)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4939)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5434)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1559)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1549)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'redis.maxIdle' in string value "${redis.maxIdle}"
+	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:174)
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:126)
+	at org.springframework.core.env.AbstractPropertyResolver.doResolvePlaceholders(AbstractPropertyResolver.java:204)
+	at org.springframework.core.env.AbstractPropertyResolver.resolveRequiredPlaceholders(AbstractPropertyResolver.java:178)
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer$2.resolveStringValue(PropertySourcesPlaceholderConfigurer.java:172)
+	at org.springframework.beans.factory.config.BeanDefinitionVisitor.resolveStringValue(BeanDefinitionVisitor.java:282)
+	at org.springframework.beans.factory.config.BeanDefinitionVisitor.resolveValue(BeanDefinitionVisitor.java:204)
+	at org.springframework.beans.factory.config.BeanDefinitionVisitor.visitPropertyValues(BeanDefinitionVisitor.java:141)
+	at org.springframework.beans.factory.config.BeanDefinitionVisitor.visitBeanDefinition(BeanDefinitionVisitor.java:82)
+	at org.springframework.beans.factory.config.PlaceholderConfigurerSupport.doProcessProperties(PlaceholderConfigurerSupport.java:208)
+	... 18 more
+2023-02-28 16:32:01,614 INFO  org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:307) localhost-startStop-1 |- Root WebApplicationContext: initialization started
+2023-02-28 16:32:01,695 INFO  org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:578) localhost-startStop-1 |- Refreshing Root WebApplicationContext: startup date [Tue Feb 28 16:32:01 HKT 2023]; root of context hierarchy
+2023-02-28 16:32:01,743 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317) localhost-startStop-1 |- Loading XML bean definitions from file [C:\Users\Administrator\eclipse-workspace\pinyougou-parent\pinyougou-sellergoods-service\target\classes\spring\applicationContext-service.xml]
+2023-02-28 16:32:01,932 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317) localhost-startStop-1 |- Loading XML bean definitions from URL [jar:file:/C:/Users/Administrator/.m2/repository/com/pinyougou/pinyougou-dao/0.0.1-SNAPSHOT/pinyougou-dao-0.0.1-SNAPSHOT.jar!/spring/applicationContext-dao.xml]
+2023-02-28 16:32:02,148 INFO  org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(PropertiesLoaderSupport.java:172) localhost-startStop-1 |- Loading properties file from class path resource [properties/db.properties]
+2023-02-28 16:32:02,177 INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init>(AutowiredAnnotationBeanPostProcessor.java:153) localhost-startStop-1 |- JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2023-02-28 16:32:03,135 WARN  org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:546) localhost-startStop-1 |- Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'brandServiceImpl' defined in file [C:\Users\Administrator\eclipse-workspace\pinyougou-parent\pinyougou-sellergoods-service\target\classes\com\pinyougou\sellergoods\service\impl\BrandServiceImpl.class]: Initialization of bean failed; nested exception is java.lang.ExceptionInInitializerError
+2023-02-28 16:32:03,138 ERROR org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:353) localhost-startStop-1 |- Context initialization failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'brandServiceImpl' defined in file [C:\Users\Administrator\eclipse-workspace\pinyougou-parent\pinyougou-sellergoods-service\target\classes\com\pinyougou\sellergoods\service\impl\BrandServiceImpl.class]: Initialization of bean failed; nested exception is java.lang.ExceptionInInitializerError
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:772)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:839)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:538)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:446)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:328)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:107)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4939)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5434)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1559)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1549)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.ExceptionInInitializerError
+	at com.alibaba.dubbo.config.spring.AnnotationBean.postProcessAfterInitialization(AnnotationBean.java:145)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsAfterInitialization(AbstractAutowireCapableBeanFactory.java:422)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1583)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:545)
+	... 20 more
+Caused by: java.lang.IllegalStateException: fail to create adaptive instance: java.lang.IllegalStateException: Can not create adaptive extenstion interface com.alibaba.dubbo.rpc.Protocol, cause: java.io.IOException: invalid constant type: 18
+	at com.alibaba.dubbo.common.extension.ExtensionLoader.getAdaptiveExtension(ExtensionLoader.java:459)
+	at com.alibaba.dubbo.config.ServiceConfig.<clinit>(ServiceConfig.java:62)
+	... 24 more
+Caused by: java.lang.IllegalStateException: Can not create adaptive extenstion interface com.alibaba.dubbo.rpc.Protocol, cause: java.io.IOException: invalid constant type: 18
+	at com.alibaba.dubbo.common.extension.ExtensionLoader.createAdaptiveExtension(ExtensionLoader.java:723)
+	at com.alibaba.dubbo.common.extension.ExtensionLoader.getAdaptiveExtension(ExtensionLoader.java:455)
+	... 25 more
+Caused by: java.lang.RuntimeException: java.io.IOException: invalid constant type: 18
+	at javassist.CtClassType.getClassFile2(CtClassType.java:203)
+	at javassist.CtClassType.subtypeOf(CtClassType.java:303)
+	at javassist.compiler.MemberResolver.compareSignature(MemberResolver.java:247)
+	at javassist.compiler.MemberResolver.lookupMethod(MemberResolver.java:119)
+	at javassist.compiler.MemberResolver.lookupMethod(MemberResolver.java:96)
+	at javassist.compiler.MemberCodeGen.atMethodCallCore(MemberCodeGen.java:561)
+	at javassist.compiler.MemberCodeGen.atCallExpr(MemberCodeGen.java:523)
+	at javassist.compiler.JvstCodeGen.atCallExpr(JvstCodeGen.java:243)
+	at javassist.compiler.ast.CallExpr.accept(CallExpr.java:45)
+	at javassist.compiler.MemberCodeGen.atCallExpr(MemberCodeGen.java:496)
+	at javassist.compiler.JvstCodeGen.atCallExpr(JvstCodeGen.java:243)
+	at javassist.compiler.ast.CallExpr.accept(CallExpr.java:45)
+	at javassist.compiler.MemberCodeGen.atCallExpr(MemberCodeGen.java:496)
+	at javassist.compiler.JvstCodeGen.atCallExpr(JvstCodeGen.java:243)
+	at javassist.compiler.ast.CallExpr.accept(CallExpr.java:45)
+	at javassist.compiler.MemberCodeGen.atCallExpr(MemberCodeGen.java:496)
+	at javassist.compiler.JvstCodeGen.atCallExpr(JvstCodeGen.java:243)
+	at javassist.compiler.ast.CallExpr.accept(CallExpr.java:45)
+	at javassist.compiler.CodeGen.atBinExpr(CodeGen.java:963)
+	at javassist.compiler.ast.BinExpr.accept(BinExpr.java:40)
+	at javassist.compiler.JvstCodeGen.atMethodArgs(JvstCodeGen.java:357)
+	at javassist.compiler.MemberCodeGen.atMethodCallCore(MemberCodeGen.java:555)
+	at javassist.compiler.MemberCodeGen.atNewExpr(MemberCodeGen.java:301)
+	at javassist.compiler.ast.NewExpr.accept(NewExpr.java:72)
+	at javassist.compiler.CodeGen.compileExpr(CodeGen.java:229)
+	at javassist.compiler.CodeGen.atThrowStmnt(CodeGen.java:627)
+	at javassist.compiler.CodeGen.atStmnt(CodeGen.java:364)
+	at javassist.compiler.ast.Stmnt.accept(Stmnt.java:49)
+	at javassist.compiler.CodeGen.atIfStmnt(CodeGen.java:390)
+	at javassist.compiler.CodeGen.atStmnt(CodeGen.java:354)
+	at javassist.compiler.ast.Stmnt.accept(Stmnt.java:49)
+	at javassist.compiler.CodeGen.atStmnt(CodeGen.java:350)
+	at javassist.compiler.ast.Stmnt.accept(Stmnt.java:49)
+	at javassist.compiler.CodeGen.atMethodBody(CodeGen.java:291)
+	at javassist.compiler.CodeGen.atMethodDecl(CodeGen.java:273)
+	at javassist.compiler.ast.MethodDecl.accept(MethodDecl.java:43)
+	at javassist.compiler.Javac.compileMethod(Javac.java:168)
+	at javassist.compiler.Javac.compile(Javac.java:94)
+	at javassist.CtNewMethod.make(CtNewMethod.java:73)
+	at javassist.CtNewMethod.make(CtNewMethod.java:44)
+	at com.alibaba.dubbo.common.compiler.support.JavassistCompiler.doCompile(JavassistCompiler.java:119)
+	at com.alibaba.dubbo.common.compiler.support.AbstractCompiler.compile(AbstractCompiler.java:59)
+	at com.alibaba.dubbo.common.compiler.support.AdaptiveCompiler.compile(AdaptiveCompiler.java:46)
+	at com.alibaba.dubbo.common.extension.ExtensionLoader.createAdaptiveExtensionClass(ExtensionLoader.java:739)
+	at com.alibaba.dubbo.common.extension.ExtensionLoader.getAdaptiveExtensionClass(ExtensionLoader.java:732)
+	at com.alibaba.dubbo.common.extension.ExtensionLoader.createAdaptiveExtension(ExtensionLoader.java:721)
+	... 26 more
+Caused by: java.io.IOException: invalid constant type: 18
+	at javassist.bytecode.ConstPool.readOne(ConstPool.java:1027)
+	at javassist.bytecode.ConstPool.read(ConstPool.java:970)
+	at javassist.bytecode.ConstPool.<init>(ConstPool.java:127)
+	at javassist.bytecode.ClassFile.read(ClassFile.java:716)
+	at javassist.bytecode.ClassFile.<init>(ClassFile.java:103)
+	at javassist.CtClassType.getClassFile2(CtClassType.java:190)
+	... 71 more
+2023-02-28 16:39:32,601 INFO  org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:307) localhost-startStop-1 |- Root WebApplicationContext: initialization started
+2023-02-28 16:39:32,678 INFO  org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:578) localhost-startStop-1 |- Refreshing Root WebApplicationContext: startup date [Tue Feb 28 16:39:32 HKT 2023]; root of context hierarchy
+2023-02-28 16:39:32,722 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317) localhost-startStop-1 |- Loading XML bean definitions from file [C:\Users\Administrator\eclipse-workspace\pinyougou-parent\pinyougou-sellergoods-service\target\classes\spring\applicationContext-service.xml]
+2023-02-28 16:39:33,004 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317) localhost-startStop-1 |- Loading XML bean definitions from URL [jar:file:/C:/Users/Administrator/.m2/repository/com/pinyougou/pinyougou-dao/0.0.1-SNAPSHOT/pinyougou-dao-0.0.1-SNAPSHOT.jar!/spring/applicationContext-dao.xml]
+2023-02-28 16:39:33,267 INFO  org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(PropertiesLoaderSupport.java:172) localhost-startStop-1 |- Loading properties file from class path resource [properties/db.properties]
+2023-02-28 16:39:33,292 INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init>(AutowiredAnnotationBeanPostProcessor.java:153) localhost-startStop-1 |- JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2023-02-28 16:39:34,227 WARN  org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:546) localhost-startStop-1 |- Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'brandServiceImpl' defined in file [C:\Users\Administrator\eclipse-workspace\pinyougou-parent\pinyougou-sellergoods-service\target\classes\com\pinyougou\sellergoods\service\impl\BrandServiceImpl.class]: Initialization of bean failed; nested exception is java.lang.ExceptionInInitializerError
+2023-02-28 16:39:34,232 ERROR org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:353) localhost-startStop-1 |- Context initialization failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'brandServiceImpl' defined in file [C:\Users\Administrator\eclipse-workspace\pinyougou-parent\pinyougou-sellergoods-service\target\classes\com\pinyougou\sellergoods\service\impl\BrandServiceImpl.class]: Initialization of bean failed; nested exception is java.lang.ExceptionInInitializerError
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:772)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:839)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:538)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:446)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:328)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:107)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4939)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5434)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1559)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1549)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.ExceptionInInitializerError
+	at com.alibaba.dubbo.config.spring.AnnotationBean.postProcessAfterInitialization(AnnotationBean.java:145)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsAfterInitialization(AbstractAutowireCapableBeanFactory.java:422)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1583)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:545)
+	... 20 more
+Caused by: java.lang.IllegalStateException: fail to create adaptive instance: java.lang.IllegalStateException: Can not create adaptive extenstion interface com.alibaba.dubbo.rpc.Protocol, cause: java.io.IOException: invalid constant type: 18
+	at com.alibaba.dubbo.common.extension.ExtensionLoader.getAdaptiveExtension(ExtensionLoader.java:459)
+	at com.alibaba.dubbo.config.ServiceConfig.<clinit>(ServiceConfig.java:62)
+	... 24 more
+Caused by: java.lang.IllegalStateException: Can not create adaptive extenstion interface com.alibaba.dubbo.rpc.Protocol, cause: java.io.IOException: invalid constant type: 18
+	at com.alibaba.dubbo.common.extension.ExtensionLoader.createAdaptiveExtension(ExtensionLoader.java:723)
+	at com.alibaba.dubbo.common.extension.ExtensionLoader.getAdaptiveExtension(ExtensionLoader.java:455)
+	... 25 more
+Caused by: java.lang.RuntimeException: java.io.IOException: invalid constant type: 18
+	at javassist.CtClassType.getClassFile2(CtClassType.java:203)
+	at javassist.CtClassType.subtypeOf(CtClassType.java:303)
+	at javassist.compiler.MemberResolver.compareSignature(MemberResolver.java:247)
+	at javassist.compiler.MemberResolver.lookupMethod(MemberResolver.java:119)
+	at javassist.compiler.MemberResolver.lookupMethod(MemberResolver.java:96)
+	at javassist.compiler.MemberCodeGen.atMethodCallCore(MemberCodeGen.java:561)
+	at javassist.compiler.MemberCodeGen.atCallExpr(MemberCodeGen.java:523)
+	at javassist.compiler.JvstCodeGen.atCallExpr(JvstCodeGen.java:243)
+	at javassist.compiler.ast.CallExpr.accept(CallExpr.java:45)
+	at javassist.compiler.MemberCodeGen.atCallExpr(MemberCodeGen.java:496)
+	at javassist.compiler.JvstCodeGen.atCallExpr(JvstCodeGen.java:243)
+	at javassist.compiler.ast.CallExpr.accept(CallExpr.java:45)
+	at javassist.compiler.MemberCodeGen.atCallExpr(MemberCodeGen.java:496)
+	at javassist.compiler.JvstCodeGen.atCallExpr(JvstCodeGen.java:243)
+	at javassist.compiler.ast.CallExpr.accept(CallExpr.java:45)
+	at javassist.compiler.MemberCodeGen.atCallExpr(MemberCodeGen.java:496)
+	at javassist.compiler.JvstCodeGen.atCallExpr(JvstCodeGen.java:243)
+	at javassist.compiler.ast.CallExpr.accept(CallExpr.java:45)
+	at javassist.compiler.CodeGen.atBinExpr(CodeGen.java:963)
+	at javassist.compiler.ast.BinExpr.accept(BinExpr.java:40)
+	at javassist.compiler.JvstCodeGen.atMethodArgs(JvstCodeGen.java:357)
+	at javassist.compiler.MemberCodeGen.atMethodCallCore(MemberCodeGen.java:555)
+	at javassist.compiler.MemberCodeGen.atNewExpr(MemberCodeGen.java:301)
+	at javassist.compiler.ast.NewExpr.accept(NewExpr.java:72)
+	at javassist.compiler.CodeGen.compileExpr(CodeGen.java:229)
+	at javassist.compiler.CodeGen.atThrowStmnt(CodeGen.java:627)
+	at javassist.compiler.CodeGen.atStmnt(CodeGen.java:364)
+	at javassist.compiler.ast.Stmnt.accept(Stmnt.java:49)
+	at javassist.compiler.CodeGen.atIfStmnt(CodeGen.java:390)
+	at javassist.compiler.CodeGen.atStmnt(CodeGen.java:354)
+	at javassist.compiler.ast.Stmnt.accept(Stmnt.java:49)
+	at javassist.compiler.CodeGen.atStmnt(CodeGen.java:350)
+	at javassist.compiler.ast.Stmnt.accept(Stmnt.java:49)
+	at javassist.compiler.CodeGen.atMethodBody(CodeGen.java:291)
+	at javassist.compiler.CodeGen.atMethodDecl(CodeGen.java:273)
+	at javassist.compiler.ast.MethodDecl.accept(MethodDecl.java:43)
+	at javassist.compiler.Javac.compileMethod(Javac.java:168)
+	at javassist.compiler.Javac.compile(Javac.java:94)
+	at javassist.CtNewMethod.make(CtNewMethod.java:73)
+	at javassist.CtNewMethod.make(CtNewMethod.java:44)
+	at com.alibaba.dubbo.common.compiler.support.JavassistCompiler.doCompile(JavassistCompiler.java:119)
+	at com.alibaba.dubbo.common.compiler.support.AbstractCompiler.compile(AbstractCompiler.java:59)
+	at com.alibaba.dubbo.common.compiler.support.AdaptiveCompiler.compile(AdaptiveCompiler.java:46)
+	at com.alibaba.dubbo.common.extension.ExtensionLoader.createAdaptiveExtensionClass(ExtensionLoader.java:739)
+	at com.alibaba.dubbo.common.extension.ExtensionLoader.getAdaptiveExtensionClass(ExtensionLoader.java:732)
+	at com.alibaba.dubbo.common.extension.ExtensionLoader.createAdaptiveExtension(ExtensionLoader.java:721)
+	... 26 more
+Caused by: java.io.IOException: invalid constant type: 18
+	at javassist.bytecode.ConstPool.readOne(ConstPool.java:1027)
+	at javassist.bytecode.ConstPool.read(ConstPool.java:970)
+	at javassist.bytecode.ConstPool.<init>(ConstPool.java:127)
+	at javassist.bytecode.ClassFile.read(ClassFile.java:716)
+	at javassist.bytecode.ClassFile.<init>(ClassFile.java:103)
+	at javassist.CtClassType.getClassFile2(CtClassType.java:190)
+	... 71 more
+2023-02-28 16:48:09,199 INFO  org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:307) localhost-startStop-1 |- Root WebApplicationContext: initialization started
+2023-02-28 16:48:09,298 INFO  org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:578) localhost-startStop-1 |- Refreshing Root WebApplicationContext: startup date [Tue Feb 28 16:48:09 CST 2023]; root of context hierarchy
+2023-02-28 16:48:09,352 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317) localhost-startStop-1 |- Loading XML bean definitions from file [C:\Users\Administrator\eclipse-workspace\pinyougou-parent\pinyougou-sellergoods-service\target\classes\spring\applicationContext-service.xml]
+2023-02-28 16:48:09,573 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317) localhost-startStop-1 |- Loading XML bean definitions from URL [jar:file:/C:/Users/Administrator/.m2/repository/com/pinyougou/pinyougou-dao/0.0.1-SNAPSHOT/pinyougou-dao-0.0.1-SNAPSHOT.jar!/spring/applicationContext-dao.xml]
+2023-02-28 16:48:09,808 INFO  org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(PropertiesLoaderSupport.java:172) localhost-startStop-1 |- Loading properties file from class path resource [properties/db.properties]
+2023-02-28 16:48:09,838 INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init>(AutowiredAnnotationBeanPostProcessor.java:153) localhost-startStop-1 |- JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2023-02-28 16:48:11,224 INFO  org.I0Itec.zkclient.ZkEventThread.run(ZkEventThread.java:64) ZkClient-EventThread-25-192.168.25.128:2181 |- Starting ZkClient event thread.
+2023-02-28 16:48:11,235 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) localhost-startStop-1 |- Client environment:zookeeper.version=3.4.7-1713338, built on 11/09/2015 04:32 GMT
+2023-02-28 16:48:11,236 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) localhost-startStop-1 |- Client environment:host.name=windows10.microdone.cn
+2023-02-28 16:48:11,236 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) localhost-startStop-1 |- Client environment:java.version=1.8.0_152
+2023-02-28 16:48:11,236 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) localhost-startStop-1 |- Client environment:java.vendor=Oracle Corporation
+2023-02-28 16:48:11,236 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) localhost-startStop-1 |- Client environment:java.home=C:\Java\jdk1.8\jre
+2023-02-28 16:48:11,237 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) localhost-startStop-1 |- Client environment:java.class.path=D:\apache-maven-3.8.6\boot\plexus-classworlds-2.6.0.jar
+2023-02-28 16:48:11,237 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) localhost-startStop-1 |- Client environment:java.library.path=C:\Java\jdk1.8\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_152/bin/server;C:/Program Files/Java/jre1.8.0_152/bin;C:/Program Files/Java/jre1.8.0_152/lib/amd64;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Java\jdk1.8\bin;C:\Java\jdk1.8\jre\bin;D:\apache-maven-3.8.6\bin;C:\Program Files (x86)\Java\jdk1.8.0_191\bin;D:\VMware 15.5\bin\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\MySQL\mysql-5.6.51-winx64\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;D:\nodejs\;C:\ProgramData\chocolatey\bin;C:\Java\bin;D:\apache-artemis-2.27.0\bin;C:\Program Files (x86)\MySQL\mysql-5.6.51-winx64\bin;C:\Users\Administrator\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\Administrator\AppData\Local\Programs\Python\Python39\;D:\Python39\;D:\Scripts\;D:\;"C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;D:\php;D:\php\ext";C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;D:\IntelliJ IDEA Community Edition 2021.3.2\bin;;C:\Users\Administrator\AppData\Roaming\npm;C:\WINDOWS\system32;;.
+2023-02-28 16:48:11,237 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) localhost-startStop-1 |- Client environment:java.io.tmpdir=C:\Users\ADMINI~1\AppData\Local\Temp\
+2023-02-28 16:48:11,238 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) localhost-startStop-1 |- Client environment:java.compiler=<NA>
+2023-02-28 16:48:11,239 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) localhost-startStop-1 |- Client environment:os.name=Windows 10
+2023-02-28 16:48:11,239 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) localhost-startStop-1 |- Client environment:os.arch=amd64
+2023-02-28 16:48:11,239 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) localhost-startStop-1 |- Client environment:os.version=10.0
+2023-02-28 16:48:11,240 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) localhost-startStop-1 |- Client environment:user.name=Administrator
+2023-02-28 16:48:11,240 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) localhost-startStop-1 |- Client environment:user.home=C:\Users\Administrator
+2023-02-28 16:48:11,240 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) localhost-startStop-1 |- Client environment:user.dir=C:\Users\Administrator\eclipse-workspace\pinyougou-parent\pinyougou-sellergoods-service
+2023-02-28 16:48:11,241 INFO  org.apache.zookeeper.ZooKeeper.<init>(ZooKeeper.java:438) localhost-startStop-1 |- Initiating client connection, connectString=192.168.25.128:2181 sessionTimeout=60000 watcher=org.I0Itec.zkclient.ZkClient@f906d0f
+2023-02-28 16:48:11,264 INFO  org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1032) localhost-startStop-1-SendThread(192.168.25.128:2181) |- Opening socket connection to server 192.168.25.128/192.168.25.128:2181. Will not attempt to authenticate using SASL (unknown error)
+2023-02-28 16:48:11,271 INFO  org.apache.zookeeper.ClientCnxn$SendThread.primeConnection(ClientCnxn.java:876) localhost-startStop-1-SendThread(192.168.25.128:2181) |- Socket connection established to 192.168.25.128/192.168.25.128:2181, initiating session
+2023-02-28 16:48:11,347 INFO  org.apache.zookeeper.ClientCnxn$SendThread.onConnected(ClientCnxn.java:1299) localhost-startStop-1-SendThread(192.168.25.128:2181) |- Session establishment complete on server 192.168.25.128/192.168.25.128:2181, sessionid = 0x18691b7e95e0000, negotiated timeout = 40000
+2023-02-28 16:48:11,349 INFO  org.I0Itec.zkclient.ZkClient.processStateChanged(ZkClient.java:449) localhost-startStop-1-EventThread |- zookeeper state changed (SyncConnected)
+2023-02-28 16:48:11,485 INFO  org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:347) localhost-startStop-1 |- Root WebApplicationContext: initialization completed in 2284 ms
+2023-02-28 17:03:20,896 INFO  org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:307) localhost-startStop-1 |- Root WebApplicationContext: initialization started
+2023-02-28 17:03:20,994 INFO  org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:578) localhost-startStop-1 |- Refreshing Root WebApplicationContext: startup date [Tue Feb 28 17:03:20 CST 2023]; root of context hierarchy
+2023-02-28 17:03:21,084 INFO  org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:347) localhost-startStop-1 |- Root WebApplicationContext: initialization completed in 185 ms
+2023-02-28 17:03:27,542 INFO  org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:489) http-bio-9101-exec-1 |- FrameworkServlet 'springmvc': initialization started
+2023-02-28 17:03:27,547 INFO  org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:578) http-bio-9101-exec-1 |- Refreshing WebApplicationContext for namespace 'springmvc-servlet': startup date [Tue Feb 28 17:03:27 CST 2023]; parent: Root WebApplicationContext
+2023-02-28 17:03:27,550 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317) http-bio-9101-exec-1 |- Loading XML bean definitions from class path resource [spring/springmvc.xml]
+2023-02-28 17:03:27,880 INFO  org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(PropertiesLoaderSupport.java:172) http-bio-9101-exec-1 |- Loading properties file from class path resource [config/application.properties]
+2023-02-28 17:03:27,951 INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init>(AutowiredAnnotationBeanPostProcessor.java:153) http-bio-9101-exec-1 |- JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2023-02-28 17:03:28,229 INFO  org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:527) http-bio-9101-exec-1 |- Mapped "{[/brand/findAll]}" onto public java.util.List<com.pinyougou.pojo.TbBrand> com.pinyougou.manager.controller.BrandController.findAll()
+2023-02-28 17:03:28,542 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:532) http-bio-9101-exec-1 |- Looking for @ControllerAdvice: WebApplicationContext for namespace 'springmvc-servlet': startup date [Tue Feb 28 17:03:27 CST 2023]; parent: Root WebApplicationContext
+2023-02-28 17:03:28,610 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:532) http-bio-9101-exec-1 |- Looking for @ControllerAdvice: WebApplicationContext for namespace 'springmvc-servlet': startup date [Tue Feb 28 17:03:27 CST 2023]; parent: Root WebApplicationContext
+2023-02-28 17:03:34,751 INFO  org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:489) http-bio-9101-exec-2 |- FrameworkServlet 'springmvc': initialization started
+2023-02-28 17:03:34,753 INFO  org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:578) http-bio-9101-exec-2 |- Refreshing WebApplicationContext for namespace 'springmvc-servlet': startup date [Tue Feb 28 17:03:34 CST 2023]; parent: Root WebApplicationContext
+2023-02-28 17:03:34,753 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317) http-bio-9101-exec-2 |- Loading XML bean definitions from class path resource [spring/springmvc.xml]
+2023-02-28 17:03:34,820 INFO  org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(PropertiesLoaderSupport.java:172) http-bio-9101-exec-2 |- Loading properties file from class path resource [config/application.properties]
+2023-02-28 17:03:34,832 INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init>(AutowiredAnnotationBeanPostProcessor.java:153) http-bio-9101-exec-2 |- JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2023-02-28 17:03:34,867 INFO  org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:527) http-bio-9101-exec-2 |- Mapped "{[/brand/findAll]}" onto public java.util.List<com.pinyougou.pojo.TbBrand> com.pinyougou.manager.controller.BrandController.findAll()
+2023-02-28 17:03:34,895 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:532) http-bio-9101-exec-2 |- Looking for @ControllerAdvice: WebApplicationContext for namespace 'springmvc-servlet': startup date [Tue Feb 28 17:03:34 CST 2023]; parent: Root WebApplicationContext
+2023-02-28 17:03:34,933 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:532) http-bio-9101-exec-2 |- Looking for @ControllerAdvice: WebApplicationContext for namespace 'springmvc-servlet': startup date [Tue Feb 28 17:03:34 CST 2023]; parent: Root WebApplicationContext
+2023-02-28 17:10:09,668 INFO  org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:489) http-bio-9101-exec-1 |- FrameworkServlet 'springmvc': initialization started
+2023-02-28 17:10:09,697 INFO  org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:578) http-bio-9101-exec-1 |- Refreshing WebApplicationContext for namespace 'springmvc-servlet': startup date [Tue Feb 28 17:10:09 CST 2023]; root of context hierarchy
+2023-02-28 17:10:09,735 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317) http-bio-9101-exec-1 |- Loading XML bean definitions from class path resource [spring/springmvc.xml]
+2023-02-28 17:10:10,083 INFO  org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(PropertiesLoaderSupport.java:172) http-bio-9101-exec-1 |- Loading properties file from class path resource [config/application.properties]
+2023-02-28 17:10:10,183 INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init>(AutowiredAnnotationBeanPostProcessor.java:153) http-bio-9101-exec-1 |- JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2023-02-28 17:10:10,374 INFO  org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:527) http-bio-9101-exec-1 |- Mapped "{[/brand/findAll]}" onto public java.util.List<com.pinyougou.pojo.TbBrand> com.pinyougou.manager.controller.BrandController.findAll()
+2023-02-28 17:10:10,630 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:532) http-bio-9101-exec-1 |- Looking for @ControllerAdvice: WebApplicationContext for namespace 'springmvc-servlet': startup date [Tue Feb 28 17:10:09 CST 2023]; root of context hierarchy
+2023-02-28 17:10:10,671 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:532) http-bio-9101-exec-1 |- Looking for @ControllerAdvice: WebApplicationContext for namespace 'springmvc-servlet': startup date [Tue Feb 28 17:10:09 CST 2023]; root of context hierarchy
+2023-02-28 17:15:50,884 INFO  org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:489) http-bio-9101-exec-1 |- FrameworkServlet 'springmvc': initialization started
+2023-02-28 17:15:50,916 INFO  org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:578) http-bio-9101-exec-1 |- Refreshing WebApplicationContext for namespace 'springmvc-servlet': startup date [Tue Feb 28 17:15:50 CST 2023]; root of context hierarchy
+2023-02-28 17:15:50,956 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317) http-bio-9101-exec-1 |- Loading XML bean definitions from class path resource [spring/springmvc.xml]
+2023-02-28 17:15:51,467 INFO  org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(PropertiesLoaderSupport.java:172) http-bio-9101-exec-1 |- Loading properties file from class path resource [config/application.properties]
+2023-02-28 17:15:51,608 INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init>(AutowiredAnnotationBeanPostProcessor.java:153) http-bio-9101-exec-1 |- JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2023-02-28 17:15:51,911 INFO  org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:527) http-bio-9101-exec-1 |- Mapped "{[/brand/findAll]}" onto public java.util.List<com.pinyougou.pojo.TbBrand> com.pinyougou.manager.controller.BrandController.findAll()
+2023-02-28 17:15:52,230 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:532) http-bio-9101-exec-1 |- Looking for @ControllerAdvice: WebApplicationContext for namespace 'springmvc-servlet': startup date [Tue Feb 28 17:15:50 CST 2023]; root of context hierarchy
+2023-02-28 17:15:52,275 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:532) http-bio-9101-exec-1 |- Looking for @ControllerAdvice: WebApplicationContext for namespace 'springmvc-servlet': startup date [Tue Feb 28 17:15:50 CST 2023]; root of context hierarchy
+2023-02-28 17:15:52,630 INFO  org.I0Itec.zkclient.ZkEventThread.run(ZkEventThread.java:64) ZkClient-EventThread-23-192.168.25.128:2181 |- Starting ZkClient event thread.
+2023-02-28 17:15:52,646 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) http-bio-9101-exec-1 |- Client environment:zookeeper.version=3.4.7-1713338, built on 11/09/2015 04:32 GMT
+2023-02-28 17:15:52,646 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) http-bio-9101-exec-1 |- Client environment:host.name=windows10.microdone.cn
+2023-02-28 17:15:52,646 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) http-bio-9101-exec-1 |- Client environment:java.version=1.8.0_152
+2023-02-28 17:15:52,646 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) http-bio-9101-exec-1 |- Client environment:java.vendor=Oracle Corporation
+2023-02-28 17:15:52,646 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) http-bio-9101-exec-1 |- Client environment:java.home=C:\Java\jdk1.8\jre
+2023-02-28 17:15:52,647 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) http-bio-9101-exec-1 |- Client environment:java.class.path=D:\apache-maven-3.8.6\boot\plexus-classworlds-2.6.0.jar
+2023-02-28 17:15:52,647 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) http-bio-9101-exec-1 |- Client environment:java.library.path=C:\Java\jdk1.8\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_152/bin/server;C:/Program Files/Java/jre1.8.0_152/bin;C:/Program Files/Java/jre1.8.0_152/lib/amd64;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Java\jdk1.8\bin;C:\Java\jdk1.8\jre\bin;D:\apache-maven-3.8.6\bin;C:\Program Files (x86)\Java\jdk1.8.0_191\bin;D:\VMware 15.5\bin\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\MySQL\mysql-5.6.51-winx64\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;D:\nodejs\;C:\ProgramData\chocolatey\bin;C:\Java\bin;D:\apache-artemis-2.27.0\bin;C:\Program Files (x86)\MySQL\mysql-5.6.51-winx64\bin;C:\Users\Administrator\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\Administrator\AppData\Local\Programs\Python\Python39\;D:\Python39\;D:\Scripts\;D:\;"C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;D:\php;D:\php\ext";C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;D:\IntelliJ IDEA Community Edition 2021.3.2\bin;;C:\Users\Administrator\AppData\Roaming\npm;C:\WINDOWS\system32;;.
+2023-02-28 17:15:52,648 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) http-bio-9101-exec-1 |- Client environment:java.io.tmpdir=C:\Users\ADMINI~1\AppData\Local\Temp\
+2023-02-28 17:15:52,649 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) http-bio-9101-exec-1 |- Client environment:java.compiler=<NA>
+2023-02-28 17:15:52,649 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) http-bio-9101-exec-1 |- Client environment:os.name=Windows 10
+2023-02-28 17:15:52,649 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) http-bio-9101-exec-1 |- Client environment:os.arch=amd64
+2023-02-28 17:15:52,649 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) http-bio-9101-exec-1 |- Client environment:os.version=10.0
+2023-02-28 17:15:52,649 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) http-bio-9101-exec-1 |- Client environment:user.name=Administrator
+2023-02-28 17:15:52,649 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) http-bio-9101-exec-1 |- Client environment:user.home=C:\Users\Administrator
+2023-02-28 17:15:52,650 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) http-bio-9101-exec-1 |- Client environment:user.dir=C:\Users\Administrator\eclipse-workspace\pinyougou-parent\pinyougou-manager-web
+2023-02-28 17:15:52,651 INFO  org.apache.zookeeper.ZooKeeper.<init>(ZooKeeper.java:438) http-bio-9101-exec-1 |- Initiating client connection, connectString=192.168.25.128:2181 sessionTimeout=60000 watcher=org.I0Itec.zkclient.ZkClient@2eafd90
+2023-02-28 17:15:52,697 INFO  org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1032) http-bio-9101-exec-1-SendThread(192.168.25.128:2181) |- Opening socket connection to server 192.168.25.128/192.168.25.128:2181. Will not attempt to authenticate using SASL (unknown error)
+2023-02-28 17:15:52,699 INFO  org.apache.zookeeper.ClientCnxn$SendThread.primeConnection(ClientCnxn.java:876) http-bio-9101-exec-1-SendThread(192.168.25.128:2181) |- Socket connection established to 192.168.25.128/192.168.25.128:2181, initiating session
+2023-02-28 17:15:52,727 INFO  org.apache.zookeeper.ClientCnxn$SendThread.onConnected(ClientCnxn.java:1299) http-bio-9101-exec-1-SendThread(192.168.25.128:2181) |- Session establishment complete on server 192.168.25.128/192.168.25.128:2181, sessionid = 0x18691b7e95e0001, negotiated timeout = 40000
+2023-02-28 17:15:52,729 INFO  org.I0Itec.zkclient.ZkClient.processStateChanged(ZkClient.java:449) http-bio-9101-exec-1-EventThread |- zookeeper state changed (SyncConnected)
+2023-02-28 17:15:53,288 INFO  org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:508) http-bio-9101-exec-1 |- FrameworkServlet 'springmvc': initialization completed in 2398 ms
+2023-02-28 17:15:53,547 INFO  com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:655) DubboServerHandler-172.16.10.1:20881-thread-2 |- {dataSource-1} inited

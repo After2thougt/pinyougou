@@ -1,0 +1,23 @@
+2023-04-22 15:59:08,782 WARN  org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1162) localhost-startStop-1-SendThread(192.168.25.128:2181) |- Session 0x1877578f73d005b for server 192.168.25.128/192.168.25.128:2181, unexpected error, closing socket connection and attempting reconnect
+java.io.IOException: An existing connection was forcibly closed by the remote host
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doIO(ClientCnxnSocketNIO.java:68)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:366)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+2023-04-22 16:04:26,451 WARN  org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1162) localhost-startStop-1-SendThread(192.168.25.128:2181) |- Session 0x1877578f73d005b for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+2023-04-22 16:04:50,078 WARN  org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1162) localhost-startStop-1-SendThread(192.168.25.128:2181) |- Session 0x1877578f73d005b for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+2023-04-22 16:04:51,602 WARN  org.apache.zookeeper.ClientCnxn$SendThread.onConnected(ClientCnxn.java:1285) localhost-startStop-1-SendThread(192.168.25.128:2181) |- Unable to reconnect to ZooKeeper service, session 0x1877578f73d005b has expired

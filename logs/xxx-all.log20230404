@@ -1,0 +1,862 @@
+2023-04-04 16:47:45,708 INFO  com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:655) main |- {dataSource-1} inited
+2023-04-04 20:57:19,337 INFO  org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:307) localhost-startStop-1 |- Root WebApplicationContext: initialization started
+2023-04-04 20:57:19,512 INFO  org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:578) localhost-startStop-1 |- Refreshing Root WebApplicationContext: startup date [Tue Apr 04 20:57:19 CST 2023]; root of context hierarchy
+2023-04-04 20:57:19,632 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317) localhost-startStop-1 |- Loading XML bean definitions from file [C:\Users\Administrator\eclipse-workspace\pinyougou-parent\pinyougou-search-service\target\classes\spring\applicationContext-service.xml]
+2023-04-04 20:57:20,033 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317) localhost-startStop-1 |- Loading XML bean definitions from file [C:\Users\Administrator\eclipse-workspace\pinyougou-parent\pinyougou-search-service\target\classes\spring\applicationContext-solr.xml]
+2023-04-04 20:57:20,125 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317) localhost-startStop-1 |- Loading XML bean definitions from URL [jar:file:/C:/Users/Administrator/.m2/repository/com/pinyougou/pinyougou-common/0.0.1-SNAPSHOT/pinyougou-common-0.0.1-SNAPSHOT.jar!/spring/applicationContext-redis.xml]
+2023-04-04 20:57:20,325 INFO  org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(PropertiesLoaderSupport.java:172) localhost-startStop-1 |- Loading properties file from URL [jar:file:/C:/Users/Administrator/.m2/repository/com/pinyougou/pinyougou-common/0.0.1-SNAPSHOT/pinyougou-common-0.0.1-SNAPSHOT.jar!/properties/redis-config.properties]
+2023-04-04 20:57:20,389 INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init>(AutowiredAnnotationBeanPostProcessor.java:153) localhost-startStop-1 |- JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2023-04-04 20:57:21,767 INFO  org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:347) localhost-startStop-1 |- Root WebApplicationContext: initialization completed in 2426 ms
+2023-04-04 21:02:03,505 INFO  org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:489) http-bio-9104-exec-4 |- FrameworkServlet 'springmvc': initialization started
+2023-04-04 21:02:03,533 INFO  org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:578) http-bio-9104-exec-4 |- Refreshing WebApplicationContext for namespace 'springmvc-servlet': startup date [Tue Apr 04 21:02:03 CST 2023]; root of context hierarchy
+2023-04-04 21:02:03,589 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317) http-bio-9104-exec-4 |- Loading XML bean definitions from class path resource [spring/springmvc.xml]
+2023-04-04 21:02:04,157 INFO  org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(PropertiesLoaderSupport.java:172) http-bio-9104-exec-4 |- Loading properties file from class path resource [config/application.properties]
+2023-04-04 21:02:04,256 INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init>(AutowiredAnnotationBeanPostProcessor.java:153) http-bio-9104-exec-4 |- JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2023-04-04 21:02:04,541 INFO  org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:527) http-bio-9104-exec-4 |- Mapped "{[/itemsearch/search]}" onto public java.util.Map com.pinyougou.search.controller.ItemSearchController.search(java.util.Map)
+2023-04-04 21:02:05,170 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:532) http-bio-9104-exec-4 |- Looking for @ControllerAdvice: WebApplicationContext for namespace 'springmvc-servlet': startup date [Tue Apr 04 21:02:03 CST 2023]; root of context hierarchy
+2023-04-04 21:02:05,259 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:532) http-bio-9104-exec-4 |- Looking for @ControllerAdvice: WebApplicationContext for namespace 'springmvc-servlet': startup date [Tue Apr 04 21:02:03 CST 2023]; root of context hierarchy
+2023-04-04 21:02:06,612 INFO  org.I0Itec.zkclient.ZkEventThread.run(ZkEventThread.java:64) ZkClient-EventThread-33-192.168.25.128:2181 |- Starting ZkClient event thread.
+2023-04-04 21:02:06,633 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) http-bio-9104-exec-4 |- Client environment:zookeeper.version=3.4.7-1713338, built on 11/09/2015 04:32 GMT
+2023-04-04 21:02:06,633 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) http-bio-9104-exec-4 |- Client environment:host.name=windows10.microdone.cn
+2023-04-04 21:02:06,634 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) http-bio-9104-exec-4 |- Client environment:java.version=1.8.0_152
+2023-04-04 21:02:06,634 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) http-bio-9104-exec-4 |- Client environment:java.vendor=Oracle Corporation
+2023-04-04 21:02:06,634 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) http-bio-9104-exec-4 |- Client environment:java.home=C:\Java\jdk1.8\jre
+2023-04-04 21:02:06,635 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) http-bio-9104-exec-4 |- Client environment:java.class.path=D:\apache-maven-3.8.6\boot\plexus-classworlds-2.6.0.jar
+2023-04-04 21:02:06,635 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) http-bio-9104-exec-4 |- Client environment:java.library.path=C:\Java\jdk1.8\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_152/bin/server;C:/Program Files/Java/jre1.8.0_152/bin;C:/Program Files/Java/jre1.8.0_152/lib/amd64;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Java\jdk1.8\bin;C:\Java\jdk1.8\jre\bin;D:\apache-maven-3.8.6\bin;C:\Program Files (x86)\Java\jdk1.8.0_191\bin;D:\VMware 15.5\bin\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\MySQL\mysql-5.6.51-winx64\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;D:\nodejs\;C:\ProgramData\chocolatey\bin;C:\Java\bin;D:\apache-artemis-2.27.0\bin;C:\Program Files (x86)\MySQL\mysql-5.6.51-winx64\bin;C:\Users\Administrator\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\Administrator\AppData\Local\Programs\Python\Python39\;D:\Python39\;D:\Scripts\;D:\;"C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;D:\php;D:\php\ext";C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;D:\IntelliJ IDEA Community Edition 2021.3.2\bin;;C:\Users\Administrator\AppData\Roaming\npm;C:\WINDOWS\system32;;.
+2023-04-04 21:02:06,639 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) http-bio-9104-exec-4 |- Client environment:java.io.tmpdir=C:\Users\ADMINI~1\AppData\Local\Temp\
+2023-04-04 21:02:06,640 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) http-bio-9104-exec-4 |- Client environment:java.compiler=<NA>
+2023-04-04 21:02:06,640 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) http-bio-9104-exec-4 |- Client environment:os.name=Windows 10
+2023-04-04 21:02:06,641 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) http-bio-9104-exec-4 |- Client environment:os.arch=amd64
+2023-04-04 21:02:06,642 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) http-bio-9104-exec-4 |- Client environment:os.version=10.0
+2023-04-04 21:02:06,643 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) http-bio-9104-exec-4 |- Client environment:user.name=Administrator
+2023-04-04 21:02:06,643 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) http-bio-9104-exec-4 |- Client environment:user.home=C:\Users\Administrator
+2023-04-04 21:02:06,646 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) http-bio-9104-exec-4 |- Client environment:user.dir=C:\Users\Administrator\eclipse-workspace\pinyougou-parent\pinyougou-search-web
+2023-04-04 21:02:06,650 INFO  org.apache.zookeeper.ZooKeeper.<init>(ZooKeeper.java:438) http-bio-9104-exec-4 |- Initiating client connection, connectString=192.168.25.128:2181 sessionTimeout=60000 watcher=org.I0Itec.zkclient.ZkClient@175d3a1d
+2023-04-04 21:02:06,723 INFO  org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1032) http-bio-9104-exec-4-SendThread(192.168.25.128:2181) |- Opening socket connection to server 192.168.25.128/192.168.25.128:2181. Will not attempt to authenticate using SASL (unknown error)
+2023-04-04 21:02:06,736 INFO  org.apache.zookeeper.ClientCnxn$SendThread.primeConnection(ClientCnxn.java:876) http-bio-9104-exec-4-SendThread(192.168.25.128:2181) |- Socket connection established to 192.168.25.128/192.168.25.128:2181, initiating session
+2023-04-04 21:02:07,417 INFO  org.apache.zookeeper.ClientCnxn$SendThread.onConnected(ClientCnxn.java:1299) http-bio-9104-exec-4-SendThread(192.168.25.128:2181) |- Session establishment complete on server 192.168.25.128/192.168.25.128:2181, sessionid = 0x18740c65f80001d, negotiated timeout = 40000
+2023-04-04 21:02:07,419 INFO  org.I0Itec.zkclient.ZkClient.processStateChanged(ZkClient.java:449) http-bio-9104-exec-4-EventThread |- zookeeper state changed (SyncConnected)
+2023-04-04 21:02:07,925 WARN  org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:546) http-bio-9104-exec-4 |- Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'itemSearchController' defined in file [C:\Users\Administrator\eclipse-workspace\pinyougou-parent\pinyougou-search-web\target\classes\com\pinyougou\search\controller\ItemSearchController.class]: Initialization of bean failed; nested exception is org.springframework.beans.factory.BeanInitializationException: Failed to init remote service reference at filed itemSearchService in class com.pinyougou.search.controller.ItemSearchController; nested exception is java.lang.IllegalStateException: Failed to check the status of the service com.pinyougou.search.service.ItemSearchService. No provider available for the service com.pinyougou.search.service.ItemSearchService from the url zookeeper://192.168.25.128:2181/com.alibaba.dubbo.registry.RegistryService?application=pinyougou-search-web&dubbo=2.8.4&interface=com.pinyougou.search.service.ItemSearchService&methods=search&pid=6716&revision=0.0.1-SNAPSHOT&side=consumer&timestamp=1680613326201 to the consumer 172.16.10.1 use dubbo version 2.8.4
+2023-04-04 21:02:07,948 ERROR org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:502) http-bio-9104-exec-4 |- Context initialization failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'itemSearchController' defined in file [C:\Users\Administrator\eclipse-workspace\pinyougou-parent\pinyougou-search-web\target\classes\com\pinyougou\search\controller\ItemSearchController.class]: Initialization of bean failed; nested exception is org.springframework.beans.factory.BeanInitializationException: Failed to init remote service reference at filed itemSearchService in class com.pinyougou.search.controller.ItemSearchController; nested exception is java.lang.IllegalStateException: Failed to check the status of the service com.pinyougou.search.service.ItemSearchService. No provider available for the service com.pinyougou.search.service.ItemSearchService from the url zookeeper://192.168.25.128:2181/com.alibaba.dubbo.registry.RegistryService?application=pinyougou-search-web&dubbo=2.8.4&interface=com.pinyougou.search.service.ItemSearchService&methods=search&pid=6716&revision=0.0.1-SNAPSHOT&side=consumer&timestamp=1680613326201 to the consumer 172.16.10.1 use dubbo version 2.8.4
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:772)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:839)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:538)
+	at org.springframework.web.servlet.FrameworkServlet.configureAndRefreshWebApplicationContext(FrameworkServlet.java:668)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:682)
+	at org.springframework.web.servlet.FrameworkServlet.initWebApplicationContext(FrameworkServlet.java:553)
+	at org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:494)
+	at org.springframework.web.servlet.HttpServletBean.init(HttpServletBean.java:136)
+	at javax.servlet.GenericServlet.init(GenericServlet.java:160)
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1280)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1193)
+	at org.apache.catalina.core.StandardWrapper.allocate(StandardWrapper.java:865)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:136)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:100)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:953)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1041)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:603)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:312)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.springframework.beans.factory.BeanInitializationException: Failed to init remote service reference at filed itemSearchService in class com.pinyougou.search.controller.ItemSearchController; nested exception is java.lang.IllegalStateException: Failed to check the status of the service com.pinyougou.search.service.ItemSearchService. No provider available for the service com.pinyougou.search.service.ItemSearchService from the url zookeeper://192.168.25.128:2181/com.alibaba.dubbo.registry.RegistryService?application=pinyougou-search-web&dubbo=2.8.4&interface=com.pinyougou.search.service.ItemSearchService&methods=search&pid=6716&revision=0.0.1-SNAPSHOT&side=consumer&timestamp=1680613326201 to the consumer 172.16.10.1 use dubbo version 2.8.4
+	at com.alibaba.dubbo.config.spring.AnnotationBean.postProcessBeforeInitialization(AnnotationBean.java:253)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:408)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1570)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:545)
+	... 32 more
+Caused by: java.lang.IllegalStateException: Failed to check the status of the service com.pinyougou.search.service.ItemSearchService. No provider available for the service com.pinyougou.search.service.ItemSearchService from the url zookeeper://192.168.25.128:2181/com.alibaba.dubbo.registry.RegistryService?application=pinyougou-search-web&dubbo=2.8.4&interface=com.pinyougou.search.service.ItemSearchService&methods=search&pid=6716&revision=0.0.1-SNAPSHOT&side=consumer&timestamp=1680613326201 to the consumer 172.16.10.1 use dubbo version 2.8.4
+	at com.alibaba.dubbo.config.ReferenceConfig.createProxy(ReferenceConfig.java:420)
+	at com.alibaba.dubbo.config.ReferenceConfig.init(ReferenceConfig.java:300)
+	at com.alibaba.dubbo.config.ReferenceConfig.get(ReferenceConfig.java:138)
+	at com.alibaba.dubbo.config.spring.AnnotationBean.refer(AnnotationBean.java:317)
+	at com.alibaba.dubbo.config.spring.AnnotationBean.postProcessBeforeInitialization(AnnotationBean.java:246)
+	... 35 more
+2023-04-04 21:02:11,348 INFO  org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:489) http-bio-9104-exec-1 |- FrameworkServlet 'springmvc': initialization started
+2023-04-04 21:02:11,349 INFO  org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:578) http-bio-9104-exec-1 |- Refreshing WebApplicationContext for namespace 'springmvc-servlet': startup date [Tue Apr 04 21:02:11 CST 2023]; root of context hierarchy
+2023-04-04 21:02:11,351 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317) http-bio-9104-exec-1 |- Loading XML bean definitions from class path resource [spring/springmvc.xml]
+2023-04-04 21:02:11,446 INFO  org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(PropertiesLoaderSupport.java:172) http-bio-9104-exec-1 |- Loading properties file from class path resource [config/application.properties]
+2023-04-04 21:02:11,457 INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init>(AutowiredAnnotationBeanPostProcessor.java:153) http-bio-9104-exec-1 |- JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2023-04-04 21:02:11,506 INFO  org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:527) http-bio-9104-exec-1 |- Mapped "{[/itemsearch/search]}" onto public java.util.Map com.pinyougou.search.controller.ItemSearchController.search(java.util.Map)
+2023-04-04 21:02:11,574 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:532) http-bio-9104-exec-1 |- Looking for @ControllerAdvice: WebApplicationContext for namespace 'springmvc-servlet': startup date [Tue Apr 04 21:02:11 CST 2023]; root of context hierarchy
+2023-04-04 21:02:11,611 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:532) http-bio-9104-exec-1 |- Looking for @ControllerAdvice: WebApplicationContext for namespace 'springmvc-servlet': startup date [Tue Apr 04 21:02:11 CST 2023]; root of context hierarchy
+2023-04-04 21:02:11,980 WARN  org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:546) http-bio-9104-exec-1 |- Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'itemSearchController' defined in file [C:\Users\Administrator\eclipse-workspace\pinyougou-parent\pinyougou-search-web\target\classes\com\pinyougou\search\controller\ItemSearchController.class]: Initialization of bean failed; nested exception is org.springframework.beans.factory.BeanInitializationException: Failed to init remote service reference at filed itemSearchService in class com.pinyougou.search.controller.ItemSearchController; nested exception is java.lang.IllegalStateException: Failed to check the status of the service com.pinyougou.search.service.ItemSearchService. No provider available for the service com.pinyougou.search.service.ItemSearchService from the url zookeeper://192.168.25.128:2181/com.alibaba.dubbo.registry.RegistryService?application=pinyougou-search-web&dubbo=2.8.4&interface=com.pinyougou.search.service.ItemSearchService&methods=search&pid=6716&revision=0.0.1-SNAPSHOT&side=consumer&timestamp=1680613331680 to the consumer 172.16.10.1 use dubbo version 2.8.4
+2023-04-04 21:02:11,985 ERROR org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:502) http-bio-9104-exec-1 |- Context initialization failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'itemSearchController' defined in file [C:\Users\Administrator\eclipse-workspace\pinyougou-parent\pinyougou-search-web\target\classes\com\pinyougou\search\controller\ItemSearchController.class]: Initialization of bean failed; nested exception is org.springframework.beans.factory.BeanInitializationException: Failed to init remote service reference at filed itemSearchService in class com.pinyougou.search.controller.ItemSearchController; nested exception is java.lang.IllegalStateException: Failed to check the status of the service com.pinyougou.search.service.ItemSearchService. No provider available for the service com.pinyougou.search.service.ItemSearchService from the url zookeeper://192.168.25.128:2181/com.alibaba.dubbo.registry.RegistryService?application=pinyougou-search-web&dubbo=2.8.4&interface=com.pinyougou.search.service.ItemSearchService&methods=search&pid=6716&revision=0.0.1-SNAPSHOT&side=consumer&timestamp=1680613331680 to the consumer 172.16.10.1 use dubbo version 2.8.4
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:772)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:839)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:538)
+	at org.springframework.web.servlet.FrameworkServlet.configureAndRefreshWebApplicationContext(FrameworkServlet.java:668)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:682)
+	at org.springframework.web.servlet.FrameworkServlet.initWebApplicationContext(FrameworkServlet.java:553)
+	at org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:494)
+	at org.springframework.web.servlet.HttpServletBean.init(HttpServletBean.java:136)
+	at javax.servlet.GenericServlet.init(GenericServlet.java:160)
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1280)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1193)
+	at org.apache.catalina.core.StandardWrapper.allocate(StandardWrapper.java:865)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:136)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:100)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:953)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1041)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:603)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:312)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.springframework.beans.factory.BeanInitializationException: Failed to init remote service reference at filed itemSearchService in class com.pinyougou.search.controller.ItemSearchController; nested exception is java.lang.IllegalStateException: Failed to check the status of the service com.pinyougou.search.service.ItemSearchService. No provider available for the service com.pinyougou.search.service.ItemSearchService from the url zookeeper://192.168.25.128:2181/com.alibaba.dubbo.registry.RegistryService?application=pinyougou-search-web&dubbo=2.8.4&interface=com.pinyougou.search.service.ItemSearchService&methods=search&pid=6716&revision=0.0.1-SNAPSHOT&side=consumer&timestamp=1680613331680 to the consumer 172.16.10.1 use dubbo version 2.8.4
+	at com.alibaba.dubbo.config.spring.AnnotationBean.postProcessBeforeInitialization(AnnotationBean.java:253)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:408)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1570)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:545)
+	... 32 more
+Caused by: java.lang.IllegalStateException: Failed to check the status of the service com.pinyougou.search.service.ItemSearchService. No provider available for the service com.pinyougou.search.service.ItemSearchService from the url zookeeper://192.168.25.128:2181/com.alibaba.dubbo.registry.RegistryService?application=pinyougou-search-web&dubbo=2.8.4&interface=com.pinyougou.search.service.ItemSearchService&methods=search&pid=6716&revision=0.0.1-SNAPSHOT&side=consumer&timestamp=1680613331680 to the consumer 172.16.10.1 use dubbo version 2.8.4
+	at com.alibaba.dubbo.config.ReferenceConfig.createProxy(ReferenceConfig.java:420)
+	at com.alibaba.dubbo.config.ReferenceConfig.init(ReferenceConfig.java:300)
+	at com.alibaba.dubbo.config.ReferenceConfig.get(ReferenceConfig.java:138)
+	at com.alibaba.dubbo.config.spring.AnnotationBean.refer(AnnotationBean.java:317)
+	at com.alibaba.dubbo.config.spring.AnnotationBean.postProcessBeforeInitialization(AnnotationBean.java:246)
+	... 35 more
+2023-04-04 21:02:12,006 INFO  org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:489) http-bio-9104-exec-9 |- FrameworkServlet 'springmvc': initialization started
+2023-04-04 21:02:12,009 INFO  org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:578) http-bio-9104-exec-9 |- Refreshing WebApplicationContext for namespace 'springmvc-servlet': startup date [Tue Apr 04 21:02:12 CST 2023]; root of context hierarchy
+2023-04-04 21:02:12,013 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317) http-bio-9104-exec-9 |- Loading XML bean definitions from class path resource [spring/springmvc.xml]
+2023-04-04 21:02:12,095 INFO  org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(PropertiesLoaderSupport.java:172) http-bio-9104-exec-9 |- Loading properties file from class path resource [config/application.properties]
+2023-04-04 21:02:12,102 INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init>(AutowiredAnnotationBeanPostProcessor.java:153) http-bio-9104-exec-9 |- JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2023-04-04 21:02:12,115 INFO  org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:527) http-bio-9104-exec-9 |- Mapped "{[/itemsearch/search]}" onto public java.util.Map com.pinyougou.search.controller.ItemSearchController.search(java.util.Map)
+2023-04-04 21:02:12,199 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:532) http-bio-9104-exec-9 |- Looking for @ControllerAdvice: WebApplicationContext for namespace 'springmvc-servlet': startup date [Tue Apr 04 21:02:12 CST 2023]; root of context hierarchy
+2023-04-04 21:02:12,249 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:532) http-bio-9104-exec-9 |- Looking for @ControllerAdvice: WebApplicationContext for namespace 'springmvc-servlet': startup date [Tue Apr 04 21:02:12 CST 2023]; root of context hierarchy
+2023-04-04 21:02:12,483 WARN  org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:546) http-bio-9104-exec-9 |- Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'itemSearchController' defined in file [C:\Users\Administrator\eclipse-workspace\pinyougou-parent\pinyougou-search-web\target\classes\com\pinyougou\search\controller\ItemSearchController.class]: Initialization of bean failed; nested exception is org.springframework.beans.factory.BeanInitializationException: Failed to init remote service reference at filed itemSearchService in class com.pinyougou.search.controller.ItemSearchController; nested exception is java.lang.IllegalStateException: Failed to check the status of the service com.pinyougou.search.service.ItemSearchService. No provider available for the service com.pinyougou.search.service.ItemSearchService from the url zookeeper://192.168.25.128:2181/com.alibaba.dubbo.registry.RegistryService?application=pinyougou-search-web&dubbo=2.8.4&interface=com.pinyougou.search.service.ItemSearchService&methods=search&pid=6716&revision=0.0.1-SNAPSHOT&side=consumer&timestamp=1680613332339 to the consumer 172.16.10.1 use dubbo version 2.8.4
+2023-04-04 21:02:12,492 ERROR org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:502) http-bio-9104-exec-9 |- Context initialization failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'itemSearchController' defined in file [C:\Users\Administrator\eclipse-workspace\pinyougou-parent\pinyougou-search-web\target\classes\com\pinyougou\search\controller\ItemSearchController.class]: Initialization of bean failed; nested exception is org.springframework.beans.factory.BeanInitializationException: Failed to init remote service reference at filed itemSearchService in class com.pinyougou.search.controller.ItemSearchController; nested exception is java.lang.IllegalStateException: Failed to check the status of the service com.pinyougou.search.service.ItemSearchService. No provider available for the service com.pinyougou.search.service.ItemSearchService from the url zookeeper://192.168.25.128:2181/com.alibaba.dubbo.registry.RegistryService?application=pinyougou-search-web&dubbo=2.8.4&interface=com.pinyougou.search.service.ItemSearchService&methods=search&pid=6716&revision=0.0.1-SNAPSHOT&side=consumer&timestamp=1680613332339 to the consumer 172.16.10.1 use dubbo version 2.8.4
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:772)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:839)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:538)
+	at org.springframework.web.servlet.FrameworkServlet.configureAndRefreshWebApplicationContext(FrameworkServlet.java:668)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:682)
+	at org.springframework.web.servlet.FrameworkServlet.initWebApplicationContext(FrameworkServlet.java:553)
+	at org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:494)
+	at org.springframework.web.servlet.HttpServletBean.init(HttpServletBean.java:136)
+	at javax.servlet.GenericServlet.init(GenericServlet.java:160)
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1280)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1193)
+	at org.apache.catalina.core.StandardWrapper.allocate(StandardWrapper.java:865)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:136)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:100)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:953)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1041)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:603)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:312)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.springframework.beans.factory.BeanInitializationException: Failed to init remote service reference at filed itemSearchService in class com.pinyougou.search.controller.ItemSearchController; nested exception is java.lang.IllegalStateException: Failed to check the status of the service com.pinyougou.search.service.ItemSearchService. No provider available for the service com.pinyougou.search.service.ItemSearchService from the url zookeeper://192.168.25.128:2181/com.alibaba.dubbo.registry.RegistryService?application=pinyougou-search-web&dubbo=2.8.4&interface=com.pinyougou.search.service.ItemSearchService&methods=search&pid=6716&revision=0.0.1-SNAPSHOT&side=consumer&timestamp=1680613332339 to the consumer 172.16.10.1 use dubbo version 2.8.4
+	at com.alibaba.dubbo.config.spring.AnnotationBean.postProcessBeforeInitialization(AnnotationBean.java:253)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:408)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1570)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:545)
+	... 32 more
+Caused by: java.lang.IllegalStateException: Failed to check the status of the service com.pinyougou.search.service.ItemSearchService. No provider available for the service com.pinyougou.search.service.ItemSearchService from the url zookeeper://192.168.25.128:2181/com.alibaba.dubbo.registry.RegistryService?application=pinyougou-search-web&dubbo=2.8.4&interface=com.pinyougou.search.service.ItemSearchService&methods=search&pid=6716&revision=0.0.1-SNAPSHOT&side=consumer&timestamp=1680613332339 to the consumer 172.16.10.1 use dubbo version 2.8.4
+	at com.alibaba.dubbo.config.ReferenceConfig.createProxy(ReferenceConfig.java:420)
+	at com.alibaba.dubbo.config.ReferenceConfig.init(ReferenceConfig.java:300)
+	at com.alibaba.dubbo.config.ReferenceConfig.get(ReferenceConfig.java:138)
+	at com.alibaba.dubbo.config.spring.AnnotationBean.refer(AnnotationBean.java:317)
+	at com.alibaba.dubbo.config.spring.AnnotationBean.postProcessBeforeInitialization(AnnotationBean.java:246)
+	... 35 more
+2023-04-04 21:02:12,543 INFO  org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:489) http-bio-9104-exec-2 |- FrameworkServlet 'springmvc': initialization started
+2023-04-04 21:02:12,547 INFO  org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:578) http-bio-9104-exec-2 |- Refreshing WebApplicationContext for namespace 'springmvc-servlet': startup date [Tue Apr 04 21:02:12 CST 2023]; root of context hierarchy
+2023-04-04 21:02:12,548 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317) http-bio-9104-exec-2 |- Loading XML bean definitions from class path resource [spring/springmvc.xml]
+2023-04-04 21:02:12,647 INFO  org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(PropertiesLoaderSupport.java:172) http-bio-9104-exec-2 |- Loading properties file from class path resource [config/application.properties]
+2023-04-04 21:02:12,654 INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init>(AutowiredAnnotationBeanPostProcessor.java:153) http-bio-9104-exec-2 |- JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2023-04-04 21:02:12,668 INFO  org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:527) http-bio-9104-exec-2 |- Mapped "{[/itemsearch/search]}" onto public java.util.Map com.pinyougou.search.controller.ItemSearchController.search(java.util.Map)
+2023-04-04 21:02:12,760 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:532) http-bio-9104-exec-2 |- Looking for @ControllerAdvice: WebApplicationContext for namespace 'springmvc-servlet': startup date [Tue Apr 04 21:02:12 CST 2023]; root of context hierarchy
+2023-04-04 21:02:12,877 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:532) http-bio-9104-exec-2 |- Looking for @ControllerAdvice: WebApplicationContext for namespace 'springmvc-servlet': startup date [Tue Apr 04 21:02:12 CST 2023]; root of context hierarchy
+2023-04-04 21:02:13,084 WARN  org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:546) http-bio-9104-exec-2 |- Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'itemSearchController' defined in file [C:\Users\Administrator\eclipse-workspace\pinyougou-parent\pinyougou-search-web\target\classes\com\pinyougou\search\controller\ItemSearchController.class]: Initialization of bean failed; nested exception is org.springframework.beans.factory.BeanInitializationException: Failed to init remote service reference at filed itemSearchService in class com.pinyougou.search.controller.ItemSearchController; nested exception is java.lang.IllegalStateException: Failed to check the status of the service com.pinyougou.search.service.ItemSearchService. No provider available for the service com.pinyougou.search.service.ItemSearchService from the url zookeeper://192.168.25.128:2181/com.alibaba.dubbo.registry.RegistryService?application=pinyougou-search-web&dubbo=2.8.4&interface=com.pinyougou.search.service.ItemSearchService&methods=search&pid=6716&revision=0.0.1-SNAPSHOT&side=consumer&timestamp=1680613332966 to the consumer 172.16.10.1 use dubbo version 2.8.4
+2023-04-04 21:02:13,087 ERROR org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:502) http-bio-9104-exec-2 |- Context initialization failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'itemSearchController' defined in file [C:\Users\Administrator\eclipse-workspace\pinyougou-parent\pinyougou-search-web\target\classes\com\pinyougou\search\controller\ItemSearchController.class]: Initialization of bean failed; nested exception is org.springframework.beans.factory.BeanInitializationException: Failed to init remote service reference at filed itemSearchService in class com.pinyougou.search.controller.ItemSearchController; nested exception is java.lang.IllegalStateException: Failed to check the status of the service com.pinyougou.search.service.ItemSearchService. No provider available for the service com.pinyougou.search.service.ItemSearchService from the url zookeeper://192.168.25.128:2181/com.alibaba.dubbo.registry.RegistryService?application=pinyougou-search-web&dubbo=2.8.4&interface=com.pinyougou.search.service.ItemSearchService&methods=search&pid=6716&revision=0.0.1-SNAPSHOT&side=consumer&timestamp=1680613332966 to the consumer 172.16.10.1 use dubbo version 2.8.4
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:772)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:839)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:538)
+	at org.springframework.web.servlet.FrameworkServlet.configureAndRefreshWebApplicationContext(FrameworkServlet.java:668)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:682)
+	at org.springframework.web.servlet.FrameworkServlet.initWebApplicationContext(FrameworkServlet.java:553)
+	at org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:494)
+	at org.springframework.web.servlet.HttpServletBean.init(HttpServletBean.java:136)
+	at javax.servlet.GenericServlet.init(GenericServlet.java:160)
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1280)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1193)
+	at org.apache.catalina.core.StandardWrapper.allocate(StandardWrapper.java:865)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:136)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:100)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:953)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1041)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:603)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:312)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.springframework.beans.factory.BeanInitializationException: Failed to init remote service reference at filed itemSearchService in class com.pinyougou.search.controller.ItemSearchController; nested exception is java.lang.IllegalStateException: Failed to check the status of the service com.pinyougou.search.service.ItemSearchService. No provider available for the service com.pinyougou.search.service.ItemSearchService from the url zookeeper://192.168.25.128:2181/com.alibaba.dubbo.registry.RegistryService?application=pinyougou-search-web&dubbo=2.8.4&interface=com.pinyougou.search.service.ItemSearchService&methods=search&pid=6716&revision=0.0.1-SNAPSHOT&side=consumer&timestamp=1680613332966 to the consumer 172.16.10.1 use dubbo version 2.8.4
+	at com.alibaba.dubbo.config.spring.AnnotationBean.postProcessBeforeInitialization(AnnotationBean.java:253)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:408)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1570)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:545)
+	... 32 more
+Caused by: java.lang.IllegalStateException: Failed to check the status of the service com.pinyougou.search.service.ItemSearchService. No provider available for the service com.pinyougou.search.service.ItemSearchService from the url zookeeper://192.168.25.128:2181/com.alibaba.dubbo.registry.RegistryService?application=pinyougou-search-web&dubbo=2.8.4&interface=com.pinyougou.search.service.ItemSearchService&methods=search&pid=6716&revision=0.0.1-SNAPSHOT&side=consumer&timestamp=1680613332966 to the consumer 172.16.10.1 use dubbo version 2.8.4
+	at com.alibaba.dubbo.config.ReferenceConfig.createProxy(ReferenceConfig.java:420)
+	at com.alibaba.dubbo.config.ReferenceConfig.init(ReferenceConfig.java:300)
+	at com.alibaba.dubbo.config.ReferenceConfig.get(ReferenceConfig.java:138)
+	at com.alibaba.dubbo.config.spring.AnnotationBean.refer(AnnotationBean.java:317)
+	at com.alibaba.dubbo.config.spring.AnnotationBean.postProcessBeforeInitialization(AnnotationBean.java:246)
+	... 35 more
+2023-04-04 21:02:13,134 INFO  org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:489) http-bio-9104-exec-7 |- FrameworkServlet 'springmvc': initialization started
+2023-04-04 21:02:13,135 INFO  org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:578) http-bio-9104-exec-7 |- Refreshing WebApplicationContext for namespace 'springmvc-servlet': startup date [Tue Apr 04 21:02:13 CST 2023]; root of context hierarchy
+2023-04-04 21:02:13,135 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317) http-bio-9104-exec-7 |- Loading XML bean definitions from class path resource [spring/springmvc.xml]
+2023-04-04 21:02:13,208 INFO  org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(PropertiesLoaderSupport.java:172) http-bio-9104-exec-7 |- Loading properties file from class path resource [config/application.properties]
+2023-04-04 21:02:13,291 INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init>(AutowiredAnnotationBeanPostProcessor.java:153) http-bio-9104-exec-7 |- JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2023-04-04 21:02:13,305 INFO  org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:527) http-bio-9104-exec-7 |- Mapped "{[/itemsearch/search]}" onto public java.util.Map com.pinyougou.search.controller.ItemSearchController.search(java.util.Map)
+2023-04-04 21:02:13,531 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:532) http-bio-9104-exec-7 |- Looking for @ControllerAdvice: WebApplicationContext for namespace 'springmvc-servlet': startup date [Tue Apr 04 21:02:13 CST 2023]; root of context hierarchy
+2023-04-04 21:02:13,588 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:532) http-bio-9104-exec-7 |- Looking for @ControllerAdvice: WebApplicationContext for namespace 'springmvc-servlet': startup date [Tue Apr 04 21:02:13 CST 2023]; root of context hierarchy
+2023-04-04 21:02:13,729 WARN  org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:546) http-bio-9104-exec-7 |- Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'itemSearchController' defined in file [C:\Users\Administrator\eclipse-workspace\pinyougou-parent\pinyougou-search-web\target\classes\com\pinyougou\search\controller\ItemSearchController.class]: Initialization of bean failed; nested exception is org.springframework.beans.factory.BeanInitializationException: Failed to init remote service reference at filed itemSearchService in class com.pinyougou.search.controller.ItemSearchController; nested exception is java.lang.IllegalStateException: Failed to check the status of the service com.pinyougou.search.service.ItemSearchService. No provider available for the service com.pinyougou.search.service.ItemSearchService from the url zookeeper://192.168.25.128:2181/com.alibaba.dubbo.registry.RegistryService?application=pinyougou-search-web&dubbo=2.8.4&interface=com.pinyougou.search.service.ItemSearchService&methods=search&pid=6716&revision=0.0.1-SNAPSHOT&side=consumer&timestamp=1680613333637 to the consumer 172.16.10.1 use dubbo version 2.8.4
+2023-04-04 21:02:13,733 ERROR org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:502) http-bio-9104-exec-7 |- Context initialization failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'itemSearchController' defined in file [C:\Users\Administrator\eclipse-workspace\pinyougou-parent\pinyougou-search-web\target\classes\com\pinyougou\search\controller\ItemSearchController.class]: Initialization of bean failed; nested exception is org.springframework.beans.factory.BeanInitializationException: Failed to init remote service reference at filed itemSearchService in class com.pinyougou.search.controller.ItemSearchController; nested exception is java.lang.IllegalStateException: Failed to check the status of the service com.pinyougou.search.service.ItemSearchService. No provider available for the service com.pinyougou.search.service.ItemSearchService from the url zookeeper://192.168.25.128:2181/com.alibaba.dubbo.registry.RegistryService?application=pinyougou-search-web&dubbo=2.8.4&interface=com.pinyougou.search.service.ItemSearchService&methods=search&pid=6716&revision=0.0.1-SNAPSHOT&side=consumer&timestamp=1680613333637 to the consumer 172.16.10.1 use dubbo version 2.8.4
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:772)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:839)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:538)
+	at org.springframework.web.servlet.FrameworkServlet.configureAndRefreshWebApplicationContext(FrameworkServlet.java:668)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:682)
+	at org.springframework.web.servlet.FrameworkServlet.initWebApplicationContext(FrameworkServlet.java:553)
+	at org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:494)
+	at org.springframework.web.servlet.HttpServletBean.init(HttpServletBean.java:136)
+	at javax.servlet.GenericServlet.init(GenericServlet.java:160)
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1280)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1193)
+	at org.apache.catalina.core.StandardWrapper.allocate(StandardWrapper.java:865)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:136)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:100)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:953)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1041)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:603)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:310)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.springframework.beans.factory.BeanInitializationException: Failed to init remote service reference at filed itemSearchService in class com.pinyougou.search.controller.ItemSearchController; nested exception is java.lang.IllegalStateException: Failed to check the status of the service com.pinyougou.search.service.ItemSearchService. No provider available for the service com.pinyougou.search.service.ItemSearchService from the url zookeeper://192.168.25.128:2181/com.alibaba.dubbo.registry.RegistryService?application=pinyougou-search-web&dubbo=2.8.4&interface=com.pinyougou.search.service.ItemSearchService&methods=search&pid=6716&revision=0.0.1-SNAPSHOT&side=consumer&timestamp=1680613333637 to the consumer 172.16.10.1 use dubbo version 2.8.4
+	at com.alibaba.dubbo.config.spring.AnnotationBean.postProcessBeforeInitialization(AnnotationBean.java:253)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:408)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1570)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:545)
+	... 32 more
+Caused by: java.lang.IllegalStateException: Failed to check the status of the service com.pinyougou.search.service.ItemSearchService. No provider available for the service com.pinyougou.search.service.ItemSearchService from the url zookeeper://192.168.25.128:2181/com.alibaba.dubbo.registry.RegistryService?application=pinyougou-search-web&dubbo=2.8.4&interface=com.pinyougou.search.service.ItemSearchService&methods=search&pid=6716&revision=0.0.1-SNAPSHOT&side=consumer&timestamp=1680613333637 to the consumer 172.16.10.1 use dubbo version 2.8.4
+	at com.alibaba.dubbo.config.ReferenceConfig.createProxy(ReferenceConfig.java:420)
+	at com.alibaba.dubbo.config.ReferenceConfig.init(ReferenceConfig.java:300)
+	at com.alibaba.dubbo.config.ReferenceConfig.get(ReferenceConfig.java:138)
+	at com.alibaba.dubbo.config.spring.AnnotationBean.refer(AnnotationBean.java:317)
+	at com.alibaba.dubbo.config.spring.AnnotationBean.postProcessBeforeInitialization(AnnotationBean.java:246)
+	... 35 more
+2023-04-04 21:02:13,878 INFO  org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:489) http-bio-9104-exec-3 |- FrameworkServlet 'springmvc': initialization started
+2023-04-04 21:02:13,880 INFO  org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:578) http-bio-9104-exec-3 |- Refreshing WebApplicationContext for namespace 'springmvc-servlet': startup date [Tue Apr 04 21:02:13 CST 2023]; root of context hierarchy
+2023-04-04 21:02:13,881 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317) http-bio-9104-exec-3 |- Loading XML bean definitions from class path resource [spring/springmvc.xml]
+2023-04-04 21:02:13,967 INFO  org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(PropertiesLoaderSupport.java:172) http-bio-9104-exec-3 |- Loading properties file from class path resource [config/application.properties]
+2023-04-04 21:02:13,983 INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init>(AutowiredAnnotationBeanPostProcessor.java:153) http-bio-9104-exec-3 |- JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2023-04-04 21:02:14,016 INFO  org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:527) http-bio-9104-exec-3 |- Mapped "{[/itemsearch/search]}" onto public java.util.Map com.pinyougou.search.controller.ItemSearchController.search(java.util.Map)
+2023-04-04 21:02:14,103 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:532) http-bio-9104-exec-3 |- Looking for @ControllerAdvice: WebApplicationContext for namespace 'springmvc-servlet': startup date [Tue Apr 04 21:02:13 CST 2023]; root of context hierarchy
+2023-04-04 21:02:14,148 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:532) http-bio-9104-exec-3 |- Looking for @ControllerAdvice: WebApplicationContext for namespace 'springmvc-servlet': startup date [Tue Apr 04 21:02:13 CST 2023]; root of context hierarchy
+2023-04-04 21:02:14,274 WARN  org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:546) http-bio-9104-exec-3 |- Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'itemSearchController' defined in file [C:\Users\Administrator\eclipse-workspace\pinyougou-parent\pinyougou-search-web\target\classes\com\pinyougou\search\controller\ItemSearchController.class]: Initialization of bean failed; nested exception is org.springframework.beans.factory.BeanInitializationException: Failed to init remote service reference at filed itemSearchService in class com.pinyougou.search.controller.ItemSearchController; nested exception is java.lang.IllegalStateException: Failed to check the status of the service com.pinyougou.search.service.ItemSearchService. No provider available for the service com.pinyougou.search.service.ItemSearchService from the url zookeeper://192.168.25.128:2181/com.alibaba.dubbo.registry.RegistryService?application=pinyougou-search-web&dubbo=2.8.4&interface=com.pinyougou.search.service.ItemSearchService&methods=search&pid=6716&revision=0.0.1-SNAPSHOT&side=consumer&timestamp=1680613334199 to the consumer 172.16.10.1 use dubbo version 2.8.4
+2023-04-04 21:02:14,282 ERROR org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:502) http-bio-9104-exec-3 |- Context initialization failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'itemSearchController' defined in file [C:\Users\Administrator\eclipse-workspace\pinyougou-parent\pinyougou-search-web\target\classes\com\pinyougou\search\controller\ItemSearchController.class]: Initialization of bean failed; nested exception is org.springframework.beans.factory.BeanInitializationException: Failed to init remote service reference at filed itemSearchService in class com.pinyougou.search.controller.ItemSearchController; nested exception is java.lang.IllegalStateException: Failed to check the status of the service com.pinyougou.search.service.ItemSearchService. No provider available for the service com.pinyougou.search.service.ItemSearchService from the url zookeeper://192.168.25.128:2181/com.alibaba.dubbo.registry.RegistryService?application=pinyougou-search-web&dubbo=2.8.4&interface=com.pinyougou.search.service.ItemSearchService&methods=search&pid=6716&revision=0.0.1-SNAPSHOT&side=consumer&timestamp=1680613334199 to the consumer 172.16.10.1 use dubbo version 2.8.4
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:772)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:839)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:538)
+	at org.springframework.web.servlet.FrameworkServlet.configureAndRefreshWebApplicationContext(FrameworkServlet.java:668)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:682)
+	at org.springframework.web.servlet.FrameworkServlet.initWebApplicationContext(FrameworkServlet.java:553)
+	at org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:494)
+	at org.springframework.web.servlet.HttpServletBean.init(HttpServletBean.java:136)
+	at javax.servlet.GenericServlet.init(GenericServlet.java:160)
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1280)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1193)
+	at org.apache.catalina.core.StandardWrapper.allocate(StandardWrapper.java:865)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:136)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:100)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:953)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1041)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:603)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:312)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.springframework.beans.factory.BeanInitializationException: Failed to init remote service reference at filed itemSearchService in class com.pinyougou.search.controller.ItemSearchController; nested exception is java.lang.IllegalStateException: Failed to check the status of the service com.pinyougou.search.service.ItemSearchService. No provider available for the service com.pinyougou.search.service.ItemSearchService from the url zookeeper://192.168.25.128:2181/com.alibaba.dubbo.registry.RegistryService?application=pinyougou-search-web&dubbo=2.8.4&interface=com.pinyougou.search.service.ItemSearchService&methods=search&pid=6716&revision=0.0.1-SNAPSHOT&side=consumer&timestamp=1680613334199 to the consumer 172.16.10.1 use dubbo version 2.8.4
+	at com.alibaba.dubbo.config.spring.AnnotationBean.postProcessBeforeInitialization(AnnotationBean.java:253)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:408)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1570)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:545)
+	... 32 more
+Caused by: java.lang.IllegalStateException: Failed to check the status of the service com.pinyougou.search.service.ItemSearchService. No provider available for the service com.pinyougou.search.service.ItemSearchService from the url zookeeper://192.168.25.128:2181/com.alibaba.dubbo.registry.RegistryService?application=pinyougou-search-web&dubbo=2.8.4&interface=com.pinyougou.search.service.ItemSearchService&methods=search&pid=6716&revision=0.0.1-SNAPSHOT&side=consumer&timestamp=1680613334199 to the consumer 172.16.10.1 use dubbo version 2.8.4
+	at com.alibaba.dubbo.config.ReferenceConfig.createProxy(ReferenceConfig.java:420)
+	at com.alibaba.dubbo.config.ReferenceConfig.init(ReferenceConfig.java:300)
+	at com.alibaba.dubbo.config.ReferenceConfig.get(ReferenceConfig.java:138)
+	at com.alibaba.dubbo.config.spring.AnnotationBean.refer(AnnotationBean.java:317)
+	at com.alibaba.dubbo.config.spring.AnnotationBean.postProcessBeforeInitialization(AnnotationBean.java:246)
+	... 35 more
+2023-04-04 21:02:14,301 INFO  org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:489) http-bio-9104-exec-11 |- FrameworkServlet 'springmvc': initialization started
+2023-04-04 21:02:14,305 INFO  org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:578) http-bio-9104-exec-11 |- Refreshing WebApplicationContext for namespace 'springmvc-servlet': startup date [Tue Apr 04 21:02:14 CST 2023]; root of context hierarchy
+2023-04-04 21:02:14,310 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317) http-bio-9104-exec-11 |- Loading XML bean definitions from class path resource [spring/springmvc.xml]
+2023-04-04 21:02:14,362 INFO  org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(PropertiesLoaderSupport.java:172) http-bio-9104-exec-11 |- Loading properties file from class path resource [config/application.properties]
+2023-04-04 21:02:14,380 INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init>(AutowiredAnnotationBeanPostProcessor.java:153) http-bio-9104-exec-11 |- JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2023-04-04 21:02:14,404 INFO  org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:527) http-bio-9104-exec-11 |- Mapped "{[/itemsearch/search]}" onto public java.util.Map com.pinyougou.search.controller.ItemSearchController.search(java.util.Map)
+2023-04-04 21:02:14,462 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:532) http-bio-9104-exec-11 |- Looking for @ControllerAdvice: WebApplicationContext for namespace 'springmvc-servlet': startup date [Tue Apr 04 21:02:14 CST 2023]; root of context hierarchy
+2023-04-04 21:02:14,500 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:532) http-bio-9104-exec-11 |- Looking for @ControllerAdvice: WebApplicationContext for namespace 'springmvc-servlet': startup date [Tue Apr 04 21:02:14 CST 2023]; root of context hierarchy
+2023-04-04 21:02:14,828 WARN  org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:546) http-bio-9104-exec-11 |- Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'itemSearchController' defined in file [C:\Users\Administrator\eclipse-workspace\pinyougou-parent\pinyougou-search-web\target\classes\com\pinyougou\search\controller\ItemSearchController.class]: Initialization of bean failed; nested exception is org.springframework.beans.factory.BeanInitializationException: Failed to init remote service reference at filed itemSearchService in class com.pinyougou.search.controller.ItemSearchController; nested exception is java.lang.IllegalStateException: Failed to check the status of the service com.pinyougou.search.service.ItemSearchService. No provider available for the service com.pinyougou.search.service.ItemSearchService from the url zookeeper://192.168.25.128:2181/com.alibaba.dubbo.registry.RegistryService?application=pinyougou-search-web&dubbo=2.8.4&interface=com.pinyougou.search.service.ItemSearchService&methods=search&pid=6716&revision=0.0.1-SNAPSHOT&side=consumer&timestamp=1680613334580 to the consumer 172.16.10.1 use dubbo version 2.8.4
+2023-04-04 21:02:14,830 ERROR org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:502) http-bio-9104-exec-11 |- Context initialization failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'itemSearchController' defined in file [C:\Users\Administrator\eclipse-workspace\pinyougou-parent\pinyougou-search-web\target\classes\com\pinyougou\search\controller\ItemSearchController.class]: Initialization of bean failed; nested exception is org.springframework.beans.factory.BeanInitializationException: Failed to init remote service reference at filed itemSearchService in class com.pinyougou.search.controller.ItemSearchController; nested exception is java.lang.IllegalStateException: Failed to check the status of the service com.pinyougou.search.service.ItemSearchService. No provider available for the service com.pinyougou.search.service.ItemSearchService from the url zookeeper://192.168.25.128:2181/com.alibaba.dubbo.registry.RegistryService?application=pinyougou-search-web&dubbo=2.8.4&interface=com.pinyougou.search.service.ItemSearchService&methods=search&pid=6716&revision=0.0.1-SNAPSHOT&side=consumer&timestamp=1680613334580 to the consumer 172.16.10.1 use dubbo version 2.8.4
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:772)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:839)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:538)
+	at org.springframework.web.servlet.FrameworkServlet.configureAndRefreshWebApplicationContext(FrameworkServlet.java:668)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:682)
+	at org.springframework.web.servlet.FrameworkServlet.initWebApplicationContext(FrameworkServlet.java:553)
+	at org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:494)
+	at org.springframework.web.servlet.HttpServletBean.init(HttpServletBean.java:136)
+	at javax.servlet.GenericServlet.init(GenericServlet.java:160)
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1280)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1193)
+	at org.apache.catalina.core.StandardWrapper.allocate(StandardWrapper.java:865)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:136)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:100)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:953)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1041)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:603)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:312)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.springframework.beans.factory.BeanInitializationException: Failed to init remote service reference at filed itemSearchService in class com.pinyougou.search.controller.ItemSearchController; nested exception is java.lang.IllegalStateException: Failed to check the status of the service com.pinyougou.search.service.ItemSearchService. No provider available for the service com.pinyougou.search.service.ItemSearchService from the url zookeeper://192.168.25.128:2181/com.alibaba.dubbo.registry.RegistryService?application=pinyougou-search-web&dubbo=2.8.4&interface=com.pinyougou.search.service.ItemSearchService&methods=search&pid=6716&revision=0.0.1-SNAPSHOT&side=consumer&timestamp=1680613334580 to the consumer 172.16.10.1 use dubbo version 2.8.4
+	at com.alibaba.dubbo.config.spring.AnnotationBean.postProcessBeforeInitialization(AnnotationBean.java:253)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:408)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1570)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:545)
+	... 32 more
+Caused by: java.lang.IllegalStateException: Failed to check the status of the service com.pinyougou.search.service.ItemSearchService. No provider available for the service com.pinyougou.search.service.ItemSearchService from the url zookeeper://192.168.25.128:2181/com.alibaba.dubbo.registry.RegistryService?application=pinyougou-search-web&dubbo=2.8.4&interface=com.pinyougou.search.service.ItemSearchService&methods=search&pid=6716&revision=0.0.1-SNAPSHOT&side=consumer&timestamp=1680613334580 to the consumer 172.16.10.1 use dubbo version 2.8.4
+	at com.alibaba.dubbo.config.ReferenceConfig.createProxy(ReferenceConfig.java:420)
+	at com.alibaba.dubbo.config.ReferenceConfig.init(ReferenceConfig.java:300)
+	at com.alibaba.dubbo.config.ReferenceConfig.get(ReferenceConfig.java:138)
+	at com.alibaba.dubbo.config.spring.AnnotationBean.refer(AnnotationBean.java:317)
+	at com.alibaba.dubbo.config.spring.AnnotationBean.postProcessBeforeInitialization(AnnotationBean.java:246)
+	... 35 more
+2023-04-04 21:04:48,842 INFO  org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:489) http-bio-9104-exec-8 |- FrameworkServlet 'springmvc': initialization started
+2023-04-04 21:04:48,880 INFO  org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:578) http-bio-9104-exec-8 |- Refreshing WebApplicationContext for namespace 'springmvc-servlet': startup date [Tue Apr 04 21:04:48 CST 2023]; root of context hierarchy
+2023-04-04 21:04:48,944 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317) http-bio-9104-exec-8 |- Loading XML bean definitions from class path resource [spring/springmvc.xml]
+2023-04-04 21:04:49,493 INFO  org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(PropertiesLoaderSupport.java:172) http-bio-9104-exec-8 |- Loading properties file from class path resource [config/application.properties]
+2023-04-04 21:04:49,598 INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init>(AutowiredAnnotationBeanPostProcessor.java:153) http-bio-9104-exec-8 |- JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2023-04-04 21:04:50,011 INFO  org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:527) http-bio-9104-exec-8 |- Mapped "{[/itemsearch/search]}" onto public java.util.Map com.pinyougou.search.controller.ItemSearchController.search(java.util.Map)
+2023-04-04 21:04:50,464 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:532) http-bio-9104-exec-8 |- Looking for @ControllerAdvice: WebApplicationContext for namespace 'springmvc-servlet': startup date [Tue Apr 04 21:04:48 CST 2023]; root of context hierarchy
+2023-04-04 21:04:50,535 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:532) http-bio-9104-exec-8 |- Looking for @ControllerAdvice: WebApplicationContext for namespace 'springmvc-servlet': startup date [Tue Apr 04 21:04:48 CST 2023]; root of context hierarchy
+2023-04-04 21:04:51,057 INFO  org.I0Itec.zkclient.ZkEventThread.run(ZkEventThread.java:64) ZkClient-EventThread-32-192.168.25.128:2181 |- Starting ZkClient event thread.
+2023-04-04 21:04:51,071 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) http-bio-9104-exec-8 |- Client environment:zookeeper.version=3.4.7-1713338, built on 11/09/2015 04:32 GMT
+2023-04-04 21:04:51,071 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) http-bio-9104-exec-8 |- Client environment:host.name=windows10.microdone.cn
+2023-04-04 21:04:51,072 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) http-bio-9104-exec-8 |- Client environment:java.version=1.8.0_152
+2023-04-04 21:04:51,072 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) http-bio-9104-exec-8 |- Client environment:java.vendor=Oracle Corporation
+2023-04-04 21:04:51,072 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) http-bio-9104-exec-8 |- Client environment:java.home=C:\Java\jdk1.8\jre
+2023-04-04 21:04:51,073 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) http-bio-9104-exec-8 |- Client environment:java.class.path=D:\apache-maven-3.8.6\boot\plexus-classworlds-2.6.0.jar
+2023-04-04 21:04:51,073 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) http-bio-9104-exec-8 |- Client environment:java.library.path=C:\Java\jdk1.8\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_152/bin/server;C:/Program Files/Java/jre1.8.0_152/bin;C:/Program Files/Java/jre1.8.0_152/lib/amd64;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Java\jdk1.8\bin;C:\Java\jdk1.8\jre\bin;D:\apache-maven-3.8.6\bin;C:\Program Files (x86)\Java\jdk1.8.0_191\bin;D:\VMware 15.5\bin\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\MySQL\mysql-5.6.51-winx64\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;D:\nodejs\;C:\ProgramData\chocolatey\bin;C:\Java\bin;D:\apache-artemis-2.27.0\bin;C:\Program Files (x86)\MySQL\mysql-5.6.51-winx64\bin;C:\Users\Administrator\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\Administrator\AppData\Local\Programs\Python\Python39\;D:\Python39\;D:\Scripts\;D:\;"C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;D:\php;D:\php\ext";C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;D:\IntelliJ IDEA Community Edition 2021.3.2\bin;;C:\Users\Administrator\AppData\Roaming\npm;C:\WINDOWS\system32;;.
+2023-04-04 21:04:51,074 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) http-bio-9104-exec-8 |- Client environment:java.io.tmpdir=C:\Users\ADMINI~1\AppData\Local\Temp\
+2023-04-04 21:04:51,075 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) http-bio-9104-exec-8 |- Client environment:java.compiler=<NA>
+2023-04-04 21:04:51,075 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) http-bio-9104-exec-8 |- Client environment:os.name=Windows 10
+2023-04-04 21:04:51,075 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) http-bio-9104-exec-8 |- Client environment:os.arch=amd64
+2023-04-04 21:04:51,075 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) http-bio-9104-exec-8 |- Client environment:os.version=10.0
+2023-04-04 21:04:51,075 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) http-bio-9104-exec-8 |- Client environment:user.name=Administrator
+2023-04-04 21:04:51,076 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) http-bio-9104-exec-8 |- Client environment:user.home=C:\Users\Administrator
+2023-04-04 21:04:51,076 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) http-bio-9104-exec-8 |- Client environment:user.dir=C:\Users\Administrator\eclipse-workspace\pinyougou-parent\pinyougou-search-web
+2023-04-04 21:04:51,088 INFO  org.apache.zookeeper.ZooKeeper.<init>(ZooKeeper.java:438) http-bio-9104-exec-8 |- Initiating client connection, connectString=192.168.25.128:2181 sessionTimeout=60000 watcher=org.I0Itec.zkclient.ZkClient@57d6ed84
+2023-04-04 21:04:51,163 INFO  org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1032) http-bio-9104-exec-8-SendThread(192.168.25.128:2181) |- Opening socket connection to server 192.168.25.128/192.168.25.128:2181. Will not attempt to authenticate using SASL (unknown error)
+2023-04-04 21:04:51,168 INFO  org.apache.zookeeper.ClientCnxn$SendThread.primeConnection(ClientCnxn.java:876) http-bio-9104-exec-8-SendThread(192.168.25.128:2181) |- Socket connection established to 192.168.25.128/192.168.25.128:2181, initiating session
+2023-04-04 21:04:51,196 INFO  org.apache.zookeeper.ClientCnxn$SendThread.onConnected(ClientCnxn.java:1299) http-bio-9104-exec-8-SendThread(192.168.25.128:2181) |- Session establishment complete on server 192.168.25.128/192.168.25.128:2181, sessionid = 0x1874c5d6abd0000, negotiated timeout = 40000
+2023-04-04 21:04:51,200 INFO  org.I0Itec.zkclient.ZkClient.processStateChanged(ZkClient.java:449) http-bio-9104-exec-8-EventThread |- zookeeper state changed (SyncConnected)
+2023-04-04 21:04:51,401 WARN  org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:546) http-bio-9104-exec-8 |- Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'itemSearchController' defined in file [C:\Users\Administrator\eclipse-workspace\pinyougou-parent\pinyougou-search-web\target\classes\com\pinyougou\search\controller\ItemSearchController.class]: Initialization of bean failed; nested exception is org.springframework.beans.factory.BeanInitializationException: Failed to init remote service reference at filed itemSearchService in class com.pinyougou.search.controller.ItemSearchController; nested exception is java.lang.IllegalStateException: Failed to check the status of the service com.pinyougou.search.service.ItemSearchService. No provider available for the service com.pinyougou.search.service.ItemSearchService from the url zookeeper://192.168.25.128:2181/com.alibaba.dubbo.registry.RegistryService?application=pinyougou-search-web&dubbo=2.8.4&interface=com.pinyougou.search.service.ItemSearchService&methods=search&pid=16200&revision=0.0.1-SNAPSHOT&side=consumer&timestamp=1680613490888 to the consumer 172.16.10.1 use dubbo version 2.8.4
+2023-04-04 21:04:51,409 ERROR org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:502) http-bio-9104-exec-8 |- Context initialization failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'itemSearchController' defined in file [C:\Users\Administrator\eclipse-workspace\pinyougou-parent\pinyougou-search-web\target\classes\com\pinyougou\search\controller\ItemSearchController.class]: Initialization of bean failed; nested exception is org.springframework.beans.factory.BeanInitializationException: Failed to init remote service reference at filed itemSearchService in class com.pinyougou.search.controller.ItemSearchController; nested exception is java.lang.IllegalStateException: Failed to check the status of the service com.pinyougou.search.service.ItemSearchService. No provider available for the service com.pinyougou.search.service.ItemSearchService from the url zookeeper://192.168.25.128:2181/com.alibaba.dubbo.registry.RegistryService?application=pinyougou-search-web&dubbo=2.8.4&interface=com.pinyougou.search.service.ItemSearchService&methods=search&pid=16200&revision=0.0.1-SNAPSHOT&side=consumer&timestamp=1680613490888 to the consumer 172.16.10.1 use dubbo version 2.8.4
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:772)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:839)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:538)
+	at org.springframework.web.servlet.FrameworkServlet.configureAndRefreshWebApplicationContext(FrameworkServlet.java:668)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:682)
+	at org.springframework.web.servlet.FrameworkServlet.initWebApplicationContext(FrameworkServlet.java:553)
+	at org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:494)
+	at org.springframework.web.servlet.HttpServletBean.init(HttpServletBean.java:136)
+	at javax.servlet.GenericServlet.init(GenericServlet.java:160)
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1280)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1193)
+	at org.apache.catalina.core.StandardWrapper.allocate(StandardWrapper.java:865)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:136)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:100)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:953)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1041)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:603)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:312)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.springframework.beans.factory.BeanInitializationException: Failed to init remote service reference at filed itemSearchService in class com.pinyougou.search.controller.ItemSearchController; nested exception is java.lang.IllegalStateException: Failed to check the status of the service com.pinyougou.search.service.ItemSearchService. No provider available for the service com.pinyougou.search.service.ItemSearchService from the url zookeeper://192.168.25.128:2181/com.alibaba.dubbo.registry.RegistryService?application=pinyougou-search-web&dubbo=2.8.4&interface=com.pinyougou.search.service.ItemSearchService&methods=search&pid=16200&revision=0.0.1-SNAPSHOT&side=consumer&timestamp=1680613490888 to the consumer 172.16.10.1 use dubbo version 2.8.4
+	at com.alibaba.dubbo.config.spring.AnnotationBean.postProcessBeforeInitialization(AnnotationBean.java:253)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:408)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1570)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:545)
+	... 32 more
+Caused by: java.lang.IllegalStateException: Failed to check the status of the service com.pinyougou.search.service.ItemSearchService. No provider available for the service com.pinyougou.search.service.ItemSearchService from the url zookeeper://192.168.25.128:2181/com.alibaba.dubbo.registry.RegistryService?application=pinyougou-search-web&dubbo=2.8.4&interface=com.pinyougou.search.service.ItemSearchService&methods=search&pid=16200&revision=0.0.1-SNAPSHOT&side=consumer&timestamp=1680613490888 to the consumer 172.16.10.1 use dubbo version 2.8.4
+	at com.alibaba.dubbo.config.ReferenceConfig.createProxy(ReferenceConfig.java:420)
+	at com.alibaba.dubbo.config.ReferenceConfig.init(ReferenceConfig.java:300)
+	at com.alibaba.dubbo.config.ReferenceConfig.get(ReferenceConfig.java:138)
+	at com.alibaba.dubbo.config.spring.AnnotationBean.refer(AnnotationBean.java:317)
+	at com.alibaba.dubbo.config.spring.AnnotationBean.postProcessBeforeInitialization(AnnotationBean.java:246)
+	... 35 more
+2023-04-04 21:04:52,387 INFO  org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:489) http-bio-9104-exec-4 |- FrameworkServlet 'springmvc': initialization started
+2023-04-04 21:04:52,388 INFO  org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:578) http-bio-9104-exec-4 |- Refreshing WebApplicationContext for namespace 'springmvc-servlet': startup date [Tue Apr 04 21:04:52 CST 2023]; root of context hierarchy
+2023-04-04 21:04:52,389 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317) http-bio-9104-exec-4 |- Loading XML bean definitions from class path resource [spring/springmvc.xml]
+2023-04-04 21:04:52,457 INFO  org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(PropertiesLoaderSupport.java:172) http-bio-9104-exec-4 |- Loading properties file from class path resource [config/application.properties]
+2023-04-04 21:04:52,464 INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init>(AutowiredAnnotationBeanPostProcessor.java:153) http-bio-9104-exec-4 |- JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2023-04-04 21:04:52,493 INFO  org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:527) http-bio-9104-exec-4 |- Mapped "{[/itemsearch/search]}" onto public java.util.Map com.pinyougou.search.controller.ItemSearchController.search(java.util.Map)
+2023-04-04 21:04:52,545 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:532) http-bio-9104-exec-4 |- Looking for @ControllerAdvice: WebApplicationContext for namespace 'springmvc-servlet': startup date [Tue Apr 04 21:04:52 CST 2023]; root of context hierarchy
+2023-04-04 21:04:52,590 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:532) http-bio-9104-exec-4 |- Looking for @ControllerAdvice: WebApplicationContext for namespace 'springmvc-servlet': startup date [Tue Apr 04 21:04:52 CST 2023]; root of context hierarchy
+2023-04-04 21:04:52,748 WARN  org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:546) http-bio-9104-exec-4 |- Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'itemSearchController' defined in file [C:\Users\Administrator\eclipse-workspace\pinyougou-parent\pinyougou-search-web\target\classes\com\pinyougou\search\controller\ItemSearchController.class]: Initialization of bean failed; nested exception is org.springframework.beans.factory.BeanInitializationException: Failed to init remote service reference at filed itemSearchService in class com.pinyougou.search.controller.ItemSearchController; nested exception is java.lang.IllegalStateException: Failed to check the status of the service com.pinyougou.search.service.ItemSearchService. No provider available for the service com.pinyougou.search.service.ItemSearchService from the url zookeeper://192.168.25.128:2181/com.alibaba.dubbo.registry.RegistryService?application=pinyougou-search-web&dubbo=2.8.4&interface=com.pinyougou.search.service.ItemSearchService&methods=search&pid=16200&revision=0.0.1-SNAPSHOT&side=consumer&timestamp=1680613492674 to the consumer 172.16.10.1 use dubbo version 2.8.4
+2023-04-04 21:04:52,753 ERROR org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:502) http-bio-9104-exec-4 |- Context initialization failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'itemSearchController' defined in file [C:\Users\Administrator\eclipse-workspace\pinyougou-parent\pinyougou-search-web\target\classes\com\pinyougou\search\controller\ItemSearchController.class]: Initialization of bean failed; nested exception is org.springframework.beans.factory.BeanInitializationException: Failed to init remote service reference at filed itemSearchService in class com.pinyougou.search.controller.ItemSearchController; nested exception is java.lang.IllegalStateException: Failed to check the status of the service com.pinyougou.search.service.ItemSearchService. No provider available for the service com.pinyougou.search.service.ItemSearchService from the url zookeeper://192.168.25.128:2181/com.alibaba.dubbo.registry.RegistryService?application=pinyougou-search-web&dubbo=2.8.4&interface=com.pinyougou.search.service.ItemSearchService&methods=search&pid=16200&revision=0.0.1-SNAPSHOT&side=consumer&timestamp=1680613492674 to the consumer 172.16.10.1 use dubbo version 2.8.4
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:772)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:839)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:538)
+	at org.springframework.web.servlet.FrameworkServlet.configureAndRefreshWebApplicationContext(FrameworkServlet.java:668)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:682)
+	at org.springframework.web.servlet.FrameworkServlet.initWebApplicationContext(FrameworkServlet.java:553)
+	at org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:494)
+	at org.springframework.web.servlet.HttpServletBean.init(HttpServletBean.java:136)
+	at javax.servlet.GenericServlet.init(GenericServlet.java:160)
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1280)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1193)
+	at org.apache.catalina.core.StandardWrapper.allocate(StandardWrapper.java:865)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:136)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:100)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:953)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1041)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:603)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:312)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.springframework.beans.factory.BeanInitializationException: Failed to init remote service reference at filed itemSearchService in class com.pinyougou.search.controller.ItemSearchController; nested exception is java.lang.IllegalStateException: Failed to check the status of the service com.pinyougou.search.service.ItemSearchService. No provider available for the service com.pinyougou.search.service.ItemSearchService from the url zookeeper://192.168.25.128:2181/com.alibaba.dubbo.registry.RegistryService?application=pinyougou-search-web&dubbo=2.8.4&interface=com.pinyougou.search.service.ItemSearchService&methods=search&pid=16200&revision=0.0.1-SNAPSHOT&side=consumer&timestamp=1680613492674 to the consumer 172.16.10.1 use dubbo version 2.8.4
+	at com.alibaba.dubbo.config.spring.AnnotationBean.postProcessBeforeInitialization(AnnotationBean.java:253)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:408)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1570)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:545)
+	... 32 more
+Caused by: java.lang.IllegalStateException: Failed to check the status of the service com.pinyougou.search.service.ItemSearchService. No provider available for the service com.pinyougou.search.service.ItemSearchService from the url zookeeper://192.168.25.128:2181/com.alibaba.dubbo.registry.RegistryService?application=pinyougou-search-web&dubbo=2.8.4&interface=com.pinyougou.search.service.ItemSearchService&methods=search&pid=16200&revision=0.0.1-SNAPSHOT&side=consumer&timestamp=1680613492674 to the consumer 172.16.10.1 use dubbo version 2.8.4
+	at com.alibaba.dubbo.config.ReferenceConfig.createProxy(ReferenceConfig.java:420)
+	at com.alibaba.dubbo.config.ReferenceConfig.init(ReferenceConfig.java:300)
+	at com.alibaba.dubbo.config.ReferenceConfig.get(ReferenceConfig.java:138)
+	at com.alibaba.dubbo.config.spring.AnnotationBean.refer(AnnotationBean.java:317)
+	at com.alibaba.dubbo.config.spring.AnnotationBean.postProcessBeforeInitialization(AnnotationBean.java:246)
+	... 35 more
+2023-04-04 21:07:03,614 INFO  org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:307) localhost-startStop-1 |- Root WebApplicationContext: initialization started
+2023-04-04 21:07:03,702 INFO  org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:578) localhost-startStop-1 |- Refreshing Root WebApplicationContext: startup date [Tue Apr 04 21:07:03 CST 2023]; root of context hierarchy
+2023-04-04 21:07:03,755 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317) localhost-startStop-1 |- Loading XML bean definitions from file [C:\Users\Administrator\eclipse-workspace\pinyougou-parent\pinyougou-search-service\target\classes\spring\applicationContext-service.xml]
+2023-04-04 21:07:03,952 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317) localhost-startStop-1 |- Loading XML bean definitions from file [C:\Users\Administrator\eclipse-workspace\pinyougou-parent\pinyougou-search-service\target\classes\spring\applicationContext-solr.xml]
+2023-04-04 21:07:04,032 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317) localhost-startStop-1 |- Loading XML bean definitions from URL [jar:file:/C:/Users/Administrator/.m2/repository/com/pinyougou/pinyougou-common/0.0.1-SNAPSHOT/pinyougou-common-0.0.1-SNAPSHOT.jar!/spring/applicationContext-redis.xml]
+2023-04-04 21:07:04,160 INFO  org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(PropertiesLoaderSupport.java:172) localhost-startStop-1 |- Loading properties file from URL [jar:file:/C:/Users/Administrator/.m2/repository/com/pinyougou/pinyougou-common/0.0.1-SNAPSHOT/pinyougou-common-0.0.1-SNAPSHOT.jar!/properties/redis-config.properties]
+2023-04-04 21:07:04,211 INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init>(AutowiredAnnotationBeanPostProcessor.java:153) localhost-startStop-1 |- JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2023-04-04 21:07:05,223 INFO  org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:347) localhost-startStop-1 |- Root WebApplicationContext: initialization completed in 1607 ms
+2023-04-04 21:11:04,636 INFO  org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:489) http-bio-9104-exec-9 |- FrameworkServlet 'springmvc': initialization started
+2023-04-04 21:11:04,675 INFO  org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:578) http-bio-9104-exec-9 |- Refreshing WebApplicationContext for namespace 'springmvc-servlet': startup date [Tue Apr 04 21:11:04 CST 2023]; root of context hierarchy
+2023-04-04 21:11:04,739 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317) http-bio-9104-exec-9 |- Loading XML bean definitions from class path resource [spring/springmvc.xml]
+2023-04-04 21:11:05,271 INFO  org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(PropertiesLoaderSupport.java:172) http-bio-9104-exec-9 |- Loading properties file from class path resource [config/application.properties]
+2023-04-04 21:11:05,439 INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init>(AutowiredAnnotationBeanPostProcessor.java:153) http-bio-9104-exec-9 |- JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2023-04-04 21:11:05,856 INFO  org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:527) http-bio-9104-exec-9 |- Mapped "{[/itemsearch/search]}" onto public java.util.Map com.pinyougou.search.controller.ItemSearchController.search(java.util.Map)
+2023-04-04 21:11:06,305 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:532) http-bio-9104-exec-9 |- Looking for @ControllerAdvice: WebApplicationContext for namespace 'springmvc-servlet': startup date [Tue Apr 04 21:11:04 CST 2023]; root of context hierarchy
+2023-04-04 21:11:06,454 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:532) http-bio-9104-exec-9 |- Looking for @ControllerAdvice: WebApplicationContext for namespace 'springmvc-servlet': startup date [Tue Apr 04 21:11:04 CST 2023]; root of context hierarchy
+2023-04-04 21:11:07,136 INFO  org.I0Itec.zkclient.ZkEventThread.run(ZkEventThread.java:64) ZkClient-EventThread-32-192.168.25.128:2181 |- Starting ZkClient event thread.
+2023-04-04 21:11:07,147 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) http-bio-9104-exec-9 |- Client environment:zookeeper.version=3.4.7-1713338, built on 11/09/2015 04:32 GMT
+2023-04-04 21:11:07,148 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) http-bio-9104-exec-9 |- Client environment:host.name=windows10.microdone.cn
+2023-04-04 21:11:07,148 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) http-bio-9104-exec-9 |- Client environment:java.version=1.8.0_152
+2023-04-04 21:11:07,148 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) http-bio-9104-exec-9 |- Client environment:java.vendor=Oracle Corporation
+2023-04-04 21:11:07,148 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) http-bio-9104-exec-9 |- Client environment:java.home=C:\Java\jdk1.8\jre
+2023-04-04 21:11:07,149 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) http-bio-9104-exec-9 |- Client environment:java.class.path=D:\apache-maven-3.8.6\boot\plexus-classworlds-2.6.0.jar
+2023-04-04 21:11:07,149 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) http-bio-9104-exec-9 |- Client environment:java.library.path=C:\Java\jdk1.8\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_152/bin/server;C:/Program Files/Java/jre1.8.0_152/bin;C:/Program Files/Java/jre1.8.0_152/lib/amd64;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Java\jdk1.8\bin;C:\Java\jdk1.8\jre\bin;D:\apache-maven-3.8.6\bin;C:\Program Files (x86)\Java\jdk1.8.0_191\bin;D:\VMware 15.5\bin\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\MySQL\mysql-5.6.51-winx64\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;D:\nodejs\;C:\ProgramData\chocolatey\bin;C:\Java\bin;D:\apache-artemis-2.27.0\bin;C:\Program Files (x86)\MySQL\mysql-5.6.51-winx64\bin;C:\Users\Administrator\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\Administrator\AppData\Local\Programs\Python\Python39\;D:\Python39\;D:\Scripts\;D:\;"C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;D:\php;D:\php\ext";C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;D:\IntelliJ IDEA Community Edition 2021.3.2\bin;;C:\Users\Administrator\AppData\Roaming\npm;C:\WINDOWS\system32;;.
+2023-04-04 21:11:07,151 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) http-bio-9104-exec-9 |- Client environment:java.io.tmpdir=C:\Users\ADMINI~1\AppData\Local\Temp\
+2023-04-04 21:11:07,151 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) http-bio-9104-exec-9 |- Client environment:java.compiler=<NA>
+2023-04-04 21:11:07,151 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) http-bio-9104-exec-9 |- Client environment:os.name=Windows 10
+2023-04-04 21:11:07,152 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) http-bio-9104-exec-9 |- Client environment:os.arch=amd64
+2023-04-04 21:11:07,152 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) http-bio-9104-exec-9 |- Client environment:os.version=10.0
+2023-04-04 21:11:07,152 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) http-bio-9104-exec-9 |- Client environment:user.name=Administrator
+2023-04-04 21:11:07,152 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) http-bio-9104-exec-9 |- Client environment:user.home=C:\Users\Administrator
+2023-04-04 21:11:07,153 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) http-bio-9104-exec-9 |- Client environment:user.dir=C:\Users\Administrator\eclipse-workspace\pinyougou-parent\pinyougou-search-web
+2023-04-04 21:11:07,154 INFO  org.apache.zookeeper.ZooKeeper.<init>(ZooKeeper.java:438) http-bio-9104-exec-9 |- Initiating client connection, connectString=192.168.25.128:2181 sessionTimeout=60000 watcher=org.I0Itec.zkclient.ZkClient@7e50de4a
+2023-04-04 21:11:07,213 INFO  org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1032) http-bio-9104-exec-9-SendThread(192.168.25.128:2181) |- Opening socket connection to server 192.168.25.128/192.168.25.128:2181. Will not attempt to authenticate using SASL (unknown error)
+2023-04-04 21:11:07,215 INFO  org.apache.zookeeper.ClientCnxn$SendThread.primeConnection(ClientCnxn.java:876) http-bio-9104-exec-9-SendThread(192.168.25.128:2181) |- Socket connection established to 192.168.25.128/192.168.25.128:2181, initiating session
+2023-04-04 21:11:07,224 INFO  org.apache.zookeeper.ClientCnxn$SendThread.onConnected(ClientCnxn.java:1299) http-bio-9104-exec-9-SendThread(192.168.25.128:2181) |- Session establishment complete on server 192.168.25.128/192.168.25.128:2181, sessionid = 0x1874c5d6abd0001, negotiated timeout = 40000
+2023-04-04 21:11:07,228 INFO  org.I0Itec.zkclient.ZkClient.processStateChanged(ZkClient.java:449) http-bio-9104-exec-9-EventThread |- zookeeper state changed (SyncConnected)
+2023-04-04 21:11:07,335 WARN  org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:546) http-bio-9104-exec-9 |- Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'itemSearchController' defined in file [C:\Users\Administrator\eclipse-workspace\pinyougou-parent\pinyougou-search-web\target\classes\com\pinyougou\search\controller\ItemSearchController.class]: Initialization of bean failed; nested exception is org.springframework.beans.factory.BeanInitializationException: Failed to init remote service reference at filed itemSearchService in class com.pinyougou.search.controller.ItemSearchController; nested exception is java.lang.IllegalStateException: Failed to check the status of the service com.pinyougou.search.service.ItemSearchService. No provider available for the service com.pinyougou.search.service.ItemSearchService from the url zookeeper://192.168.25.128:2181/com.alibaba.dubbo.registry.RegistryService?application=pinyougou-search-web&dubbo=2.8.4&interface=com.pinyougou.search.service.ItemSearchService&methods=search&pid=1492&revision=0.0.1-SNAPSHOT&side=consumer&timestamp=1680613866976 to the consumer 172.16.10.1 use dubbo version 2.8.4
+2023-04-04 21:11:07,342 ERROR org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:502) http-bio-9104-exec-9 |- Context initialization failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'itemSearchController' defined in file [C:\Users\Administrator\eclipse-workspace\pinyougou-parent\pinyougou-search-web\target\classes\com\pinyougou\search\controller\ItemSearchController.class]: Initialization of bean failed; nested exception is org.springframework.beans.factory.BeanInitializationException: Failed to init remote service reference at filed itemSearchService in class com.pinyougou.search.controller.ItemSearchController; nested exception is java.lang.IllegalStateException: Failed to check the status of the service com.pinyougou.search.service.ItemSearchService. No provider available for the service com.pinyougou.search.service.ItemSearchService from the url zookeeper://192.168.25.128:2181/com.alibaba.dubbo.registry.RegistryService?application=pinyougou-search-web&dubbo=2.8.4&interface=com.pinyougou.search.service.ItemSearchService&methods=search&pid=1492&revision=0.0.1-SNAPSHOT&side=consumer&timestamp=1680613866976 to the consumer 172.16.10.1 use dubbo version 2.8.4
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:772)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:839)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:538)
+	at org.springframework.web.servlet.FrameworkServlet.configureAndRefreshWebApplicationContext(FrameworkServlet.java:668)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:682)
+	at org.springframework.web.servlet.FrameworkServlet.initWebApplicationContext(FrameworkServlet.java:553)
+	at org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:494)
+	at org.springframework.web.servlet.HttpServletBean.init(HttpServletBean.java:136)
+	at javax.servlet.GenericServlet.init(GenericServlet.java:160)
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1280)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1193)
+	at org.apache.catalina.core.StandardWrapper.allocate(StandardWrapper.java:865)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:136)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:100)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:953)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1041)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:603)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:312)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.springframework.beans.factory.BeanInitializationException: Failed to init remote service reference at filed itemSearchService in class com.pinyougou.search.controller.ItemSearchController; nested exception is java.lang.IllegalStateException: Failed to check the status of the service com.pinyougou.search.service.ItemSearchService. No provider available for the service com.pinyougou.search.service.ItemSearchService from the url zookeeper://192.168.25.128:2181/com.alibaba.dubbo.registry.RegistryService?application=pinyougou-search-web&dubbo=2.8.4&interface=com.pinyougou.search.service.ItemSearchService&methods=search&pid=1492&revision=0.0.1-SNAPSHOT&side=consumer&timestamp=1680613866976 to the consumer 172.16.10.1 use dubbo version 2.8.4
+	at com.alibaba.dubbo.config.spring.AnnotationBean.postProcessBeforeInitialization(AnnotationBean.java:253)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:408)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1570)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:545)
+	... 32 more
+Caused by: java.lang.IllegalStateException: Failed to check the status of the service com.pinyougou.search.service.ItemSearchService. No provider available for the service com.pinyougou.search.service.ItemSearchService from the url zookeeper://192.168.25.128:2181/com.alibaba.dubbo.registry.RegistryService?application=pinyougou-search-web&dubbo=2.8.4&interface=com.pinyougou.search.service.ItemSearchService&methods=search&pid=1492&revision=0.0.1-SNAPSHOT&side=consumer&timestamp=1680613866976 to the consumer 172.16.10.1 use dubbo version 2.8.4
+	at com.alibaba.dubbo.config.ReferenceConfig.createProxy(ReferenceConfig.java:420)
+	at com.alibaba.dubbo.config.ReferenceConfig.init(ReferenceConfig.java:300)
+	at com.alibaba.dubbo.config.ReferenceConfig.get(ReferenceConfig.java:138)
+	at com.alibaba.dubbo.config.spring.AnnotationBean.refer(AnnotationBean.java:317)
+	at com.alibaba.dubbo.config.spring.AnnotationBean.postProcessBeforeInitialization(AnnotationBean.java:246)
+	... 35 more
+2023-04-04 21:15:13,553 INFO  org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:307) localhost-startStop-1 |- Root WebApplicationContext: initialization started
+2023-04-04 21:15:13,691 INFO  org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:578) localhost-startStop-1 |- Refreshing Root WebApplicationContext: startup date [Tue Apr 04 21:15:13 CST 2023]; root of context hierarchy
+2023-04-04 21:15:13,754 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317) localhost-startStop-1 |- Loading XML bean definitions from file [C:\Users\Administrator\eclipse-workspace\pinyougou-parent\pinyougou-search-service\target\classes\spring\applicationContext-service.xml]
+2023-04-04 21:15:13,952 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317) localhost-startStop-1 |- Loading XML bean definitions from file [C:\Users\Administrator\eclipse-workspace\pinyougou-parent\pinyougou-search-service\target\classes\spring\applicationContext-solr.xml]
+2023-04-04 21:15:15,202 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317) localhost-startStop-1 |- Loading XML bean definitions from URL [jar:file:/C:/Users/Administrator/.m2/repository/com/pinyougou/pinyougou-common/0.0.1-SNAPSHOT/pinyougou-common-0.0.1-SNAPSHOT.jar!/spring/applicationContext-redis.xml]
+2023-04-04 21:15:15,572 INFO  org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(PropertiesLoaderSupport.java:172) localhost-startStop-1 |- Loading properties file from URL [jar:file:/C:/Users/Administrator/.m2/repository/com/pinyougou/pinyougou-common/0.0.1-SNAPSHOT/pinyougou-common-0.0.1-SNAPSHOT.jar!/properties/redis-config.properties]
+2023-04-04 21:15:15,625 INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init>(AutowiredAnnotationBeanPostProcessor.java:153) localhost-startStop-1 |- JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2023-04-04 21:15:16,899 INFO  org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:347) localhost-startStop-1 |- Root WebApplicationContext: initialization completed in 3343 ms
+2023-04-04 21:16:24,314 INFO  org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:489) http-bio-9104-exec-9 |- FrameworkServlet 'springmvc': initialization started
+2023-04-04 21:16:24,350 INFO  org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:578) http-bio-9104-exec-9 |- Refreshing WebApplicationContext for namespace 'springmvc-servlet': startup date [Tue Apr 04 21:16:24 CST 2023]; root of context hierarchy
+2023-04-04 21:16:24,389 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317) http-bio-9104-exec-9 |- Loading XML bean definitions from class path resource [spring/springmvc.xml]
+2023-04-04 21:16:24,822 INFO  org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(PropertiesLoaderSupport.java:172) http-bio-9104-exec-9 |- Loading properties file from class path resource [config/application.properties]
+2023-04-04 21:16:24,907 INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init>(AutowiredAnnotationBeanPostProcessor.java:153) http-bio-9104-exec-9 |- JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2023-04-04 21:16:25,240 INFO  org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:527) http-bio-9104-exec-9 |- Mapped "{[/itemsearch/search]}" onto public java.util.Map com.pinyougou.search.controller.ItemSearchController.search(java.util.Map)
+2023-04-04 21:16:25,634 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:532) http-bio-9104-exec-9 |- Looking for @ControllerAdvice: WebApplicationContext for namespace 'springmvc-servlet': startup date [Tue Apr 04 21:16:24 CST 2023]; root of context hierarchy
+2023-04-04 21:16:25,726 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:532) http-bio-9104-exec-9 |- Looking for @ControllerAdvice: WebApplicationContext for namespace 'springmvc-servlet': startup date [Tue Apr 04 21:16:24 CST 2023]; root of context hierarchy
+2023-04-04 21:16:26,144 WARN  org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:546) http-bio-9104-exec-9 |- Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'itemSearchController' defined in file [C:\Users\Administrator\eclipse-workspace\pinyougou-parent\pinyougou-search-web\target\classes\com\pinyougou\search\controller\ItemSearchController.class]: Initialization of bean failed; nested exception is org.springframework.beans.factory.BeanInitializationException: Failed to init remote service reference at filed itemSearchService in class com.pinyougou.search.controller.ItemSearchController; nested exception is java.lang.IllegalStateException: No such any registry to refer service in consumer 172.16.10.1 use dubbo version 2.8.4, Please add <dubbo:registry address="..." /> to your spring config. If you want unregister, please set <dubbo:service registry="N/A" />
+2023-04-04 21:16:26,153 ERROR org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:502) http-bio-9104-exec-9 |- Context initialization failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'itemSearchController' defined in file [C:\Users\Administrator\eclipse-workspace\pinyougou-parent\pinyougou-search-web\target\classes\com\pinyougou\search\controller\ItemSearchController.class]: Initialization of bean failed; nested exception is org.springframework.beans.factory.BeanInitializationException: Failed to init remote service reference at filed itemSearchService in class com.pinyougou.search.controller.ItemSearchController; nested exception is java.lang.IllegalStateException: No such any registry to refer service in consumer 172.16.10.1 use dubbo version 2.8.4, Please add <dubbo:registry address="..." /> to your spring config. If you want unregister, please set <dubbo:service registry="N/A" />
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:772)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:839)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:538)
+	at org.springframework.web.servlet.FrameworkServlet.configureAndRefreshWebApplicationContext(FrameworkServlet.java:668)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:682)
+	at org.springframework.web.servlet.FrameworkServlet.initWebApplicationContext(FrameworkServlet.java:553)
+	at org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:494)
+	at org.springframework.web.servlet.HttpServletBean.init(HttpServletBean.java:136)
+	at javax.servlet.GenericServlet.init(GenericServlet.java:160)
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1280)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1193)
+	at org.apache.catalina.core.StandardWrapper.allocate(StandardWrapper.java:865)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:136)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:100)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:953)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1041)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:603)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:312)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.springframework.beans.factory.BeanInitializationException: Failed to init remote service reference at filed itemSearchService in class com.pinyougou.search.controller.ItemSearchController; nested exception is java.lang.IllegalStateException: No such any registry to refer service in consumer 172.16.10.1 use dubbo version 2.8.4, Please add <dubbo:registry address="..." /> to your spring config. If you want unregister, please set <dubbo:service registry="N/A" />
+	at com.alibaba.dubbo.config.spring.AnnotationBean.postProcessBeforeInitialization(AnnotationBean.java:253)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:408)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1570)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:545)
+	... 32 more
+Caused by: java.lang.IllegalStateException: No such any registry to refer service in consumer 172.16.10.1 use dubbo version 2.8.4, Please add <dubbo:registry address="..." /> to your spring config. If you want unregister, please set <dubbo:service registry="N/A" />
+	at com.alibaba.dubbo.config.AbstractInterfaceConfig.checkRegistry(AbstractInterfaceConfig.java:119)
+	at com.alibaba.dubbo.config.AbstractInterfaceConfig.loadRegistries(AbstractInterfaceConfig.java:159)
+	at com.alibaba.dubbo.config.ReferenceConfig.createProxy(ReferenceConfig.java:376)
+	at com.alibaba.dubbo.config.ReferenceConfig.init(ReferenceConfig.java:300)
+	at com.alibaba.dubbo.config.ReferenceConfig.get(ReferenceConfig.java:138)
+	at com.alibaba.dubbo.config.spring.AnnotationBean.refer(AnnotationBean.java:317)
+	at com.alibaba.dubbo.config.spring.AnnotationBean.postProcessBeforeInitialization(AnnotationBean.java:246)
+	... 35 more
+2023-04-04 21:29:54,355 INFO  org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:307) localhost-startStop-1 |- Root WebApplicationContext: initialization started
+2023-04-04 21:29:54,472 INFO  org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:578) localhost-startStop-1 |- Refreshing Root WebApplicationContext: startup date [Tue Apr 04 21:29:54 CST 2023]; root of context hierarchy
+2023-04-04 21:29:54,531 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317) localhost-startStop-1 |- Loading XML bean definitions from file [C:\Users\Administrator\eclipse-workspace\pinyougou-parent\pinyougou-search-service\target\classes\spring\applicationContext-service.xml]
+2023-04-04 21:29:54,719 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317) localhost-startStop-1 |- Loading XML bean definitions from file [C:\Users\Administrator\eclipse-workspace\pinyougou-parent\pinyougou-search-service\target\classes\spring\applicationContext-solr.xml]
+2023-04-04 21:29:54,770 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317) localhost-startStop-1 |- Loading XML bean definitions from URL [jar:file:/C:/Users/Administrator/.m2/repository/com/pinyougou/pinyougou-common/0.0.1-SNAPSHOT/pinyougou-common-0.0.1-SNAPSHOT.jar!/spring/applicationContext-redis.xml]
+2023-04-04 21:29:54,946 INFO  org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(PropertiesLoaderSupport.java:172) localhost-startStop-1 |- Loading properties file from URL [jar:file:/C:/Users/Administrator/.m2/repository/com/pinyougou/pinyougou-common/0.0.1-SNAPSHOT/pinyougou-common-0.0.1-SNAPSHOT.jar!/properties/redis-config.properties]
+2023-04-04 21:29:54,997 INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init>(AutowiredAnnotationBeanPostProcessor.java:153) localhost-startStop-1 |- JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2023-04-04 21:29:56,247 INFO  org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:347) localhost-startStop-1 |- Root WebApplicationContext: initialization completed in 1889 ms
+2023-04-04 21:32:37,773 INFO  org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:489) http-bio-9104-exec-1 |- FrameworkServlet 'springmvc': initialization started
+2023-04-04 21:32:37,801 INFO  org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:578) http-bio-9104-exec-1 |- Refreshing WebApplicationContext for namespace 'springmvc-servlet': startup date [Tue Apr 04 21:32:37 CST 2023]; root of context hierarchy
+2023-04-04 21:32:37,833 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317) http-bio-9104-exec-1 |- Loading XML bean definitions from class path resource [spring/springmvc.xml]
+2023-04-04 21:32:38,271 INFO  org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(PropertiesLoaderSupport.java:172) http-bio-9104-exec-1 |- Loading properties file from class path resource [config/application.properties]
+2023-04-04 21:32:38,347 INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init>(AutowiredAnnotationBeanPostProcessor.java:153) http-bio-9104-exec-1 |- JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2023-04-04 21:32:38,664 INFO  org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:527) http-bio-9104-exec-1 |- Mapped "{[/itemsearch/search]}" onto public java.util.Map com.pinyougou.search.controller.ItemSearchController.search(java.util.Map)
+2023-04-04 21:32:39,087 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:532) http-bio-9104-exec-1 |- Looking for @ControllerAdvice: WebApplicationContext for namespace 'springmvc-servlet': startup date [Tue Apr 04 21:32:37 CST 2023]; root of context hierarchy
+2023-04-04 21:32:39,149 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:532) http-bio-9104-exec-1 |- Looking for @ControllerAdvice: WebApplicationContext for namespace 'springmvc-servlet': startup date [Tue Apr 04 21:32:37 CST 2023]; root of context hierarchy
+2023-04-04 21:32:39,535 INFO  org.I0Itec.zkclient.ZkEventThread.run(ZkEventThread.java:64) ZkClient-EventThread-32-192.168.25.128:2181 |- Starting ZkClient event thread.
+2023-04-04 21:32:39,546 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) http-bio-9104-exec-1 |- Client environment:zookeeper.version=3.4.7-1713338, built on 11/09/2015 04:32 GMT
+2023-04-04 21:32:39,546 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) http-bio-9104-exec-1 |- Client environment:host.name=windows10.microdone.cn
+2023-04-04 21:32:39,546 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) http-bio-9104-exec-1 |- Client environment:java.version=1.8.0_152
+2023-04-04 21:32:39,546 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) http-bio-9104-exec-1 |- Client environment:java.vendor=Oracle Corporation
+2023-04-04 21:32:39,546 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) http-bio-9104-exec-1 |- Client environment:java.home=C:\Java\jdk1.8\jre
+2023-04-04 21:32:39,547 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) http-bio-9104-exec-1 |- Client environment:java.class.path=D:\apache-maven-3.8.6\boot\plexus-classworlds-2.6.0.jar
+2023-04-04 21:32:39,547 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) http-bio-9104-exec-1 |- Client environment:java.library.path=C:\Java\jdk1.8\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_152/bin/server;C:/Program Files/Java/jre1.8.0_152/bin;C:/Program Files/Java/jre1.8.0_152/lib/amd64;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Java\jdk1.8\bin;C:\Java\jdk1.8\jre\bin;D:\apache-maven-3.8.6\bin;C:\Program Files (x86)\Java\jdk1.8.0_191\bin;D:\VMware 15.5\bin\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\MySQL\mysql-5.6.51-winx64\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;D:\nodejs\;C:\ProgramData\chocolatey\bin;C:\Java\bin;D:\apache-artemis-2.27.0\bin;C:\Program Files (x86)\MySQL\mysql-5.6.51-winx64\bin;C:\Users\Administrator\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\Administrator\AppData\Local\Programs\Python\Python39\;D:\Python39\;D:\Scripts\;D:\;"C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;D:\php;D:\php\ext";C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;D:\IntelliJ IDEA Community Edition 2021.3.2\bin;;C:\Users\Administrator\AppData\Roaming\npm;C:\WINDOWS\system32;;.
+2023-04-04 21:32:39,548 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) http-bio-9104-exec-1 |- Client environment:java.io.tmpdir=C:\Users\ADMINI~1\AppData\Local\Temp\
+2023-04-04 21:32:39,548 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) http-bio-9104-exec-1 |- Client environment:java.compiler=<NA>
+2023-04-04 21:32:39,548 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) http-bio-9104-exec-1 |- Client environment:os.name=Windows 10
+2023-04-04 21:32:39,548 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) http-bio-9104-exec-1 |- Client environment:os.arch=amd64
+2023-04-04 21:32:39,549 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) http-bio-9104-exec-1 |- Client environment:os.version=10.0
+2023-04-04 21:32:39,549 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) http-bio-9104-exec-1 |- Client environment:user.name=Administrator
+2023-04-04 21:32:39,549 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) http-bio-9104-exec-1 |- Client environment:user.home=C:\Users\Administrator
+2023-04-04 21:32:39,550 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) http-bio-9104-exec-1 |- Client environment:user.dir=C:\Users\Administrator\eclipse-workspace\pinyougou-parent\pinyougou-search-web
+2023-04-04 21:32:39,551 INFO  org.apache.zookeeper.ZooKeeper.<init>(ZooKeeper.java:438) http-bio-9104-exec-1 |- Initiating client connection, connectString=192.168.25.128:2181 sessionTimeout=60000 watcher=org.I0Itec.zkclient.ZkClient@3d06a8b0
+2023-04-04 21:32:39,599 INFO  org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1032) http-bio-9104-exec-1-SendThread(192.168.25.128:2181) |- Opening socket connection to server 192.168.25.128/192.168.25.128:2181. Will not attempt to authenticate using SASL (unknown error)
+2023-04-04 21:32:39,601 INFO  org.apache.zookeeper.ClientCnxn$SendThread.primeConnection(ClientCnxn.java:876) http-bio-9104-exec-1-SendThread(192.168.25.128:2181) |- Socket connection established to 192.168.25.128/192.168.25.128:2181, initiating session
+2023-04-04 21:32:39,624 INFO  org.apache.zookeeper.ClientCnxn$SendThread.onConnected(ClientCnxn.java:1299) http-bio-9104-exec-1-SendThread(192.168.25.128:2181) |- Session establishment complete on server 192.168.25.128/192.168.25.128:2181, sessionid = 0x1874c67e4d30000, negotiated timeout = 40000
+2023-04-04 21:32:39,628 INFO  org.I0Itec.zkclient.ZkClient.processStateChanged(ZkClient.java:449) http-bio-9104-exec-1-EventThread |- zookeeper state changed (SyncConnected)
+2023-04-04 21:32:39,770 WARN  org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:546) http-bio-9104-exec-1 |- Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'itemSearchController' defined in file [C:\Users\Administrator\eclipse-workspace\pinyougou-parent\pinyougou-search-web\target\classes\com\pinyougou\search\controller\ItemSearchController.class]: Initialization of bean failed; nested exception is org.springframework.beans.factory.BeanInitializationException: Failed to init remote service reference at filed itemSearchService in class com.pinyougou.search.controller.ItemSearchController; nested exception is java.lang.IllegalStateException: Failed to check the status of the service com.pinyougou.search.service.ItemSearchService. No provider available for the service com.pinyougou.search.service.ItemSearchService from the url zookeeper://192.168.25.128:2181/com.alibaba.dubbo.registry.RegistryService?application=pinyougou-search-web&dubbo=2.8.4&interface=com.pinyougou.search.service.ItemSearchService&methods=search&pid=5348&revision=0.0.1-SNAPSHOT&side=consumer&timestamp=1680615159425 to the consumer 172.16.10.1 use dubbo version 2.8.4
+2023-04-04 21:32:39,779 ERROR org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:502) http-bio-9104-exec-1 |- Context initialization failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'itemSearchController' defined in file [C:\Users\Administrator\eclipse-workspace\pinyougou-parent\pinyougou-search-web\target\classes\com\pinyougou\search\controller\ItemSearchController.class]: Initialization of bean failed; nested exception is org.springframework.beans.factory.BeanInitializationException: Failed to init remote service reference at filed itemSearchService in class com.pinyougou.search.controller.ItemSearchController; nested exception is java.lang.IllegalStateException: Failed to check the status of the service com.pinyougou.search.service.ItemSearchService. No provider available for the service com.pinyougou.search.service.ItemSearchService from the url zookeeper://192.168.25.128:2181/com.alibaba.dubbo.registry.RegistryService?application=pinyougou-search-web&dubbo=2.8.4&interface=com.pinyougou.search.service.ItemSearchService&methods=search&pid=5348&revision=0.0.1-SNAPSHOT&side=consumer&timestamp=1680615159425 to the consumer 172.16.10.1 use dubbo version 2.8.4
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:772)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:839)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:538)
+	at org.springframework.web.servlet.FrameworkServlet.configureAndRefreshWebApplicationContext(FrameworkServlet.java:668)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:682)
+	at org.springframework.web.servlet.FrameworkServlet.initWebApplicationContext(FrameworkServlet.java:553)
+	at org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:494)
+	at org.springframework.web.servlet.HttpServletBean.init(HttpServletBean.java:136)
+	at javax.servlet.GenericServlet.init(GenericServlet.java:160)
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1280)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1193)
+	at org.apache.catalina.core.StandardWrapper.allocate(StandardWrapper.java:865)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:136)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:100)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:953)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1041)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:603)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:312)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.springframework.beans.factory.BeanInitializationException: Failed to init remote service reference at filed itemSearchService in class com.pinyougou.search.controller.ItemSearchController; nested exception is java.lang.IllegalStateException: Failed to check the status of the service com.pinyougou.search.service.ItemSearchService. No provider available for the service com.pinyougou.search.service.ItemSearchService from the url zookeeper://192.168.25.128:2181/com.alibaba.dubbo.registry.RegistryService?application=pinyougou-search-web&dubbo=2.8.4&interface=com.pinyougou.search.service.ItemSearchService&methods=search&pid=5348&revision=0.0.1-SNAPSHOT&side=consumer&timestamp=1680615159425 to the consumer 172.16.10.1 use dubbo version 2.8.4
+	at com.alibaba.dubbo.config.spring.AnnotationBean.postProcessBeforeInitialization(AnnotationBean.java:253)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:408)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1570)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:545)
+	... 32 more
+Caused by: java.lang.IllegalStateException: Failed to check the status of the service com.pinyougou.search.service.ItemSearchService. No provider available for the service com.pinyougou.search.service.ItemSearchService from the url zookeeper://192.168.25.128:2181/com.alibaba.dubbo.registry.RegistryService?application=pinyougou-search-web&dubbo=2.8.4&interface=com.pinyougou.search.service.ItemSearchService&methods=search&pid=5348&revision=0.0.1-SNAPSHOT&side=consumer&timestamp=1680615159425 to the consumer 172.16.10.1 use dubbo version 2.8.4
+	at com.alibaba.dubbo.config.ReferenceConfig.createProxy(ReferenceConfig.java:420)
+	at com.alibaba.dubbo.config.ReferenceConfig.init(ReferenceConfig.java:300)
+	at com.alibaba.dubbo.config.ReferenceConfig.get(ReferenceConfig.java:138)
+	at com.alibaba.dubbo.config.spring.AnnotationBean.refer(AnnotationBean.java:317)
+	at com.alibaba.dubbo.config.spring.AnnotationBean.postProcessBeforeInitialization(AnnotationBean.java:246)
+	... 35 more
+2023-04-04 21:35:19,521 INFO  org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:307) localhost-startStop-1 |- Root WebApplicationContext: initialization started
+2023-04-04 21:35:19,696 INFO  org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:578) localhost-startStop-1 |- Refreshing Root WebApplicationContext: startup date [Tue Apr 04 21:35:19 CST 2023]; root of context hierarchy
+2023-04-04 21:35:19,778 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317) localhost-startStop-1 |- Loading XML bean definitions from file [C:\Users\Administrator\eclipse-workspace\pinyougou-parent\pinyougou-search-service\target\classes\spring\applicationContext-service.xml]
+2023-04-04 21:35:19,995 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317) localhost-startStop-1 |- Loading XML bean definitions from file [C:\Users\Administrator\eclipse-workspace\pinyougou-parent\pinyougou-search-service\target\classes\spring\applicationContext-solr.xml]
+2023-04-04 21:35:20,064 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317) localhost-startStop-1 |- Loading XML bean definitions from URL [jar:file:/C:/Users/Administrator/.m2/repository/com/pinyougou/pinyougou-common/0.0.1-SNAPSHOT/pinyougou-common-0.0.1-SNAPSHOT.jar!/spring/applicationContext-redis.xml]
+2023-04-04 21:35:20,232 INFO  org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(PropertiesLoaderSupport.java:172) localhost-startStop-1 |- Loading properties file from URL [jar:file:/C:/Users/Administrator/.m2/repository/com/pinyougou/pinyougou-common/0.0.1-SNAPSHOT/pinyougou-common-0.0.1-SNAPSHOT.jar!/properties/redis-config.properties]
+2023-04-04 21:35:20,327 INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init>(AutowiredAnnotationBeanPostProcessor.java:153) localhost-startStop-1 |- JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2023-04-04 21:35:21,579 INFO  org.I0Itec.zkclient.ZkEventThread.run(ZkEventThread.java:64) ZkClient-EventThread-27-192.168.25.128:2181 |- Starting ZkClient event thread.
+2023-04-04 21:35:21,586 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) localhost-startStop-1 |- Client environment:zookeeper.version=3.4.7-1713338, built on 11/09/2015 04:32 GMT
+2023-04-04 21:35:21,587 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) localhost-startStop-1 |- Client environment:host.name=windows10.microdone.cn
+2023-04-04 21:35:21,587 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) localhost-startStop-1 |- Client environment:java.version=1.8.0_152
+2023-04-04 21:35:21,587 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) localhost-startStop-1 |- Client environment:java.vendor=Oracle Corporation
+2023-04-04 21:35:21,587 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) localhost-startStop-1 |- Client environment:java.home=C:\Java\jdk1.8\jre
+2023-04-04 21:35:21,587 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) localhost-startStop-1 |- Client environment:java.class.path=D:\apache-maven-3.8.6\boot\plexus-classworlds-2.6.0.jar
+2023-04-04 21:35:21,588 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) localhost-startStop-1 |- Client environment:java.library.path=C:\Java\jdk1.8\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_152/bin/server;C:/Program Files/Java/jre1.8.0_152/bin;C:/Program Files/Java/jre1.8.0_152/lib/amd64;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Java\jdk1.8\bin;C:\Java\jdk1.8\jre\bin;D:\apache-maven-3.8.6\bin;C:\Program Files (x86)\Java\jdk1.8.0_191\bin;D:\VMware 15.5\bin\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\MySQL\mysql-5.6.51-winx64\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;D:\nodejs\;C:\ProgramData\chocolatey\bin;C:\Java\bin;D:\apache-artemis-2.27.0\bin;C:\Program Files (x86)\MySQL\mysql-5.6.51-winx64\bin;C:\Users\Administrator\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\Administrator\AppData\Local\Programs\Python\Python39\;D:\Python39\;D:\Scripts\;D:\;"C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;D:\php;D:\php\ext";C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;D:\IntelliJ IDEA Community Edition 2021.3.2\bin;;C:\Users\Administrator\AppData\Roaming\npm;C:\WINDOWS\system32;;.
+2023-04-04 21:35:21,590 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) localhost-startStop-1 |- Client environment:java.io.tmpdir=C:\Users\ADMINI~1\AppData\Local\Temp\
+2023-04-04 21:35:21,592 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) localhost-startStop-1 |- Client environment:java.compiler=<NA>
+2023-04-04 21:35:21,592 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) localhost-startStop-1 |- Client environment:os.name=Windows 10
+2023-04-04 21:35:21,593 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) localhost-startStop-1 |- Client environment:os.arch=amd64
+2023-04-04 21:35:21,593 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) localhost-startStop-1 |- Client environment:os.version=10.0
+2023-04-04 21:35:21,593 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) localhost-startStop-1 |- Client environment:user.name=Administrator
+2023-04-04 21:35:21,593 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) localhost-startStop-1 |- Client environment:user.home=C:\Users\Administrator
+2023-04-04 21:35:21,593 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) localhost-startStop-1 |- Client environment:user.dir=C:\Users\Administrator\eclipse-workspace\pinyougou-parent\pinyougou-search-service
+2023-04-04 21:35:21,594 INFO  org.apache.zookeeper.ZooKeeper.<init>(ZooKeeper.java:438) localhost-startStop-1 |- Initiating client connection, connectString=192.168.25.128:2181 sessionTimeout=60000 watcher=org.I0Itec.zkclient.ZkClient@7a9bffb
+2023-04-04 21:35:21,612 INFO  org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1032) localhost-startStop-1-SendThread(192.168.25.128:2181) |- Opening socket connection to server 192.168.25.128/192.168.25.128:2181. Will not attempt to authenticate using SASL (unknown error)
+2023-04-04 21:35:21,614 INFO  org.apache.zookeeper.ClientCnxn$SendThread.primeConnection(ClientCnxn.java:876) localhost-startStop-1-SendThread(192.168.25.128:2181) |- Socket connection established to 192.168.25.128/192.168.25.128:2181, initiating session
+2023-04-04 21:35:21,622 INFO  org.apache.zookeeper.ClientCnxn$SendThread.onConnected(ClientCnxn.java:1299) localhost-startStop-1-SendThread(192.168.25.128:2181) |- Session establishment complete on server 192.168.25.128/192.168.25.128:2181, sessionid = 0x1874c67e4d30001, negotiated timeout = 40000
+2023-04-04 21:35:21,624 INFO  org.I0Itec.zkclient.ZkClient.processStateChanged(ZkClient.java:449) localhost-startStop-1-EventThread |- zookeeper state changed (SyncConnected)
+2023-04-04 21:35:21,732 INFO  org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:347) localhost-startStop-1 |- Root WebApplicationContext: initialization completed in 2208 ms
+2023-04-04 21:38:56,422 INFO  org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:489) http-bio-9104-exec-4 |- FrameworkServlet 'springmvc': initialization started
+2023-04-04 21:38:56,450 INFO  org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:578) http-bio-9104-exec-4 |- Refreshing WebApplicationContext for namespace 'springmvc-servlet': startup date [Tue Apr 04 21:38:56 CST 2023]; root of context hierarchy
+2023-04-04 21:38:56,519 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317) http-bio-9104-exec-4 |- Loading XML bean definitions from class path resource [spring/springmvc.xml]
+2023-04-04 21:38:56,987 INFO  org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(PropertiesLoaderSupport.java:172) http-bio-9104-exec-4 |- Loading properties file from class path resource [config/application.properties]
+2023-04-04 21:38:57,092 INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init>(AutowiredAnnotationBeanPostProcessor.java:153) http-bio-9104-exec-4 |- JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2023-04-04 21:38:57,400 INFO  org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:527) http-bio-9104-exec-4 |- Mapped "{[/itemsearch/search]}" onto public java.util.Map com.pinyougou.search.controller.ItemSearchController.search(java.util.Map)
+2023-04-04 21:38:57,800 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:532) http-bio-9104-exec-4 |- Looking for @ControllerAdvice: WebApplicationContext for namespace 'springmvc-servlet': startup date [Tue Apr 04 21:38:56 CST 2023]; root of context hierarchy
+2023-04-04 21:38:57,866 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:532) http-bio-9104-exec-4 |- Looking for @ControllerAdvice: WebApplicationContext for namespace 'springmvc-servlet': startup date [Tue Apr 04 21:38:56 CST 2023]; root of context hierarchy
+2023-04-04 21:38:58,243 INFO  org.I0Itec.zkclient.ZkEventThread.run(ZkEventThread.java:64) ZkClient-EventThread-32-192.168.25.128:2181 |- Starting ZkClient event thread.
+2023-04-04 21:38:58,251 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) http-bio-9104-exec-4 |- Client environment:zookeeper.version=3.4.7-1713338, built on 11/09/2015 04:32 GMT
+2023-04-04 21:38:58,251 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) http-bio-9104-exec-4 |- Client environment:host.name=windows10.microdone.cn
+2023-04-04 21:38:58,251 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) http-bio-9104-exec-4 |- Client environment:java.version=1.8.0_152
+2023-04-04 21:38:58,251 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) http-bio-9104-exec-4 |- Client environment:java.vendor=Oracle Corporation
+2023-04-04 21:38:58,252 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) http-bio-9104-exec-4 |- Client environment:java.home=C:\Java\jdk1.8\jre
+2023-04-04 21:38:58,253 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) http-bio-9104-exec-4 |- Client environment:java.class.path=D:\apache-maven-3.8.6\boot\plexus-classworlds-2.6.0.jar
+2023-04-04 21:38:58,254 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) http-bio-9104-exec-4 |- Client environment:java.library.path=C:\Java\jdk1.8\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_152/bin/server;C:/Program Files/Java/jre1.8.0_152/bin;C:/Program Files/Java/jre1.8.0_152/lib/amd64;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Java\jdk1.8\bin;C:\Java\jdk1.8\jre\bin;D:\apache-maven-3.8.6\bin;C:\Program Files (x86)\Java\jdk1.8.0_191\bin;D:\VMware 15.5\bin\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\MySQL\mysql-5.6.51-winx64\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;D:\nodejs\;C:\ProgramData\chocolatey\bin;C:\Java\bin;D:\apache-artemis-2.27.0\bin;C:\Program Files (x86)\MySQL\mysql-5.6.51-winx64\bin;C:\Users\Administrator\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\Administrator\AppData\Local\Programs\Python\Python39\;D:\Python39\;D:\Scripts\;D:\;"C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;D:\php;D:\php\ext";C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;D:\IntelliJ IDEA Community Edition 2021.3.2\bin;;C:\Users\Administrator\AppData\Roaming\npm;C:\WINDOWS\system32;;.
+2023-04-04 21:38:58,255 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) http-bio-9104-exec-4 |- Client environment:java.io.tmpdir=C:\Users\ADMINI~1\AppData\Local\Temp\
+2023-04-04 21:38:58,256 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) http-bio-9104-exec-4 |- Client environment:java.compiler=<NA>
+2023-04-04 21:38:58,256 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) http-bio-9104-exec-4 |- Client environment:os.name=Windows 10
+2023-04-04 21:38:58,256 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) http-bio-9104-exec-4 |- Client environment:os.arch=amd64
+2023-04-04 21:38:58,259 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) http-bio-9104-exec-4 |- Client environment:os.version=10.0
+2023-04-04 21:38:58,259 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) http-bio-9104-exec-4 |- Client environment:user.name=Administrator
+2023-04-04 21:38:58,259 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) http-bio-9104-exec-4 |- Client environment:user.home=C:\Users\Administrator
+2023-04-04 21:38:58,260 INFO  org.apache.zookeeper.Environment.logEnv(Environment.java:100) http-bio-9104-exec-4 |- Client environment:user.dir=C:\Users\Administrator\eclipse-workspace\pinyougou-parent\pinyougou-search-web
+2023-04-04 21:38:58,261 INFO  org.apache.zookeeper.ZooKeeper.<init>(ZooKeeper.java:438) http-bio-9104-exec-4 |- Initiating client connection, connectString=192.168.25.128:2181 sessionTimeout=60000 watcher=org.I0Itec.zkclient.ZkClient@3d0f4e15
+2023-04-04 21:38:58,287 INFO  org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1032) http-bio-9104-exec-4-SendThread(192.168.25.128:2181) |- Opening socket connection to server 192.168.25.128/192.168.25.128:2181. Will not attempt to authenticate using SASL (unknown error)
+2023-04-04 21:38:58,289 INFO  org.apache.zookeeper.ClientCnxn$SendThread.primeConnection(ClientCnxn.java:876) http-bio-9104-exec-4-SendThread(192.168.25.128:2181) |- Socket connection established to 192.168.25.128/192.168.25.128:2181, initiating session
+2023-04-04 21:38:58,296 INFO  org.apache.zookeeper.ClientCnxn$SendThread.onConnected(ClientCnxn.java:1299) http-bio-9104-exec-4-SendThread(192.168.25.128:2181) |- Session establishment complete on server 192.168.25.128/192.168.25.128:2181, sessionid = 0x1874c67e4d30002, negotiated timeout = 40000
+2023-04-04 21:38:58,298 INFO  org.I0Itec.zkclient.ZkClient.processStateChanged(ZkClient.java:449) http-bio-9104-exec-4-EventThread |- zookeeper state changed (SyncConnected)
+2023-04-04 21:38:58,687 INFO  org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:508) http-bio-9104-exec-4 |- FrameworkServlet 'springmvc': initialization completed in 2261 ms

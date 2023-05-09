@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>内置服务$http</title>
+<script src="angular.min.js"></script>
+<script>
+
+	// 建立模块
+	var app=angular.module("myApp", []);
+	// 创建控制器, $scope是控制层和视图层之间交换数据的桥梁
+	app.controller("myController", function($scope, $http){
+		
+		$scope.findList=function() {
+			$http.get("data.json").success(
+					function(response){
+						$scope.list=response;
+					}
+				);
+		}
+		
+		
+	});
+	
+</script>
+</head>
+<body ng-app="myApp" ng-controller="myController" ng-init="findList()">
+
+	<table> 
+	<tr>
+		<td>姓名</td>
+		<td>数学</td>
+		<td>语文</td>
+	</tr>
+	
+	<tr ng-repeat="entity in list">
+		<td>{{entity.name}}</td>
+		<td>{{entity.math}}</td>
+		<td>{{entity.chinese}}</td>
+	</tr>
+	
+	
+	</table>
+
+
+</body>
+</html>
